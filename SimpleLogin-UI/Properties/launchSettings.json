@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "SimpleLogin-UI (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "SimpleLogin-UI (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
