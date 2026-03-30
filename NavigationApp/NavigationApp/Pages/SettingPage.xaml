@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Page
+    x:Class="NavigationApp.Pages.SettingPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="using:NavigationApp.Pages"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Padding="20">
+        <StackPanel Spacing="12">
+            <TextBlock
+                FontSize="28"
+                FontWeight="Bold"
+                Text="Settings" />
+            <TextBlock x:Name="UserInfoText" FontSize="14" />
+            <Button
+                Width="160"
+                Click="SaveSettings_Click"
+                Content="Save Settings" />
+            <TextBlock
+                x:Name="SavedMessage"
+                Foreground="Green"
+                Text="Saved!"
+                Visibility="Collapsed" />
+        </StackPanel>
+
+    </Grid>
+</Page>
