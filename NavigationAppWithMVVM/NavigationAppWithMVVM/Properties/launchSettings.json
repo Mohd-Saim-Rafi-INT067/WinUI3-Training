@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "NavigationAppWithMVVM (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "NavigationAppWithMVVM (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
