@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "ImagineDashboard (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "ImagineDashboard (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}

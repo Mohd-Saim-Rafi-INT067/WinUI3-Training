@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<UserControl
+    x:Class="ImagineDashboard.Views.ChargesGridView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:controls="using:CommunityToolkit.WinUI.UI.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008">
+
+    <Grid RowDefinitions="Auto,*">
+
+        <!--  Charges count header  -->
+        <Border
+            Grid.Row="0"
+            Padding="8,4"
+            Background="{ThemeResource SolidBackgroundFillColorSecondary}"
+            BorderBrush="{ThemeResource DividerStrokeColorDefault}"
+            BorderThickness="0,0,0,1">
+            <Grid>
+                <!--  Dynamic charge count bound to collection size  -->
+                <TextBlock
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    FontSize="12"
+                    FontWeight="SemiBold"
+                    Text="{x:Bind ViewModel.ChargeCountText, Mode=OneWay}" />
+                <StackPanel
+                    HorizontalAlignment="Right"
+                    Orientation="Horizontal"
+                    Spacing="4">
+                    <!--  Filter button  -->
+                    <Button
+                        Width="28"
+                        Height="28"
+                        Padding="0"
+                        Background="Transparent"
+                        BorderThickness="0">
+                        <FontIcon FontSize="12" Glyph="&#xE71C;" />
+                    </Button>
+                    <!--  Settings button  -->
+                    <Button
+                        Width="28"
+                        Height="28"
+                        Padding="0"
+                        Background="Transparent"
+                        BorderThickness="0">
+                        <FontIcon FontSize="12" Glyph="&#xE713;" />
+                    </Button>
+                </StackPanel>
+            </Grid>
+        </Border>
+
+        <!--  Charges DataGrid bound to PatientDetailsList  -->
+        <controls:DataGrid
+            x:Name="ChargesDataGrid"
+            Grid.Row="1"
+            AutoGenerateColumns="False"
+            GridLinesVisibility="All"
+            ItemsSource="{x:Bind ViewModel.PatientDetailsList, Mode=OneWay}"
+            RowHeight="32"
+            SelectionChanged="ChargesDataGrid_SelectionChanged"
+            SelectionMode="Single">
+
+            <!--  DAtaGridtextColumn is just a defination not a UI element - thus it is not a part of visual tree and we don't use Bind here  -->
+            <controls:DataGrid.Columns>
+                <controls:DataGridTextColumn
+                    Width="120"
+                    Binding="{Binding PatientId}"
+                    Header="Patient ID" />
+                <controls:DataGridTextColumn
+                    Width="160"
+                    Binding="{Binding PatientName}"
+                    Header="Patient Name" />
+                <controls:DataGridTextColumn
+                    Width="120"
+                    Binding="{Binding VisitNumber}"
+                    Header="Visit Number" />
+                <controls:DataGridTextColumn
+                    Width="130"
+                    Binding="{Binding Location}"
+                    Header="Location" />
+                <controls:DataGridTextColumn
+                    Width="130"
+                    Binding="{Binding DateOfService}"
+                    Header="Date Of Service" />
+                <controls:DataGridTextColumn
+                    Width="120"
+                    Binding="{Binding Procedure}"
+                    Header="Procedure" />
+                <controls:DataGridTextColumn
+                    Width="100"
+                    Binding="{Binding Modifier}"
+                    Header="Modifier" />
+                <controls:DataGridTextColumn
+                    Width="80"
+                    Binding="{Binding Units}"
+                    Header="Units" />
+                <controls:DataGridTextColumn
+                    Width="130"
+                    Binding="{Binding OrderNumber}"
+                    Header="Order Number" />
+                <controls:DataGridTextColumn
+                    Width="130"
+                    Binding="{Binding ChargeReport}"
+                    Header="Charge Report" />
+            </controls:DataGrid.Columns>
+        </controls:DataGrid>
+
+    </Grid>
+</UserControl>

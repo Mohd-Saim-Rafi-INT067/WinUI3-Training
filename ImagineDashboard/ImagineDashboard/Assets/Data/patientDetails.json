@@ -1,0 +1,62 @@
+﻿[
+  {
+    "patientId": "6535",
+    "patientName": "BILL B",
+    "visitNumber": "V001",
+    "location": "ROOM 101",
+    "dateOfService": "01/15/2024",
+    "procedure": "US",
+    "modifier": "RT",
+    "units": "1",
+    "orderNumber": "ORD001",
+    "chargeReport": "CHARGE001"
+  },
+  {
+    "patientId": "7067",
+    "patientName": "GEORGE G",
+    "visitNumber": "V002",
+    "location": "ROOM 102",
+    "dateOfService": "01/16/2024",
+    "procedure": "",
+    "modifier": "LT",
+    "units": "",
+    "orderNumber": "ORD002",
+    "chargeReport": "CHARGE002"
+  },
+  {
+    "patientId": "60484",
+    "patientName": "RODRIGO R",
+    "visitNumber": "V003",
+    "location": "ROOM 103",
+    "dateOfService": "01/17/2024",
+    "procedure": "CT",
+    "modifier": "BL",
+    "units": "2",
+    "orderNumber": "",
+    "chargeReport": "CHARGE003"
+  },
+  {
+    "patientId": "73005",
+    "patientName": "SHANE S",
+    "visitNumber": "V004",
+    "location": "ROOM 104",
+    "dateOfService": "01/18/2024",
+    "procedure": "",
+    "modifier": "AB",
+    "units": "",
+    "orderNumber": "",
+    "chargeReport": "CHARGE004"
+  },
+  {
+    "patientId": "144459",
+    "patientName": "RAFAEL R",
+    "visitNumber": "V005",
+    "location": "ER BED 1",
+    "dateOfService": "01/19/2024",
+    "procedure": "EKG",
+    "modifier": "26",
+    "units": "1",
+    "orderNumber": "ORD005",
+    "chargeReport": "CHARGE005"
+  }
+]

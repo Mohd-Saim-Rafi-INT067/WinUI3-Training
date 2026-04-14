@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<UserControl
+    x:Class="ImagineDashboard.Controls.CustomNumberInput"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="using:ImagineDashboard.Controls"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid RowDefinitions="Auto,Auto,Auto">
+        <TextBlock
+            Margin="0,0,0,8"
+            Foreground="{ThemeResource TextFillColorPrimary}"
+            Style="{StaticResource CaptionTextBlockStyle}"
+            Text="{x:Bind Label, Mode=OneWay}" />
+
+        <!--
+            <NumberBox
+            x:Name="InputNumberBox"
+            Grid.Row="1"
+            Background="{ThemeResource SolidBackgroundFillColorSecondary}"
+            Foreground="{ThemeResource TextFillColorPrimary}"
+            IsEnabled="{x:Bind _IsEnabled, Mode=TwoWay}"
+            PlaceholderText="{x:Bind Placeholder, Mode=OneWay}"
+            ValueChanged="InputNumberBox_ValueChanged"
+        -->
+        <!--  Value="{x:Bind InputNumber, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />  -->
+
+        <TextBlock
+            Grid.Row="2"
+            Margin="0,4,0,0"
+            Foreground="Red"
+            Style="{StaticResource CaptionTextBlockStyle}"
+            Text="{x:Bind ErrorMessage, Mode=OneWay}"
+            Visibility="{x:Bind ShowError, Mode=OneWay}" />
+    </Grid>
+</UserControl>
