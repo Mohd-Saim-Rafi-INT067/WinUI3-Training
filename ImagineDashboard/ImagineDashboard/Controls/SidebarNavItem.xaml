@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<UserControl
+    x:Class="ImagineDashboard.Controls.SidebarNavItem"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008">
+
+    <!--  Command - what happens when button is clicked  -->
+    <!--  CommandParameter - optional data passed like home,charge,billing  -->
+    <Button
+        x:Name="RootButton"
+        Padding="0,10"
+        HorizontalAlignment="Stretch"
+        HorizontalContentAlignment="Center"
+        Background="Transparent"
+        BorderThickness="0"
+        Command="{x:Bind Command, Mode=OneWay}"
+        CommandParameter="{x:Bind CommandParameter, Mode=OneWay}">
+        <StackPanel
+            HorizontalAlignment="Center"
+            Orientation="Vertical"
+            Spacing="2">
+            <FontIcon
+                FontSize="20"
+                Foreground="#1565C0"
+                Glyph="{x:Bind Icon, Mode=OneWay}" />
+            <TextBlock
+                MaxWidth="64"
+                FontSize="9"
+                Foreground="#1565C0"
+                Text="{x:Bind Label, Mode=OneWay}"
+                TextAlignment="Center"
+                TextWrapping="Wrap" />
+        </StackPanel>
+    </Button>
+</UserControl>

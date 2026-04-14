@@ -1,0 +1,73 @@
+<UserControl
+    x:Class="ImagineDashboard.Controls.CustomSearchTextInput"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <Grid>
+        <!--  Outline  -->
+        <Border
+            x:Name="OutlineBorder"
+            MinHeight="34"
+            Margin="0,8,0,0"
+            Background="Transparent"
+            BorderBrush="#c3c8c9"
+            BorderThickness="1"
+            CornerRadius="10">
+
+            <Grid ColumnDefinitions="*,34">
+                <!--  Text area  -->
+                <AutoSuggestBox
+                    x:Name="InnerBox"
+                    Padding="8,0,6,0"
+                    VerticalAlignment="Center"
+                    Background="Transparent"
+                    BorderThickness="0"
+                    FontSize="12"
+                    PlaceholderText="{x:Bind PlaceholderText, Mode=OneWay}"
+                    Text="{x:Bind Text, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+
+                <!--  Separator line  -->
+                <Border
+                    Grid.Column="1"
+                    Width="1"
+                    Margin="0,6"
+                    HorizontalAlignment="Left"
+                    Background="#c3c8c9" />
+
+                <!--  Icon area (right)  -->
+                <Button
+                    x:Name="SearchIconButton"
+                    Grid.Column="1"
+                    Width="34"
+                    Height="34"
+                    Padding="0"
+                    HorizontalAlignment="Stretch"
+                    VerticalAlignment="Stretch"
+                    Background="Transparent"
+                    BorderThickness="0"
+                    Click="SearchIconButton_Click">
+
+                    <!--  Use a magnifier glyph  -->
+                    <FontIcon
+                        FontSize="14"
+                        Foreground="{ThemeResource TextFillColorSecondary}"
+                        Glyph="&#xE721;" />
+                </Button>
+            </Grid>
+        </Border>
+
+        <!--  Floating label  -->
+        <Border
+            Margin="10,2,0,0"
+            Padding="4,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+            <TextBlock
+                FontSize="10"
+                FontWeight="SemiBold"
+                Foreground="#1565C0"
+                Text="{x:Bind Label, Mode=OneWay}" />
+        </Border>
+    </Grid>
+</UserControl>

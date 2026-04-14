@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<UserControl
+    x:Class="ImagineDashboard.Views.DashboardView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:controls="using:ImagineDashboard.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="using:ImagineDashboard.Views"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid RowDefinitions="Auto,*,Auto,Auto">
+
+        <!--  Row 0: Tab strip (Home / Charge Central)  -->
+        <Border
+            Grid.Row="0"
+            BorderBrush="{ThemeResource DividerStrokeColorDefault}"
+            BorderThickness="0,0,0,1">
+            <StackPanel
+                Height="36"
+                Orientation="Horizontal"
+                Spacing="0">
+                <Border
+                    Padding="16,0"
+                    Background="{ThemeResource SolidBackgroundFillColorSecondary}"
+                    CornerRadius="4">
+                    <TextBlock
+                        VerticalAlignment="Center"
+                        FontSize="13"
+                        Text="Home" />
+                </Border>
+                <Border
+                    Padding="16,0"
+                    Background="{ThemeResource SolidBackgroundFillColorTertiary}"
+                    CornerRadius="4">
+                    <StackPanel Orientation="Horizontal" Spacing="8">
+                        <TextBlock
+                            VerticalAlignment="Center"
+                            FontSize="13"
+                            FontWeight="SemiBold"
+                            Text="Charge Central" />
+                        <Button
+                            Width="20"
+                            Height="20"
+                            Padding="0"
+                            Background="Transparent"
+                            BorderThickness="0"
+                            Content="✕"
+                            FontSize="10" />
+                    </StackPanel>
+                </Border>
+            </StackPanel>
+        </Border>
+
+        <!--  Row 1: Filter bar + Patients/Report split  -->
+        <Grid Grid.Row="1" RowDefinitions="Auto,*">
+
+            <!--  Filter dropdowns  -->
+            <Border
+                Grid.Row="0"
+                Padding="12,4"
+                Background="{ThemeResource SolidBackgroundFillColorBase}"
+                BorderBrush="{ThemeResource DividerStrokeColorDefault}"
+                BorderThickness="0,0,0,1">
+                <StackPanel
+                    VerticalAlignment="Center"
+                    Orientation="Horizontal"
+                    Spacing="12">
+
+                    <controls:CustomComboInput
+                        Width="150"
+                        ItemsSource="{x:Bind ViewModel.BatchNumbers}"
+                        Label="Batch Number" />
+
+                    <controls:CustomComboInput
+                        Width="210"
+                        ItemsSource="{x:Bind ViewModel.Buckets}"
+                        Label="Bucket" />
+
+                    <controls:CustomComboInput
+                        Width="150"
+                        ItemsSource="{x:Bind ViewModel.Filters}"
+                        Label="Filter" />
+
+                    <StackPanel
+                        VerticalAlignment="Bottom"
+                        Orientation="Vertical"
+                        Spacing="2">
+                        <Button
+                            Height="30"
+                            MinWidth="90"
+                            Margin="10,0"
+                            Padding="10,0"
+                            VerticalAlignment="Center"
+                            Background="#67bed9"
+                            BorderThickness="0"
+                            Content="Setup"
+                            CornerRadius="15"
+                            Foreground="White" />
+                    </StackPanel>
+
+                    <StackPanel
+                        VerticalAlignment="Bottom"
+                        Orientation="Vertical"
+                        Spacing="2">
+                        <Button
+                            Height="30"
+                            MinWidth="90"
+                            Padding="10,0"
+                            VerticalAlignment="Center"
+                            Background="#67bed9"
+                            BorderThickness="0"
+                            Content="Load"
+                            CornerRadius="15"
+                            Foreground="White" />
+                    </StackPanel>
+
+                </StackPanel>
+            </Border>
+
+            <!--  Left: PatientsListView and Right: Report  -->
+            <Grid Grid.Row="1" ColumnDefinitions="2*,*">
+
+                <Border
+                    Grid.Column="0"
+                    Margin="12,8,12,8"
+                    Background="{ThemeResource SolidBackgroundFillColorBase}"
+                    BorderBrush="#c3c8c9"
+                    BorderThickness="1"
+                    CornerRadius="5">
+                    <!--  DataContext = PatientsViewModel  -->
+                    <local:PatientsListView DataContext="{x:Bind ViewModel.PatientsViewModel, Mode=OneWay}" />
+                </Border>
+
+                <controls:CustomReportBox
+                    Grid.Column="1"
+                    Margin="12,8,12,8"
+                    Padding="8"
+                    Background="{ThemeResource SolidBackgroundFillColorBase}"
+                    BorderBrush="#c3c8c9"
+                    BorderThickness="1"
+                    CornerRadius="10"
+                    Header="Report">
+                    <controls:CustomReportBox.Content>
+                        <WebView2 x:Name="ReportWebView" />
+                    </controls:CustomReportBox.Content>
+                </controls:CustomReportBox>
+
+            </Grid>
+        </Grid>
+
+        <!--  Row 2: ChargesGridView — DataContext = PatientDetailsViewModel  -->
+        <Border
+            Grid.Row="2"
+            Background="{ThemeResource SolidBackgroundFillColorBase}"
+            BorderBrush="#c3c8c9"
+            BorderThickness="1"
+            CornerRadius="5">
+            <local:ChargesGridView DataContext="{x:Bind ViewModel.PatientDetailsViewModel, Mode=OneWay}" />
+        </Border>
+
+        <!--  Row 3: Charge Details form — DataContext = PatientDetailsViewModel  -->
+        <local:ChargeDetailsView Grid.Row="3" DataContext="{x:Bind ViewModel.PatientDetailsViewModel, Mode=OneWay}" />
+
+    </Grid>
+</UserControl>

@@ -1,0 +1,84 @@
+﻿
+    [
+      {
+        "audited": "0",
+        "pos": "OP",
+        "patientId": "6535",
+        "firstName": "BILL",
+        "middleName": "B",
+        "description": "================================================================================\n                             Hospital XYX\n================================================================================\n\nPatient Name: BILL, B\nBirth Date: 1/01/1980\n\nReferring Doctor: SMITH, JOHN A\nReading Doctor:   SMITH, JOHN A\nVisit No.: V001\nRoom#: ROOM 101\nExam Date: 01/15/2024 00:00:00\nExam: Bilateral Renal\n\n================================================================================\nNAME: BILL, B\nCONTROL #: 10001          MR UNIT #: M000000001\nDOB: 01/01/1980           ACCT #: 100000001\nPROC. TYPE: Ultrasound    PROC DATE: 01/15/2024\nRADIOLOGY REPORT\n================================================================================\n\nBilateral Renal US:\n\nCLINICAL INDICATION: ROUTINE CHECKUP.\n\nFindings:\n\nUltrasound examination of the kidneys shows normal size and echogenicity\nbilaterally. No hydronephrosis, stones, or masses identified.\n\nIMPRESSION:\n\nNormal bilateral renal ultrasound.\n\nElectronically Signed by\nDr. IMAGINE M.D.      01/15/2024\nRADIOLOGIST\n\nCC: BILL, B\n\nRADIOLOGY REPORT\n\nCopy For: Dr. IMAGINE M.D."
+      },
+      {
+        "audited": "0",
+        "pos": "OP",
+        "patientId": "7067",
+        "firstName": "GEORGE",
+        "middleName": "G",
+        "description": "================================================================================\n                             Hospital XYX\n================================================================================\n\nPatient Name: GEORGE, G\nBirth Date: 3/22/1975\n\nReferring Doctor: JONES, MARY B\nReading Doctor:   JONES, MARY B\nVisit No.: V002\nRoom#: ROOM 102\nExam Date: 01/16/2024 00:00:00\nExam: Brain MRI\n\n================================================================================\nNAME: GEORGE, G\nCONTROL #: 10002          MR UNIT #: M000000002\nDOB: 03/22/1975           ACCT #: 100000002\nPROC. TYPE: MRI Brain     PROC DATE: 01/16/2024\nRADIOLOGY REPORT\n================================================================================\n\nBrain MRI with and without contrast:\n\nCLINICAL INDICATION: HEADACHES, RULE OUT INTRACRANIAL PATHOLOGY.\n\nFindings:\n\nThe brain parenchyma demonstrates normal signal intensity. No acute infarct,\nhemorrhage, or mass lesion identified. No abnormal enhancement after contrast.\n\nIMPRESSION:\n\nNormal brain MRI. No acute intracranial abnormality.\n\nElectronically Signed by\nDr. IMAGINE M.D.      01/16/2024\nRADIOLOGIST\n\nCC: GEORGE, G\n\nRADIOLOGY REPORT\n\nCopy For: Dr. IMAGINE M.D."
+      },
+      {
+        "audited": "0",
+        "pos": "OP",
+        "patientId": "60484",
+        "firstName": "RODRIGO",
+        "middleName": "R",
+        "description": "================================================================================\n                             Hospital XYX\n================================================================================\n\nPatient Name: RODRIGO, R\nBirth Date: 7/14/1968\n\nReferring Doctor: BROWN, ALAN C\nReading Doctor:   BROWN, ALAN C\nVisit No.: V003\nRoom#: ROOM 103\nExam Date: 01/17/2024 00:00:00\nExam: CT Abdomen and Pelvis\n\n================================================================================\nNAME: RODRIGO, R\nCONTROL #: 10003          MR UNIT #: M000000003\nDOB: 07/14/1968           ACCT #: 100000003\nPROC. TYPE: CT Abd/Pelvis  PROC DATE: 01/17/2024\nRADIOLOGY REPORT\n================================================================================\n\nCT Abdomen and Pelvis with contrast:\n\nCLINICAL INDICATION: ABDOMINAL PAIN, RULE OUT APPENDICITIS.\n\nFindings:\n\nLiver, spleen, pancreas, and adrenal glands appear normal. Appendix visualized\nand normal, measuring less than 6mm. No free air or free fluid identified.\n\nIMPRESSION:\n\nNormal CT abdomen and pelvis. No acute appendicitis.\n\nElectronically Signed by\nDr. IMAGINE M.D.      01/17/2024\nRADIOLOGIST\n\nCC: RODRIGO, R\n\nRADIOLOGY REPORT\n\nCopy For: Dr. IMAGINE M.D."
+      },
+      {
+        "audited": "0",
+        "pos": "OP",
+        "patientId": "73005",
+        "firstName": "SHANE",
+        "middleName": "S",
+        "description": "================================================================================\n                             Hospital XYX\n================================================================================\n\nPatient Name: SHANE, S\nBirth Date: 11/05/1990\n\nReferring Doctor: DAVIS, LINDA K\nReading Doctor:   DAVIS, LINDA K\nVisit No.: V004\nRoom#: ROOM 104\nExam Date: 01/18/2024 00:00:00\nExam: Chest X-Ray\n\n================================================================================\nNAME: SHANE, S\nCONTROL #: 10004          MR UNIT #: M000000004\nDOB: 11/05/1990           ACCT #: 100000004\nPROC. TYPE: Chest XR      PROC DATE: 01/18/2024\nRADIOLOGY REPORT\n================================================================================\n\nChest X-Ray PA and Lateral:\n\nCLINICAL INDICATION: COUGH, RULE OUT PNEUMONIA.\n\nFindings:\n\nLungs are clear bilaterally without focal consolidation, pleural effusion,\nor pneumothorax. Cardiac silhouette within normal limits.\n\nIMPRESSION:\n\nNo acute cardiopulmonary process.\n\nElectronically Signed by\nDr. IMAGINE M.D.      01/18/2024\nRADIOLOGIST\n\nCC: SHANE, S\n\nRADIOLOGY REPORT\n\nCopy For: Dr. IMAGINE M.D."
+      },
+      {
+        "audited": "0",
+        "pos": "ER",
+        "patientId": "144459",
+        "firstName": "RAFAEL",
+        "middleName": "R",
+        "description": "================================================================================\n                             Hospital XYX\n================================================================================\n\nPatient Name: RAFAEL, R\nBirth Date: 6/10/1965\n\nReferring Doctor: WILSON, PETER S\nReading Doctor:   WILSON, PETER S\nVisit No.: V005\nRoom#: ER BED 1\nExam Date: 01/19/2024 00:00:00\nExam: EKG\n\n================================================================================\nNAME: RAFAEL, R\nCONTROL #: 10005          MR UNIT #: M000000005\nDOB: 06/10/1965           ACCT #: 100000005\nPROC. TYPE: EKG            PROC DATE: 01/19/2024\nCARDIOLOGY REPORT\n================================================================================\n\n12-Lead Electrocardiogram:\n\nCLINICAL INDICATION: CHEST PAIN, RULE OUT ACUTE MI.\n\nFindings:\n\nNormal sinus rhythm at 72 bpm. Normal axis. Normal intervals. No ST elevation\nor depression. No T-wave inversions. No pathological Q waves.\n\nIMPRESSION:\n\nNormal EKG. No acute ischemic changes.\n\nElectronically Signed by\nDr. IMAGINE M.D.      01/19/2024\nCARDIOLOGIST\n\nCC: RAFAEL, R\n\nCARDIOLOGY REPORT\n\nCopy For: Dr. IMAGINE M.D."
+      },
+      {
+        "audited": "0",
+        "pos": "ER",
+        "patientId": "202690",
+        "firstName": "FAYE",
+        "middleName": "F",
+        "description": "================================================================================\n                             Hospital XYX\n================================================================================\n\nPatient Name: FAYE, F\nBirth Date: 2/28/1988\n\nReferring Doctor: TAYLOR, SUSAN M\nReading Doctor:   TAYLOR, SUSAN M\nVisit No.: V006\nRoom#: ER BED 3\nExam Date: 01/20/2024 00:00:00\nExam: Abdominal Ultrasound\n\n================================================================================\nNAME: FAYE, F\nCONTROL #: 10006          MR UNIT #: M000000006\nDOB: 02/28/1988           ACCT #: 100000006\nPROC. TYPE: Abdominal US  PROC DATE: 01/20/2024\nRADIOLOGY REPORT\n================================================================================\n\nAbdominal Ultrasound:\n\nCLINICAL INDICATION: RIGHT UPPER QUADRANT PAIN.\n\nFindings:\n\nThe gallbladder is distended and contains multiple echogenic foci with posterior\nacoustic shadowing consistent with cholelithiasis. Mild gallbladder wall\nthickening noted. Common bile duct not dilated.\n\nIMPRESSION:\n\nCholelithiasis with mild cholecystitis. Clinical correlation recommended.\n\nElectronically Signed by\nDr. IMAGINE M.D.      01/20/2024\nRADIOLOGIST\n\nCC: FAYE, F\n\nRADIOLOGY REPORT\n\nCopy For: Dr. IMAGINE M.D."
+      },
+      {
+        "audited": "0",
+        "pos": "OP",
+        "patientId": "210497",
+        "firstName": "TIM",
+        "middleName": "T",
+        "description": "================================================================================\n                             Hospital XYX\n================================================================================\n\nPatient Name: TIM, T\nBirth Date: 9/03/1972\n\nReferring Doctor: ANDERSON, CARL R\nReading Doctor:   ANDERSON, CARL R\nVisit No.: V007\nRoom#: ROOM 201\nExam Date: 01/21/2024 00:00:00\nExam: Knee MRI\n\n================================================================================\nNAME: TIM, T\nCONTROL #: 10007          MR UNIT #: M000000007\nDOB: 09/03/1972           ACCT #: 100000007\nPROC. TYPE: MRI Knee      PROC DATE: 01/21/2024\nRADIOLOGY REPORT\n================================================================================\n\nMRI Left Knee without contrast:\n\nCLINICAL INDICATION: KNEE PAIN AFTER SPORTS INJURY.\n\nFindings:\n\nThere is a complete tear of the anterior cruciate ligament. The medial and\nlateral menisci appear intact. Mild joint effusion is present. Articular\ncartilage appears preserved.\n\nIMPRESSION:\n\nComplete ACL tear. Mild joint effusion. Recommend orthopedic consultation.\n\nElectronically Signed by\nDr. IMAGINE M.D.      01/21/2024\nRADIOLOGIST\n\nCC: TIM, T\n\nRADIOLOGY REPORT\n\nCopy For: Dr. IMAGINE M.D."
+      },
+      {
+        "audited": "0",
+        "pos": "OP",
+        "patientId": "212753",
+        "firstName": "KENTON",
+        "middleName": "K",
+        "description": "================================================================================\n                             Hospital XYX\n================================================================================\n\nPatient Name: KENTON, K\nBirth Date: 4/17/1983\n\nReferring Doctor: MARTINEZ, ELENA V\nReading Doctor:   MARTINEZ, ELENA V\nVisit No.: V008\nRoom#: ROOM 202\nExam Date: 01/22/2024 00:00:00\nExam: Spine X-Ray\n\n================================================================================\nNAME: KENTON, K\nCONTROL #: 10008          MR UNIT #: M000000008\nDOB: 04/17/1983           ACCT #: 100000008\nPROC. TYPE: Lumbar XR     PROC DATE: 01/22/2024\nRADIOLOGY REPORT\n================================================================================\n\nLumbar Spine X-Ray AP and Lateral:\n\nCLINICAL INDICATION: LOW BACK PAIN.\n\nFindings:\n\nLumbar vertebral body heights are maintained. Mild disc space narrowing at\nL4-L5 and L5-S1. No spondylolisthesis. Facet joints appear unremarkable.\nNo acute fracture identified.\n\nIMPRESSION:\n\nMild degenerative disc disease at L4-L5 and L5-S1. No acute fracture.\n\nElectronically Signed by\nDr. IMAGINE M.D.      01/22/2024\nRADIOLOGIST\n\nCC: KENTON, K\n\nRADIOLOGY REPORT\n\nCopy For: Dr. IMAGINE M.D."
+      },
+      {
+        "audited": "0",
+        "pos": "OP",
+        "patientId": "249593",
+        "firstName": "MONTY",
+        "middleName": "M",
+        "description": "================================================================================\n                             Hospital XYX\n================================================================================\n\nPatient Name: MONTY, M\nBirth Date: 8/25/1955\n\nReferring Doctor: HARRIS, DAVID L\nReading Doctor:   HARRIS, DAVID L\nVisit No.: V009\nRoom#: ROOM 203\nExam Date: 01/23/2024 00:00:00\nExam: Echocardiogram\n\n================================================================================\nNAME: MONTY, M\nCONTROL #: 10009          MR UNIT #: M000000009\nDOB: 08/25/1955           ACCT #: 100000009\nPROC. TYPE: Echo          PROC DATE: 01/23/2024\nCARDIOLOGY REPORT\n================================================================================\n\nTransthoracic Echocardiogram:\n\nCLINICAL INDICATION: SHORTNESS OF BREATH, EVALUATE CARDIAC FUNCTION.\n\nFindings:\n\nLeft ventricular size and systolic function are normal with estimated EF of 60%.\nNo regional wall motion abnormalities. Valves appear structurally normal.\nNo pericardial effusion.\n\nIMPRESSION:\n\nNormal transthoracic echocardiogram. EF 60%.\n\nElectronically Signed by\nDr. IMAGINE M.D.      01/23/2024\nCARDIOLOGIST\n\nCC: MONTY, M\n\nCARDIOLOGY REPORT\n\nCopy For: Dr. IMAGINE M.D."
+      },
+      {
+        "audited": "0",
+        "pos": "IP",
+        "patientId": "270069",
+        "firstName": "HANFORD",
+        "middleName": "H",
+        "description": "================================================================================\n                             Hospital XYX\n================================================================================\n\nPatient Name: HANFORD, H\nBirth Date: 5/12/1948\n\nReferring Doctor: CLARK, ROBERT J\nReading Doctor:   CLARK, ROBERT J\nVisit No.: V010\nRoom#: IP ROOM 301\nExam Date: 01/24/2024 00:00:00\nExam: Bilateral Renal US\n\n================================================================================\nNAME: HANFORD, H\nCONTROL #: 10010          MR UNIT #: M000000010\nDOB: 05/12/1948           ACCT #: 100000010\nPROC. TYPE: Bilateral Renal US  PROC DATE: 01/24/2024\nRADIOLOGY REPORT\n================================================================================\n\nBilateral Renal US:\n\nCLINICAL INDICATION: ELEVATED CREATININE. ACUTE RENAL FAILURE.\n\nFindings:\n\nUltrasound examination of the kidneys shows marked atrophy of the right kidney\nwhich measures 7.0 x 3.6 x 3.6 centimeters with left kidney measuring\n10.0 x 5.4 x 3.4 centimeters. There is increased echotexture of both kidneys\nwhich is nonspecific but can be seen with multiple medical renal abnormalities.\nNo hydronephrosis is evident. The pancreatic body incidentally is grossly normal\nalthough the tail is not visualized due to bowel gas. The aorta is normal\nproximally. Ureteral jets were not visualized.\n\nIMPRESSION:\n\nSmall right kidney with increased cortical echogenicity within both kidneys.\n\nElectronically Signed by\nDr. IMAGINE M.D.      01/24/2024\nRADIOLOGIST\n\nCC: HANFORD, H\n\nRADIOLOGY REPORT\n\nCopy For: Dr. IMAGINE M.D."
+      }
+    ]
+   
