@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Page
+    x:Class="Assignment_Product_Manager.Views.DashboardView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Assignment_Product_Manager.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    xmlns:controls="using:Assignment_Product_Manager.Controls"
+    xmlns:converters="using:Assignment_Product_Manager.Core.Converters"
+    xmlns:models="using:Assignment_Product_Manager.Models">
+
+    <Page.Resources>
+        <converters:BoolToVisibilityConverter x:Key="BoolToVis" />
+        <converters:NullToVisibilityConverter x:Key="NullToVis" />
+    </Page.Resources>
+
+    <Grid Padding="32,24" RowSpacing="24">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <!--  Header  -->
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition Width="Auto" />
+            </Grid.ColumnDefinitions>
+            <StackPanel>
+                <TextBlock
+                FontSize="{StaticResource FontSize2XL}"
+                FontWeight="Bold"
+                Foreground="{StaticResource TextPrimaryBrush}"
+                Text="{x:Bind ViewModel.WelcomeText, Mode=OneWay}" />
+                <TextBlock
+                FontSize="{StaticResource FontSizeMD}"
+                Foreground="{StaticResource TextSecondaryBrush}"
+                Text="Here's your product overview" />
+            </StackPanel>
+            <controls:AppButton
+            Grid.Column="1"
+            Click="AddProduct_Click"
+            IconGlyph="&#xE710;"
+            Label="Add Product" />
+        </Grid>
+
+        <!--  Stats Row  -->
+        <Grid Grid.Row="1" ColumnSpacing="16">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+
+            <!--  Total Products  -->
+            <Border
+            Grid.Column="0"
+            Padding="20"
+            Background="{StaticResource CardBrush}"
+            BorderBrush="{StaticResource BorderBrush}"
+            BorderThickness="1"
+            CornerRadius="{StaticResource RadiusLG}">
+                <StackPanel Spacing="8">
+                    <StackPanel Orientation="Horizontal" Spacing="10">
+                        <Border
+                        Width="40"
+                        Height="40"
+                        Background="#DBEAFE"
+                        CornerRadius="{StaticResource RadiusMD}">
+                            <FontIcon
+                            FontSize="18"
+                            Glyph="&#xE7BF;" />
+                        </Border>
+                        <TextBlock
+                        VerticalAlignment="Center"
+                        FontSize="13"
+                        Foreground="{StaticResource TextSecondaryBrush}"
+                        Text="Total Products" />
+                    </StackPanel>
+                    <TextBlock
+                    FontSize="{StaticResource FontSize3XL}"
+                    FontWeight="Bold"
+                    Foreground="{StaticResource TextPrimaryBrush}"
+                    Text="{x:Bind ViewModel.TotalProducts, Mode=OneWay}" />
+                </StackPanel>
+            </Border>
+
+            <!--  Inventory Value  -->
+            <Border
+            Grid.Column="1"
+            Padding="20"
+            Background="{StaticResource CardBrush}"
+            BorderBrush="{StaticResource BorderBrush}"
+            BorderThickness="1"
+            CornerRadius="{StaticResource RadiusLG}">
+                <StackPanel Spacing="8">
+                    <StackPanel Orientation="Horizontal" Spacing="10">
+                        <Border
+                        Width="40"
+                        Height="40"
+                        Background="#DCFCE7"
+                        CornerRadius="{StaticResource RadiusMD}">
+                            <FontIcon
+                            FontSize="18"
+                            Glyph="&#xE8A1;" />
+                        </Border>
+                        <TextBlock
+                        VerticalAlignment="Center"
+                        FontSize="13"
+                        Foreground="{StaticResource TextSecondaryBrush}"
+                        Text="Inventory Value" />
+                    </StackPanel>
+                    <TextBlock
+                    FontSize="{StaticResource FontSize2XL}"
+                    FontWeight="Bold"
+                    Foreground="{StaticResource TextPrimaryBrush}">
+                    <Run Text="₹" /><Run Text="{x:Bind ViewModel.TotalValue, Mode=OneWay}" />
+                    </TextBlock>
+                </StackPanel>
+            </Border>
+
+            <!--  Low Stock Items -->
+            <Border
+            Grid.Column="2"
+            Padding="20"
+            Background="{StaticResource CardBrush}"
+            BorderBrush="{StaticResource BorderBrush}"
+            BorderThickness="1"
+            CornerRadius="{StaticResource RadiusLG}">
+                <StackPanel Spacing="8">
+                    <StackPanel Orientation="Horizontal" Spacing="10">
+                        <Border
+                        Width="40"
+                        Height="40"
+                        Background="#FEF9C3"
+                        CornerRadius="{StaticResource RadiusMD}">
+                            <FontIcon
+                            FontSize="18"
+                            Glyph="&#xE7BA;" />
+                        </Border>
+                        <TextBlock
+                        VerticalAlignment="Center"
+                        FontSize="13"
+                        Foreground="{StaticResource TextSecondaryBrush}"
+                        Text="Low Stock Items" />
+                    </StackPanel>
+                    <TextBlock
+                    FontSize="{StaticResource FontSize3XL}"
+                    FontWeight="Bold"
+                    Foreground ="{StaticResource TextPrimaryBrush}"
+                    Text="{x:Bind ViewModel.LowStockCount, Mode=OneWay}" />
+                </StackPanel>
+            </Border>
+        </Grid>
+
+        <!--  error messages  -->
+        <StackPanel Grid.Row="2" Spacing="12">
+            <Border
+            Padding="14,10"
+            Background="#FEF2F2"
+            BorderBrush="#FECACA"
+            BorderThickness="1"
+            CornerRadius="{StaticResource RadiusMD}"
+            Visibility="{x:Bind ViewModel.ErrorMessage, Converter={StaticResource NullToVis}, Mode=OneWay}">
+                <TextBlock
+                FontSize="13"
+                Foreground="{StaticResource BrandDangerBrush}"
+                Text="{x:Bind ViewModel.ErrorMessage, Mode=OneWay}" />
+            </Border>
+            <Border
+            Padding="14,10"
+            Background="#F0FDF4"
+            BorderBrush="#BBF7D0"
+            BorderThickness="1"
+            CornerRadius="{StaticResource RadiusMD}"
+            Visibility="{x:Bind ViewModel.SuccessMessage, Converter={StaticResource NullToVis}, Mode=OneWay}">
+                <TextBlock
+                FontSize="13"
+                Foreground="{StaticResource BrandSuccessBrush}"
+                Text="{x:Bind ViewModel.SuccessMessage, Mode=OneWay}" />
+            </Border>
+
+            <!--  Search bar  -->
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+                <TextBox
+                Height="40"
+                Padding="12,10"
+                BorderBrush="{StaticResource BorderBrush}"
+                CornerRadius="{StaticResource RadiusMD}"
+                FontSize="14"
+                PlaceholderText="Search by product name, category or SKU..."
+                VerticalAlignment="Center"
+                VerticalContentAlignment="Center"
+                Text="{x:Bind ViewModel.SearchQuery, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                <ProgressRing
+                Grid.Column="1"
+                Width="24"
+                Height="24"
+                Margin="12,0,0,0"
+                IsActive="{x:Bind ViewModel.IsBusy, Mode=OneWay}"
+                Visibility="{x:Bind ViewModel.IsBusy, Converter={StaticResource BoolToVis}, Mode=OneWay}" />
+            </Grid>
+        </StackPanel>
+
+        <!--  Product Table  -->
+        <Border
+        Grid.Row="3"
+        Padding="0,0,0,8"
+        Background="{StaticResource CardBrush}"
+        BorderBrush="{StaticResource BorderBrush}"
+        BorderThickness="1"
+        CornerRadius="{StaticResource RadiusLG}">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+
+                <!--  Table header  -->
+                <Grid
+                Grid.Row="0"
+                Padding="16,12"
+                Background="#F8FAFC">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="2*" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="120" />
+                    </Grid.ColumnDefinitions>
+                    <TextBlock
+                    Grid.Column="0"
+                    FontSize="12"
+                    FontWeight="SemiBold"
+                    Foreground="{StaticResource TextSecondaryBrush}"
+                    Text="Product" />
+                    <TextBlock
+                    Grid.Column="1"
+                    FontSize="12"
+                    FontWeight="SemiBold"
+                    Foreground="{StaticResource TextSecondaryBrush}"
+                    Text="Category" />
+                    <TextBlock
+                    Grid.Column="2"
+                    FontSize="12"
+                    FontWeight="SemiBold"
+                    Foreground="{StaticResource TextSecondaryBrush}"
+                    Text="Price" />
+                    <TextBlock
+                    Grid.Column="3"
+                    FontSize="12"
+                    FontWeight="SemiBold"
+                    Foreground="{StaticResource TextSecondaryBrush}"
+                    Text="Discount" />
+                    <TextBlock
+                    Grid.Column="4"
+                    FontSize="12"
+                    FontWeight="SemiBold"
+                    Foreground="{StaticResource TextSecondaryBrush}"
+                    Text="Final Price" />
+                    <TextBlock
+                    Grid.Column="5"
+                    FontSize="12"
+                    FontWeight="SemiBold"
+                    Foreground="{StaticResource TextSecondaryBrush}"
+                    Text="Stock" />
+                    <TextBlock
+                    Grid.Column="6"
+                    FontSize="12"
+                    FontWeight="SemiBold"
+                    Foreground="{StaticResource TextSecondaryBrush}"
+                    Text="Actions" />
+                </Grid>
+
+                <!--  Rows  -->
+                <ListView
+                Grid.Row="1"
+                ItemsSource="{x:Bind ViewModel.Products, Mode=OneWay}"
+                SelectionMode="None">
+                    <ListView.ItemContainerStyle>
+                        <Style TargetType="ListViewItem">
+                            <Setter Property="Padding" Value="0" />
+                            <Setter Property="HorizontalContentAlignment" Value="Stretch" />
+                        </Style>
+                    </ListView.ItemContainerStyle>
+                    <ListView.ItemTemplate>
+                        <DataTemplate x:DataType="models:Product">
+                            <Grid
+                            Padding="16,12"
+                            BorderBrush="{StaticResource BorderBrush}"
+                            BorderThickness="0,0,0,1">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="2*" />
+                                    <ColumnDefinition Width="*" />
+                                    <ColumnDefinition Width="*" />
+                                    <ColumnDefinition Width="*" />
+                                    <ColumnDefinition Width="*" />
+                                    <ColumnDefinition Width="*" />
+                                    <ColumnDefinition Width="120" />
+                                </Grid.ColumnDefinitions>
+
+                                <!--  Name + SKU  -->
+                                <StackPanel Grid.Column="0">
+                                    <TextBlock
+                                    FontSize="13"
+                                    FontWeight="Medium"
+                                    Foreground="{StaticResource TextPrimaryBrush}"
+                                    Text="{x:Bind ProductName}" />
+                                    <TextBlock
+                                    FontSize="11"
+                                    Foreground="{StaticResource TextMutedBrush}"
+                                    Text="{x:Bind SKU}" />
+                                </StackPanel>
+
+                                <!-- Category -->
+                                <TextBlock
+                                Grid.Column="1"
+                                VerticalAlignment="Center"
+                                FontSize="13"
+                                Foreground="{StaticResource TextSecondaryBrush}"
+                                Text="{x:Bind Category}" />
+
+                                <!-- Price -->
+                                <TextBlock
+                                Grid.Column="2"
+                                VerticalAlignment="Center"
+                                FontSize="13"
+                                Foreground="{StaticResource TextSecondaryBrush}">
+                                <Run Text="₹" /><Run Text="{x:Bind Price}" />
+                                </TextBlock>
+
+                                <!-- Discount -->
+                                <TextBlock
+                                Grid.Column="3"
+                                VerticalAlignment="Center"
+                                FontSize="13"
+                                FontWeight="Medium"
+                                 Foreground="{StaticResource TextSecondaryBrush}">
+                                <Run Text="{x:Bind DiscountPct}" /><Run Text="%" />
+                                </TextBlock>
+
+                                <!-- Final Price -->
+                                <TextBlock
+                                Grid.Column="4"
+                                VerticalAlignment="Center"
+                                FontSize="13"
+                                FontWeight="SemiBold"
+                                 Foreground="{StaticResource TextSecondaryBrush}">
+                                <Run Text="₹" /><Run Text="{x:Bind FinalPrice}" />
+                                </TextBlock>
+
+                                <!--  Stock   -->
+                                <StackPanel Grid.Column="5" VerticalAlignment="Center">
+                                    <TextBlock
+                                    FontSize="13"
+                                    Foreground="{StaticResource TextPrimaryBrush}"
+                                    Text="{x:Bind Stock}" />
+                                </StackPanel>
+
+                                <!--  Actions  -->
+                                <StackPanel
+                                Grid.Column="6"
+                                VerticalAlignment="Center"
+                                Orientation="Horizontal"
+                                Spacing="6">
+                                    <Button
+                                    Width="32"
+                                    Height="32"
+                                    Padding="0"
+                                    Background="#EFF6FF"
+                                    Click="Edit_Click"
+                                    CornerRadius="{StaticResource RadiusSM}"
+                                    Tag="{x:Bind ProductId}"
+                                    ToolTipService.ToolTip="Edit">
+                                        <FontIcon
+                                        FontSize="13"
+                                        Glyph="&#xE70F;" />
+                                    </Button>
+                                    <Button
+                                    Width="32"
+                                    Height="32"
+                                    Padding="0"
+                                    Background="#FEF2F2"
+                                    Click="Delete_Click"
+                                    CornerRadius="{StaticResource RadiusSM}"
+                                    Tag="{x:Bind ProductId}"
+                                    ToolTipService.ToolTip="Delete">
+                                        <FontIcon
+                                        FontSize="13"
+                                        Glyph="&#xE74D;" />
+                                    </Button>
+                                </StackPanel>
+                            </Grid>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </Grid>
+        </Border>
+
+    </Grid>
+</Page>
