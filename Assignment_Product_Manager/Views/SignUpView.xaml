@@ -11,67 +11,18 @@
     xmlns:controls="using:Assignment_Product_Manager.Controls">
     
 
-    <Page.Resources>
-        <converters:BoolToVisibilityConverter x:Key="BoolToVis" />
-        <converters:NullToVisibilityConverter x:Key="NullToVis" />
-    </Page.Resources>
-
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*" />
             <ColumnDefinition Width="800" />
         </Grid.ColumnDefinitions>
 
-        <Grid Grid.Column="0" Background="{StaticResource BrandPrimaryBrush}">
-            <StackPanel
-            Padding="40"
-            HorizontalAlignment="Center"
-            VerticalAlignment="Center"
-            Spacing="20">
-                <FontIcon
-                FontSize="64"
-                Foreground="White"
-                Glyph="&#xE8FA;" />
-                <TextBlock
-                FontSize="26"
-                FontWeight="Bold"
-                Foreground="White"
-                Text="Join Us Today"
-                TextAlignment="Center" />
-                <StackPanel Spacing="12">
-                    <StackPanel Orientation="Horizontal" Spacing="10">
-                        <FontIcon
-                        FontSize="14"
-                        Foreground="#86EFAC"
-                        Glyph="&#xE73E;" />
-                        <TextBlock
-                        FontSize="13"
-                        Foreground="#BFDBFE"
-                        Text="Manage your own products" />
-                    </StackPanel>
-                    <StackPanel Orientation="Horizontal" Spacing="10">
-                        <FontIcon
-                        FontSize="14"
-                        Foreground="#86EFAC"
-                        Glyph="&#xE73E;" />
-                        <TextBlock
-                        FontSize="13"
-                        Foreground="#BFDBFE"
-                        Text="Auto discount calculation" />
-                    </StackPanel>
-                    <StackPanel Orientation="Horizontal" Spacing="10">
-                        <FontIcon
-                        FontSize="14"
-                        Foreground="#86EFAC"
-                        Glyph="&#xE73E;" />
-                        <TextBlock
-                        FontSize="13"
-                        Foreground="#BFDBFE"
-                        Text="Realtime inventory tracking" />
-                    </StackPanel>
-                </StackPanel>
-            </StackPanel>
-        </Grid>
+        <controls:AuthBrandPanel
+            Grid.Column="0"
+            IconGlyph="&#xE8FA;"
+            Headline="Join Us Today"
+            Subtext="Manage your inventory with ease with Smart Product Manager.">
+        </controls:AuthBrandPanel>
 
         <ScrollViewer Grid.Column="1" VerticalScrollBarVisibility="Auto">
             <StackPanel Padding="48,48" Spacing="20">
@@ -89,44 +40,13 @@
                 </StackPanel>
 
                 <!--  Error / Success banners  -->
-                <Border
-                Padding="14,10"
-                Background="#FEF2F2"
-                BorderBrush="#FECACA"
-                BorderThickness="1"
-                CornerRadius="{StaticResource RadiusMD}"
-                Visibility="{x:Bind ViewModel.ErrorMessage, Converter={StaticResource NullToVis}, Mode=OneWay}">
-                    <StackPanel Orientation="Horizontal" Spacing="8">
-                        <FontIcon
-                        FontSize="14"
-                        Foreground="{StaticResource BrandDangerBrush}"
-                        Glyph="&#xE783;" />
-                        <TextBlock
-                        FontSize="13"
-                        Foreground="{StaticResource BrandDangerBrush}"
-                        Text="{x:Bind ViewModel.ErrorMessage, Mode=OneWay}"
-                        TextWrapping="Wrap" />
-                    </StackPanel>
-                </Border>
+                <controls:AlertBanner
+                    Type="Error"
+                    Message="{x:Bind ViewModel.ErrorMessage, Mode=OneWay}" />
 
-                <Border
-                Padding="14,10"
-                Background="#F0FDF4"
-                BorderBrush="#BBF7D0"
-                BorderThickness="1"
-                CornerRadius="{StaticResource RadiusMD}"
-                Visibility="{x:Bind ViewModel.SuccessMessage, Converter={StaticResource NullToVis}, Mode=OneWay}">
-                    <StackPanel Orientation="Horizontal" Spacing="8">
-                        <FontIcon
-                        FontSize="14"
-                        Foreground="{StaticResource BrandSuccessBrush}"
-                        Glyph="&#xE73E;" />
-                        <TextBlock
-                        FontSize="13"
-                        Foreground="{StaticResource BrandSuccessBrush}"
-                        Text="{x:Bind ViewModel.SuccessMessage, Mode=OneWay}" />
-                    </StackPanel>
-                </Border>
+                <controls:AlertBanner
+                    Type="Success"
+                    Message="{x:Bind ViewModel.SuccessMessage, Mode=OneWay}" />
 
                 <!--  Two columns for name + username  -->
                 <Grid ColumnSpacing="16">
@@ -178,6 +98,8 @@
                 IconGlyph="&#xE8FA;"
                 IsLoading="{x:Bind ViewModel.IsBusy, Mode=OneWay}"
                 Label="Create Account" />
+
+                <controls:AuthDivider />
 
                 <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center">
                     <TextBlock

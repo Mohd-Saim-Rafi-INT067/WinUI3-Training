@@ -10,11 +10,6 @@
     xmlns:converters="using:Assignment_Product_Manager.Core.Converters"
     xmlns:controls="using:Assignment_Product_Manager.Controls">
 
-    <Page.Resources>
-        <converters:BoolToVisibilityConverter x:Key="BoolToVis" />
-        <converters:NullToVisibilityConverter x:Key="NullToVis" />
-    </Page.Resources>
-
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*" />
@@ -22,37 +17,12 @@
         </Grid.ColumnDefinitions>
 
         <!--  Left brand panel  -->
-        <Grid Grid.Column="0" Background="{StaticResource BrandPrimaryBrush}">
-            <StackPanel
-            Padding="40"
-            HorizontalAlignment="Center"
-            VerticalAlignment="Center"
-            Spacing="16">
-                <FontIcon
-                FontSize="64"
-                Foreground="White"
-                Glyph="&#xE7BF;" />
-                <TextBlock
-                FontSize="28"
-                FontWeight="Bold"
-                Foreground="White"
-                Text="Smart Product"
-                TextAlignment="Center" />
-                <TextBlock
-                Margin="0,-12,0,0"
-                FontSize="28"
-                FontWeight="Bold"
-                Foreground="White"
-                Text="Manager"
-                TextAlignment="Center" />
-                <TextBlock
-                FontSize="14"
-                Foreground="#BFDBFE"
-                Text="Manage your inventory with ease."
-                TextAlignment="Center"
-                TextWrapping="Wrap" />
-            </StackPanel>
-        </Grid>
+        <controls:AuthBrandPanel
+            Grid.Column="0"
+            IconGlyph="&#xE7BF;"
+            Headline="Smart Product Manager"
+            Subtext="Manage your inventory with ease." />
+       
 
         <!--  Login card  -->
         <ScrollViewer Grid.Column="1" VerticalScrollBarVisibility="Auto">
@@ -75,25 +45,9 @@
                 </StackPanel>
 
                 <!--  Error banner  -->
-                <Border
-                Padding="14,10"
-                Background="#FEF2F2"
-                BorderBrush="#FECACA"
-                BorderThickness="1"
-                CornerRadius="{StaticResource RadiusMD}"
-                Visibility="{x:Bind ViewModel.ErrorMessage, Converter={StaticResource NullToVis}, Mode=OneWay}">
-                    <StackPanel Orientation="Horizontal" Spacing="8">
-                        <FontIcon
-                        FontSize="14"
-                        Foreground="{StaticResource BrandDangerBrush}"
-                        Glyph="&#xE783;" />
-                        <TextBlock
-                        FontSize="13"
-                        Foreground="{StaticResource BrandDangerBrush}"
-                        Text="{x:Bind ViewModel.ErrorMessage, Mode=OneWay}"
-                        TextWrapping="Wrap" />
-                    </StackPanel>
-                </Border>
+                <controls:AlertBanner
+                    Type="Error"
+                    Message="{x:Bind ViewModel.ErrorMessage, Mode=OneWay}" />
 
                 <!--  username  -->
                 <controls:AppTextBox
@@ -119,28 +73,7 @@
                 Label="Sign In" />
 
                 <!--  Divider  -->
-                <Grid>
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition />
-                        <ColumnDefinition Width="Auto" />
-                        <ColumnDefinition />
-                    </Grid.ColumnDefinitions>
-                    <Rectangle
-                    Grid.Column="0"
-                    Height="1"
-                    VerticalAlignment="Center"
-                    Fill="{StaticResource BorderBrush}" />
-                    <TextBlock
-                    Grid.Column="1"
-                    FontSize="12"
-                    Foreground="{StaticResource TextMutedBrush}"
-                    Text="   OR   " />
-                    <Rectangle
-                    Grid.Column="2"
-                    Height="1"
-                    VerticalAlignment="Center"
-                    Fill="{StaticResource BorderBrush}" />
-                </Grid>
+                <controls:AuthDivider />
 
                 <!--  Sign up redirect  -->
                 <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center">

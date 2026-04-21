@@ -34,8 +34,8 @@ namespace Assignment_Product_Manager.Views
         protected override void OnNavigatedFrom(NavigationEventArgs e)
         {
             base.OnNavigatedFrom(e);
-            // Unsubscribe to avoid memory leaks if the page is cached
             ViewModel.NavigationRequested -= ViewModel_NavigationRequested;
+            ViewModel.Dispose();
         }
 
         private void Back_Click(object sender, Microsoft.UI.Xaml.RoutedEventArgs e)

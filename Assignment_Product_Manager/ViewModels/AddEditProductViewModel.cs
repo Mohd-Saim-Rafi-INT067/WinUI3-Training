@@ -6,10 +6,11 @@ using CommunityToolkit.Mvvm.Input;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using System.ComponentModel.DataAnnotations;
 
 namespace Assignment_Product_Manager.ViewModels
 {
-    public partial class AddEditProductViewModel : BaseViewModel
+    public partial class AddEditProductViewModel : BaseViewModel, IDisposable
     {
         private readonly IProductService _productService;
 
@@ -56,8 +57,6 @@ namespace Assignment_Product_Manager.ViewModels
         {
             ClearMessages();
 
-            // Validate
-            if (string.IsNullOrWhiteSpace(ProductName)) { SetError("Product name is required."); return; }
             if (!decimal.TryParse(PriceText, out var price) || price <= 0)
             { SetError("Enter a valid price greater than 0."); return; }
             if (!int.TryParse(StockText, out var stock) || stock < 0)
@@ -76,6 +75,14 @@ namespace Assignment_Product_Manager.ViewModels
                 Stock = stock,
                 Quantity = qty,
             };
+
+            var context = new ValidationContext(product);
+            var results = new List<ValidationResult>();
+            if (!Validator.TryValidateObject(product,context, results, validateAllProperties: true))
+            {
+                SetError(results[0].ErrorMessage ?? "Validation Failed");
+                return;
+            }
 
             IsBusy = true;
             try
@@ -98,5 +105,10 @@ namespace Assignment_Product_Manager.ViewModels
 
         [RelayCommand]
         private void GoBack() => NavigationRequested?.Invoke(this, EventArgs.Empty);
+
+        public void Dispose()
+        {
+            NavigationRequested = null;
+        }
     }
 }

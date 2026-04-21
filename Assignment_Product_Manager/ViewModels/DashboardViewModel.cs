@@ -12,7 +12,7 @@ using System.Threading.Tasks;
 
 namespace Assignment_Product_Manager.ViewModels
 {
-    public partial class DashboardViewModel : BaseViewModel
+    public partial class DashboardViewModel : BaseViewModel, IDisposable
     {
         private readonly IProductService _productService;
         private readonly IAuthService _authService;
@@ -24,6 +24,7 @@ namespace Assignment_Product_Manager.ViewModels
         [ObservableProperty] private int _totalProducts;
         [ObservableProperty] private decimal _totalValue;
         [ObservableProperty] private int _lowStockCount;
+        [ObservableProperty] private bool _isEmpty;
 
         private List<Product> _allProducts = new();
 
@@ -71,6 +72,7 @@ namespace Assignment_Product_Manager.ViewModels
                     p.SKU.Contains(SearchQuery, StringComparison.OrdinalIgnoreCase));
 
             Products = new ObservableCollection<Product>(filtered);
+            IsEmpty = Products.Count == 0;
         }
 
         private void UpdateStats()
@@ -95,6 +97,12 @@ namespace Assignment_Product_Manager.ViewModels
             }
             else SetError(message);
             IsBusy = false;
+        }
+
+        public void Dispose()
+        {
+            _allProducts.Clear();
+            Products.Clear();
         }
     }
 }

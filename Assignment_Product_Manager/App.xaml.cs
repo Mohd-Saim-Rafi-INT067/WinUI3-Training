@@ -19,10 +19,11 @@ using Windows.Storage;
 namespace Assignment_Product_Manager
 {
 
-    public partial class App : Application
+    public partial class App : Application, IDisposable
     {
-     
-        public static IServiceProvider Services { get; private set; } = null!;
+
+        private static ServiceProvider? _serviceProvider;
+        public static IServiceProvider Services => _serviceProvider!;
         public static Window MainWindow { get; private set; } = null!;
 
         public App()
@@ -79,12 +80,17 @@ namespace Assignment_Product_Manager
             services.AddTransient<DashboardViewModel>();
             services.AddTransient<AddEditProductViewModel>();
 
-            Services = services.BuildServiceProvider(); 
+            _serviceProvider = services.BuildServiceProvider();
         }
 
         private static void InitializeMainWindow()
         {
             MainWindow = new MainWindow();
+
+            MainWindow.Closed += (_, _) =>
+            {
+                _serviceProvider?.Dispose();
+            };
 
             var frame = new Frame();
             MainWindow.Content = frame;
@@ -103,5 +109,10 @@ namespace Assignment_Product_Manager
 
         public static T GetService<T>() where T : class =>
             Services.GetRequiredService<T>();
+
+        public void Dispose()
+        {
+            _serviceProvider?.Dispose();
+        }
     }
 }

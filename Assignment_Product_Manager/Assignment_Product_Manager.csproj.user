@@ -5,6 +5,18 @@
     <None Update="App.xaml">
       <SubType>Designer</SubType>
     </None>
+    <Page Update="Controls\AuthDivider.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Controls\AuthBrandPanel.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Controls\StatsCard.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Controls\AlertBanner.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Views\SignUpView.xaml">
       <SubType>Designer</SubType>
     </Page>

@@ -11,10 +11,7 @@
     xmlns:converters="using:Assignment_Product_Manager.Core.Converters"
     xmlns:models="using:Assignment_Product_Manager.Models">
 
-    <Page.Resources>
-        <converters:BoolToVisibilityConverter x:Key="BoolToVis" />
-        <converters:NullToVisibilityConverter x:Key="NullToVis" />
-    </Page.Resources>
+
 
     <Grid Padding="32,24" RowSpacing="24">
         <Grid.RowDefinitions>
@@ -57,132 +54,40 @@
             </Grid.ColumnDefinitions>
 
             <!--  Total Products  -->
-            <Border
-            Grid.Column="0"
-            Padding="20"
-            Background="{StaticResource CardBrush}"
-            BorderBrush="{StaticResource BorderBrush}"
-            BorderThickness="1"
-            CornerRadius="{StaticResource RadiusLG}">
-                <StackPanel Spacing="8">
-                    <StackPanel Orientation="Horizontal" Spacing="10">
-                        <Border
-                        Width="40"
-                        Height="40"
-                        Background="#DBEAFE"
-                        CornerRadius="{StaticResource RadiusMD}">
-                            <FontIcon
-                            FontSize="18"
-                            Glyph="&#xE7BF;" />
-                        </Border>
-                        <TextBlock
-                        VerticalAlignment="Center"
-                        FontSize="13"
-                        Foreground="{StaticResource TextSecondaryBrush}"
-                        Text="Total Products" />
-                    </StackPanel>
-                    <TextBlock
-                    FontSize="{StaticResource FontSize3XL}"
-                    FontWeight="Bold"
-                    Foreground="{StaticResource TextPrimaryBrush}"
-                    Text="{x:Bind ViewModel.TotalProducts, Mode=OneWay}" />
-                </StackPanel>
-            </Border>
+            <controls:StatsCard
+                Grid.Column="0"
+                Label="Total Products"
+                IconGlyph="&#xE7BF;"
+                IconBackground= "{StaticResource BrandPrimaryBrush}"
+                Value="{x:Bind ViewModel.TotalProducts, Mode=OneWay}" />
 
             <!--  Inventory Value  -->
-            <Border
-            Grid.Column="1"
-            Padding="20"
-            Background="{StaticResource CardBrush}"
-            BorderBrush="{StaticResource BorderBrush}"
-            BorderThickness="1"
-            CornerRadius="{StaticResource RadiusLG}">
-                <StackPanel Spacing="8">
-                    <StackPanel Orientation="Horizontal" Spacing="10">
-                        <Border
-                        Width="40"
-                        Height="40"
-                        Background="#DCFCE7"
-                        CornerRadius="{StaticResource RadiusMD}">
-                            <FontIcon
-                            FontSize="18"
-                            Glyph="&#xE8A1;" />
-                        </Border>
-                        <TextBlock
-                        VerticalAlignment="Center"
-                        FontSize="13"
-                        Foreground="{StaticResource TextSecondaryBrush}"
-                        Text="Inventory Value" />
-                    </StackPanel>
-                    <TextBlock
-                    FontSize="{StaticResource FontSize2XL}"
-                    FontWeight="Bold"
-                    Foreground="{StaticResource TextPrimaryBrush}">
-                    <Run Text="₹" /><Run Text="{x:Bind ViewModel.TotalValue, Mode=OneWay}" />
-                    </TextBlock>
-                </StackPanel>
-            </Border>
+            <controls:StatsCard
+                Grid.Column="1"
+                Label="Inventory Value"
+                IconGlyph="&#xE8A1;"
+                IconBackground="{StaticResource BrandAccentBrush}"
+                ValuePrefix="₹"
+                Value="{x:Bind ViewModel.TotalValue, Mode=OneWay}" />
 
             <!--  Low Stock Items -->
-            <Border
-            Grid.Column="2"
-            Padding="20"
-            Background="{StaticResource CardBrush}"
-            BorderBrush="{StaticResource BorderBrush}"
-            BorderThickness="1"
-            CornerRadius="{StaticResource RadiusLG}">
-                <StackPanel Spacing="8">
-                    <StackPanel Orientation="Horizontal" Spacing="10">
-                        <Border
-                        Width="40"
-                        Height="40"
-                        Background="#FEF9C3"
-                        CornerRadius="{StaticResource RadiusMD}">
-                            <FontIcon
-                            FontSize="18"
-                            Glyph="&#xE7BA;" />
-                        </Border>
-                        <TextBlock
-                        VerticalAlignment="Center"
-                        FontSize="13"
-                        Foreground="{StaticResource TextSecondaryBrush}"
-                        Text="Low Stock Items" />
-                    </StackPanel>
-                    <TextBlock
-                    FontSize="{StaticResource FontSize3XL}"
-                    FontWeight="Bold"
-                    Foreground ="{StaticResource TextPrimaryBrush}"
-                    Text="{x:Bind ViewModel.LowStockCount, Mode=OneWay}" />
-                </StackPanel>
-            </Border>
+            <controls:StatsCard
+                Grid.Column="2"
+                Label="Low Stock Items"
+                IconGlyph="&#xE7BA;"
+                IconBackground="{StaticResource BrandDangerBrush}"
+                Value="{x:Bind ViewModel.LowStockCount, Mode=OneWay}" />
         </Grid>
 
         <!--  error messages  -->
         <StackPanel Grid.Row="2" Spacing="12">
-            <Border
-            Padding="14,10"
-            Background="#FEF2F2"
-            BorderBrush="#FECACA"
-            BorderThickness="1"
-            CornerRadius="{StaticResource RadiusMD}"
-            Visibility="{x:Bind ViewModel.ErrorMessage, Converter={StaticResource NullToVis}, Mode=OneWay}">
-                <TextBlock
-                FontSize="13"
-                Foreground="{StaticResource BrandDangerBrush}"
-                Text="{x:Bind ViewModel.ErrorMessage, Mode=OneWay}" />
-            </Border>
-            <Border
-            Padding="14,10"
-            Background="#F0FDF4"
-            BorderBrush="#BBF7D0"
-            BorderThickness="1"
-            CornerRadius="{StaticResource RadiusMD}"
-            Visibility="{x:Bind ViewModel.SuccessMessage, Converter={StaticResource NullToVis}, Mode=OneWay}">
-                <TextBlock
-                FontSize="13"
-                Foreground="{StaticResource BrandSuccessBrush}"
-                Text="{x:Bind ViewModel.SuccessMessage, Mode=OneWay}" />
-            </Border>
+            <!-- Error / Success banners (#1) -->
+            <controls:AlertBanner
+                Type="Error"
+                Message="{x:Bind ViewModel.ErrorMessage, Mode=OneWay}" />
+            <controls:AlertBanner
+                Type="Success"
+                Message="{x:Bind ViewModel.SuccessMessage, Mode=OneWay}" />
 
             <!--  Search bar  -->
             <Grid>
@@ -283,97 +188,116 @@
                 </Grid>
 
                 <!--  Rows  -->
-                <ListView
-                Grid.Row="1"
-                ItemsSource="{x:Bind ViewModel.Products, Mode=OneWay}"
-                SelectionMode="None">
-                    <ListView.ItemContainerStyle>
-                        <Style TargetType="ListViewItem">
-                            <Setter Property="Padding" Value="0" />
-                            <Setter Property="HorizontalContentAlignment" Value="Stretch" />
-                        </Style>
-                    </ListView.ItemContainerStyle>
-                    <ListView.ItemTemplate>
-                        <DataTemplate x:DataType="models:Product">
-                            <Grid
+                <Grid Grid.Row="1">
+                    <!-- empty state message -->
+                    <StackPanel
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Center"
+                        Spacing="12"
+                        Visibility="{x:Bind ViewModel.IsEmpty, Converter={StaticResource BoolToVis}, Mode=OneWay}">
+                        <FontIcon FontSize="48" Glyph="&#xE7BF;" Foreground="{StaticResource TextMutedBrush}" />
+                        <TextBlock
+                            FontSize="{StaticResource FontSizeLG}"
+                            FontWeight="SemiBold"
+                            Foreground="{StaticResource TextSecondaryBrush}"
+                            Text="No products found"
+                            HorizontalAlignment="Center" />
+                        <TextBlock
+                            FontSize="{StaticResource FontSizeMD}"
+                            Foreground="{StaticResource TextMutedBrush}"
+                            Text="Add your first product using the Add Product Button above."
+                            HorizontalAlignment="Center" />
+                    </StackPanel>
+                    <ListView
+                    ItemsSource="{x:Bind ViewModel.Products, Mode=OneWay}"
+                    SelectionMode="None">
+                        <ListView.ItemContainerStyle>
+                            <Style TargetType="ListViewItem">
+                                <Setter Property="Padding" Value="0" />
+                                <Setter Property="HorizontalContentAlignment" Value="Stretch" />
+                            </Style>
+                        </ListView.ItemContainerStyle>
+                        <ListView.ItemTemplate>
+                            <DataTemplate x:DataType="models:Product">
+                                <Grid
                             Padding="16,12"
                             BorderBrush="{StaticResource BorderBrush}"
                             BorderThickness="0,0,0,1">
-                                <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="2*" />
-                                    <ColumnDefinition Width="*" />
-                                    <ColumnDefinition Width="*" />
-                                    <ColumnDefinition Width="*" />
-                                    <ColumnDefinition Width="*" />
-                                    <ColumnDefinition Width="*" />
-                                    <ColumnDefinition Width="120" />
-                                </Grid.ColumnDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="2*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="120" />
+                                    </Grid.ColumnDefinitions>
 
-                                <!--  Name + SKU  -->
-                                <StackPanel Grid.Column="0">
-                                    <TextBlock
+                                    <!--  Name + SKU  -->
+                                    <StackPanel Grid.Column="0">
+                                        <TextBlock
                                     FontSize="13"
                                     FontWeight="Medium"
                                     Foreground="{StaticResource TextPrimaryBrush}"
                                     Text="{x:Bind ProductName}" />
-                                    <TextBlock
+                                        <TextBlock
                                     FontSize="11"
                                     Foreground="{StaticResource TextMutedBrush}"
                                     Text="{x:Bind SKU}" />
-                                </StackPanel>
+                                    </StackPanel>
 
-                                <!-- Category -->
-                                <TextBlock
+                                    <!-- Category -->
+                                    <TextBlock
                                 Grid.Column="1"
                                 VerticalAlignment="Center"
                                 FontSize="13"
                                 Foreground="{StaticResource TextSecondaryBrush}"
                                 Text="{x:Bind Category}" />
 
-                                <!-- Price -->
-                                <TextBlock
+                                    <!-- Price -->
+                                    <TextBlock
                                 Grid.Column="2"
                                 VerticalAlignment="Center"
                                 FontSize="13"
                                 Foreground="{StaticResource TextSecondaryBrush}">
                                 <Run Text="₹" /><Run Text="{x:Bind Price}" />
-                                </TextBlock>
+                                    </TextBlock>
 
-                                <!-- Discount -->
-                                <TextBlock
+                                    <!-- Discount -->
+                                    <TextBlock
                                 Grid.Column="3"
                                 VerticalAlignment="Center"
                                 FontSize="13"
                                 FontWeight="Medium"
                                  Foreground="{StaticResource TextSecondaryBrush}">
                                 <Run Text="{x:Bind DiscountPct}" /><Run Text="%" />
-                                </TextBlock>
+                                    </TextBlock>
 
-                                <!-- Final Price -->
-                                <TextBlock
+                                    <!-- Final Price -->
+                                    <TextBlock
                                 Grid.Column="4"
                                 VerticalAlignment="Center"
                                 FontSize="13"
                                 FontWeight="SemiBold"
                                  Foreground="{StaticResource TextSecondaryBrush}">
                                 <Run Text="₹" /><Run Text="{x:Bind FinalPrice}" />
-                                </TextBlock>
+                                    </TextBlock>
 
-                                <!--  Stock   -->
-                                <StackPanel Grid.Column="5" VerticalAlignment="Center">
-                                    <TextBlock
+                                    <!--  Stock   -->
+                                    <StackPanel Grid.Column="5" VerticalAlignment="Center">
+                                        <TextBlock
                                     FontSize="13"
                                     Foreground="{StaticResource TextPrimaryBrush}"
                                     Text="{x:Bind Stock}" />
-                                </StackPanel>
+                                    </StackPanel>
 
-                                <!--  Actions  -->
-                                <StackPanel
+                                    <!--  Actions  -->
+                                    <StackPanel
                                 Grid.Column="6"
                                 VerticalAlignment="Center"
                                 Orientation="Horizontal"
                                 Spacing="6">
-                                    <Button
+                                        <Button
                                     Width="32"
                                     Height="32"
                                     Padding="0"
@@ -382,11 +306,11 @@
                                     CornerRadius="{StaticResource RadiusSM}"
                                     Tag="{x:Bind ProductId}"
                                     ToolTipService.ToolTip="Edit">
-                                        <FontIcon
+                                            <FontIcon
                                         FontSize="13"
                                         Glyph="&#xE70F;" />
-                                    </Button>
-                                    <Button
+                                        </Button>
+                                        <Button
                                     Width="32"
                                     Height="32"
                                     Padding="0"
@@ -395,15 +319,16 @@
                                     CornerRadius="{StaticResource RadiusSM}"
                                     Tag="{x:Bind ProductId}"
                                     ToolTipService.ToolTip="Delete">
-                                        <FontIcon
+                                            <FontIcon
                                         FontSize="13"
                                         Glyph="&#xE74D;" />
-                                    </Button>
-                                </StackPanel>
-                            </Grid>
-                        </DataTemplate>
-                    </ListView.ItemTemplate>
-                </ListView>
+                                        </Button>
+                                    </StackPanel>
+                                </Grid>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                </Grid>
             </Grid>
         </Border>
 

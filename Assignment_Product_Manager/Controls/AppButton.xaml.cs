@@ -66,6 +66,7 @@ namespace Assignment_Product_Manager.Controls
         }
 
         private void RootButton_Click(object sender, RoutedEventArgs e) => Click?.Invoke(this, e);
+        //call all the methods which is sub to the click event
 
         private void ApplyVariant()
         {

@@ -1,5 +1,6 @@
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
+using Microsoft.UI.Xaml.Input;
 using Microsoft.UI.Xaml.Media;
 
 
@@ -37,7 +38,22 @@ namespace Assignment_Product_Manager.Controls
         public string Placeholder { get => (string)GetValue(PlaceholderProperty); set => SetValue(PlaceholderProperty, value); }
         public string ErrorMessage { get => (string)GetValue(ErrorMessageProperty); set => SetValue(ErrorMessageProperty, value); }
 
-        public AppPasswordBox() => this.InitializeComponent();
+        public new event KeyEventHandler? KeyDown;
+
+        public AppPasswordBox()
+        {
+            this.InitializeComponent();
+            PwdBox.KeyDown += OnInnerKeyDown;
+            Unloaded += OnUnloaded;
+        }
+        private void OnInnerKeyDown(object sender, KeyRoutedEventArgs e)
+            => KeyDown?.Invoke(this, e);
+
+        private void OnUnloaded(object sender, RoutedEventArgs e)
+        {
+            PwdBox.KeyDown -= OnInnerKeyDown;
+            Unloaded -= OnUnloaded;
+        }
 
         private void PwdBox_PasswordChanged(object sender, RoutedEventArgs e)
             => Password = PwdBox.Password;
