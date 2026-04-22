@@ -13,7 +13,6 @@ namespace Assignment_Product_Manager.Core.Converters
         public object Convert(object value, Type targetType, object parameter, string language)
         {
             bool flag = value is bool b && b;
-            // Pass "Invert" as parameter to flip the logic
             if (parameter is string p && p == "Invert") flag = !flag;
             return flag ? Visibility.Visible : Visibility.Collapsed;
         }

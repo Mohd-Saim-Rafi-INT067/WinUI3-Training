@@ -1,5 +1,7 @@
-﻿using System;
+﻿using Microsoft.UI.Xaml.Media.Imaging;
+using System;
 using System.ComponentModel.DataAnnotations;
+using System.IO;
 
 namespace Assignment_Product_Manager.Models
 {
@@ -34,5 +36,26 @@ namespace Assignment_Product_Manager.Models
         public bool IsActive { get; set; } = true;
         public DateTime CreatedAt { get; set; }
         public DateTime UpdatedAt { get; set; }
+
+        public byte[]? ImageData { get; set;}
+
+        private WeakReference<BitmapImage>? _cachedBitmap;
+
+        public BitmapImage? GetOrCreateBitmap()
+        {
+            if (ImageData == null || ImageData.Length == 0)
+                return null;
+
+            if (_cachedBitmap != null && _cachedBitmap.TryGetTarget(out var cached))
+                return cached; 
+
+            var bitmap = new BitmapImage();
+            using var ms = new System.IO.MemoryStream(ImageData);
+            using var ras = ms.AsRandomAccessStream();
+            bitmap.SetSource(ras);
+
+            _cachedBitmap = new WeakReference<BitmapImage>(bitmap);
+            return bitmap;
+        }
     }
 }

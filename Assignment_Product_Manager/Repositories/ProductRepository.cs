@@ -96,6 +96,8 @@ namespace Assignment_Product_Manager.Repositories
             cmd.Parameters.AddWithValue("p_Price", p.Price);
             cmd.Parameters.AddWithValue("p_Stock", p.Stock);
             cmd.Parameters.AddWithValue("p_Quantity", p.Quantity);
+            cmd.Parameters.AddWithValue("p_ImageData",
+        (object?)p.ImageData ?? DBNull.Value);
         }
 
         private static Product MapProduct(MySqlDataReader r) => new()
@@ -114,6 +116,9 @@ namespace Assignment_Product_Manager.Repositories
             IsActive = r.GetBoolean("IsActive"),
             CreatedAt = r.GetDateTime("CreatedAt"),
             UpdatedAt = r.GetDateTime("UpdatedAt"),
+            ImageData = r.IsDBNull(r.GetOrdinal("ImageData"))
+                    ? null
+                    : (byte[])r["ImageData"],
         };
     }
 }

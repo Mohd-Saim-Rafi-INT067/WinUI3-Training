@@ -16,7 +16,6 @@ namespace Assignment_Product_Manager.Views
             this.InitializeComponent();
             ViewModel = App.GetService<DashboardViewModel>();
             NavigationCacheMode = NavigationCacheMode.Required;
-            Unloaded += (_,_) => ViewModel.Dispose();
         }
 
         protected override async void OnNavigatedTo(NavigationEventArgs e)

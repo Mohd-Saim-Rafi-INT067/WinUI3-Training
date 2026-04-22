@@ -7,6 +7,8 @@ using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using System.ComponentModel.DataAnnotations;
+using Microsoft.UI.Xaml.Media.Imaging;
+using System.IO;
 
 namespace Assignment_Product_Manager.ViewModels
 {
@@ -26,6 +28,10 @@ namespace Assignment_Product_Manager.ViewModels
         [ObservableProperty] private string _pageTitle = "Add Product";
         [ObservableProperty] private decimal _discountPct;
         [ObservableProperty] private decimal _finalPrice;
+        [ObservableProperty] private bool _hasImage;
+        [ObservableProperty] private BitmapImage? _previewImage;
+
+        private byte[]? _imageData;
 
         public List<string> Categories { get; } = new()
         { "Electronics", "Clothing", "Food & Beverages", "Books", "Health & Beauty",
@@ -50,6 +56,10 @@ namespace Assignment_Product_Manager.ViewModels
             QuantityText = product.Quantity.ToString();
             DiscountPct = product.DiscountPct;
             FinalPrice = product.FinalPrice;
+            if (product.ImageData != null)
+            {
+                SetImage(product.ImageData);
+            }
         }
 
         [RelayCommand]
@@ -74,11 +84,12 @@ namespace Assignment_Product_Manager.ViewModels
                 Price = price,
                 Stock = stock,
                 Quantity = qty,
+                ImageData = _imageData
             };
 
             var context = new ValidationContext(product);
             var results = new List<ValidationResult>();
-            if (!Validator.TryValidateObject(product,context, results, validateAllProperties: true))
+            if (!Validator.TryValidateObject(product, context, results, validateAllProperties: true))
             {
                 SetError(results[0].ErrorMessage ?? "Validation Failed");
                 return;
@@ -109,6 +120,29 @@ namespace Assignment_Product_Manager.ViewModels
         public void Dispose()
         {
             NavigationRequested = null;
+            PreviewImage = null;
+            _imageData = null;
         }
+
+        public void SetImage(byte[]? bytes)
+        {
+            _imageData = bytes;
+            HasImage = bytes != null && bytes.Length > 0;
+
+            if (HasImage)
+            {
+                
+                var bitmap = new BitmapImage();
+                using var ms = new MemoryStream(bytes!);
+                bitmap.SetSource(ms.AsRandomAccessStream());
+                PreviewImage = bitmap;
+            }
+            else
+            {
+                PreviewImage = null;
+            }
+        }
+
+        public void SetImageError(string message) => SetError(message);
     }
 }

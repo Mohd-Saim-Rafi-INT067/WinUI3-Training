@@ -37,6 +37,7 @@ namespace Assignment_Product_Manager.ViewModels
 
         public async Task InitializeAsync()
         {
+
             await LoadProductsAsync();
         }
 
