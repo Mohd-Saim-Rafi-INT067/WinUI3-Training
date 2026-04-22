@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Assignment_Product_Manager (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "Assignment_Product_Manager (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
