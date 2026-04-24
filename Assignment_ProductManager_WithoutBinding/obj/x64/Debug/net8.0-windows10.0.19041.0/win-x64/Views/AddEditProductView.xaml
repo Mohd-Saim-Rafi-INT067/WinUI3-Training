@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Page
+    x:Class="Assignment_ProductManager_WithoutBinding.Views.AddEditProductView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:controls="using:Assignment_ProductManager_WithoutBinding.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="using:Assignment_ProductManager_WithoutBinding.Views"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <ScrollViewer
+        Padding="32,24"
+        HorizontalAlignment="Center"
+        VerticalScrollBarVisibility="Hidden">
+        <StackPanel MaxWidth="900" Spacing="24">
+
+            <!--  Header  -->
+            <StackPanel Orientation="Horizontal" Spacing="12">
+                <Button x:ConnectionId='17'
+                    x:Name="BackBtn"
+                    Width="36"
+                    Height="36"
+                    Padding="0"
+                    Background="{StaticResource CardBrush}"
+                    BorderBrush="{StaticResource BorderBrush}"
+                    CornerRadius="{StaticResource RadiusMD}">
+                    <FontIcon FontSize="14" Glyph="&#xE76B;" />
+                </Button>
+                <StackPanel>
+                    <TextBlock x:ConnectionId='18'
+                        x:Name="PageTitleText"
+                        FontSize="{StaticResource FontSize2XL}"
+                        FontWeight="Bold"
+                        Foreground="{StaticResource TextPrimaryBrush}" />
+                    <TextBlock
+                        FontSize="{StaticResource FontSizeMD}"
+                        Foreground="{StaticResource TextSecondaryBrush}"
+                        Text="Fill in the product details below" />
+                </StackPanel>
+            </StackPanel>
+
+            <!--  Error Message Box  -->
+            <controls:AlertBanner x:ConnectionId='2' x:Name="ErrorBanner" Type="Error" />
+
+            <!--  Success message box  -->
+            <controls:AlertBanner x:ConnectionId='3' x:Name="SuccessBanner" Type="Success" />
+
+            <!--  Basic Information  -->
+            <Border
+                Padding="24"
+                Background="{StaticResource CardBrush}"
+                BorderBrush="{StaticResource BorderBrush}"
+                BorderThickness="1"
+                CornerRadius="{StaticResource RadiusLG}">
+                <StackPanel Spacing="20">
+                    <TextBlock
+                        FontSize="{StaticResource FontSizeLG}"
+                        FontWeight="SemiBold"
+                        Foreground="{StaticResource TextPrimaryBrush}"
+                        Text="Basic Information" />
+                    <controls:AppTextBox x:ConnectionId='13'
+                        x:Name="ProductNameBox"
+                        Label="Product Name *"
+                        Placeholder="Enter product name" />
+                    <controls:AppTextBox x:ConnectionId='14'
+                        x:Name="DescriptionBox"
+                        IsMultiline="True"
+                        Label="Description"
+                        Placeholder="Describe the product..." />
+                    <Grid ColumnSpacing="16">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition />
+                            <ColumnDefinition />
+                        </Grid.ColumnDefinitions>
+                        <StackPanel Grid.Column="0" Spacing="6">
+                            <TextBlock
+                                FontSize="13"
+                                FontWeight="Medium"
+                                Foreground="{StaticResource TextPrimaryBrush}"
+                                Text="Category" />
+                            <ComboBox x:ConnectionId='16'
+                                x:Name="CategoryCombo"
+                                Height="44"
+                                HorizontalAlignment="Stretch"
+                                CornerRadius="{StaticResource RadiusMD}"
+                                PlaceholderText="Select category" />
+                        </StackPanel>
+                        <controls:AppTextBox x:ConnectionId='15'
+                            x:Name="SkuBox"
+                            Grid.Column="1"
+                            Label="SKU"
+                            Placeholder="e.g. SKU-001" />
+                    </Grid>
+                </StackPanel>
+            </Border>
+
+            <!--  Pricing  -->
+            <Border
+                Padding="24"
+                Background="{StaticResource CardBrush}"
+                BorderBrush="{StaticResource BorderBrush}"
+                BorderThickness="1"
+                CornerRadius="{StaticResource RadiusLG}">
+                <StackPanel Spacing="20">
+                    <StackPanel Orientation="Horizontal" Spacing="8">
+                        <TextBlock
+                            FontSize="{StaticResource FontSizeLG}"
+                            FontWeight="SemiBold"
+                            Foreground="{StaticResource TextPrimaryBrush}"
+                            Text="Pricing" />
+                    </StackPanel>
+
+                    <controls:AppTextBox x:ConnectionId='12'
+                        x:Name="PriceBox"
+                        Label="Price (₹) *"
+                        Placeholder="e.g. 1500.00" />
+                    <Border
+                        Padding="14,10"
+                        Background="#F0F9FF"
+                        BorderBrush="#BAE6FD"
+                        BorderThickness="1"
+                        CornerRadius="{StaticResource RadiusMD}">
+                        <StackPanel Orientation="Horizontal" Spacing="8">
+                            <FontIcon
+                                FontSize="14"
+                                Foreground="#0369A1"
+                                Glyph="&#xE946;" />
+                            <TextBlock
+                                FontSize="12"
+                                Foreground="#0369A1"
+                                TextWrapping="Wrap">
+                                <Run Text="Discounts are automatically calculated in the database." />
+                                <Run Text="Rules: ₹1001-5000 = 10%, ₹5000+ = 20%" />
+                            </TextBlock>
+                        </StackPanel>
+                    </Border>
+                </StackPanel>
+            </Border>
+
+            <!--  Inventory  -->
+            <Border
+                Padding="24"
+                Background="{StaticResource CardBrush}"
+                BorderBrush="{StaticResource BorderBrush}"
+                BorderThickness="1"
+                CornerRadius="{StaticResource RadiusLG}">
+                <StackPanel Spacing="20">
+                    <TextBlock
+                        FontSize="{StaticResource FontSizeLG}"
+                        FontWeight="SemiBold"
+                        Foreground="{StaticResource TextPrimaryBrush}"
+                        Text="Inventory" />
+                    <Grid ColumnSpacing="16">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition />
+                            <ColumnDefinition />
+                        </Grid.ColumnDefinitions>
+                        <controls:AppTextBox x:ConnectionId='10'
+                            x:Name="StockBox"
+                            Grid.Column="0"
+                            Label="Stock"
+                            Placeholder="Units in stock" />
+                        <controls:AppTextBox x:ConnectionId='11'
+                            x:Name="QuantityBox"
+                            Grid.Column="1"
+                            Label="Quantity per Unit"
+                            Placeholder="e.g. 1" />
+                    </Grid>
+                </StackPanel>
+            </Border>
+
+
+
+            <!--  Product Image  -->
+            <Border
+                Padding="24"
+                Background="{StaticResource CardBrush}"
+                BorderBrush="{StaticResource BorderBrush}"
+                BorderThickness="1"
+                CornerRadius="{StaticResource RadiusLG}">
+                <StackPanel Spacing="16">
+                    <TextBlock
+                        FontSize="{StaticResource FontSizeLG}"
+                        FontWeight="SemiBold"
+                        Foreground="{StaticResource TextPrimaryBrush}"
+                        Text="Product Image" />
+
+                    <!--  Preview Image  -->
+                    <Border
+                        Width="160"
+                        Height="160"
+                        HorizontalAlignment="Left"
+                        Background="#F8FAFC"
+                        BorderBrush="{StaticResource BorderBrush}"
+                        BorderThickness="1"
+                        CornerRadius="{StaticResource RadiusMD}">
+                        <Grid>
+                            <!--  Placeholder icon shown when no image  -->
+                            <FontIcon x:ConnectionId='8'
+                                x:Name="ImagePlaceholderIcon"
+                                FontSize="48"
+                                Foreground="{StaticResource TextMutedBrush}"
+                                Glyph="&#xEB9F;"
+                                Visibility="Visible" />
+                            <!--  Actual image preview  -->
+                            <Image x:ConnectionId='9'
+                                x:Name="ProductImagePreview"
+                                Stretch="UniformToFill"
+                                Visibility="Collapsed" />
+                        </Grid>
+                    </Border>
+
+                    <StackPanel Orientation="Horizontal" Spacing="12">
+                        <controls:AppButton x:ConnectionId='6'
+                            x:Name="PickImageBtn"
+                            IconGlyph="&#xEB9F;"
+                            Label="Choose Image"
+                            Variant="Secondary" />
+                        <controls:AppButton x:ConnectionId='7'
+                            x:Name="RemoveImageBtn"
+                            IconGlyph="&#xE74D;"
+                            Label="Remove"
+                            Variant="Secondary"
+                            Visibility="Collapsed" />
+                    </StackPanel>
+
+                    <TextBlock
+                        FontSize="12"
+                        Foreground="{StaticResource TextMutedBrush}"
+                        Text="Supported formats: JPG, PNG, GIF, BMP · Max 5 MB" />
+                </StackPanel>
+            </Border>
+
+
+
+            <!--  Actions  -->
+            <StackPanel
+                HorizontalAlignment="Right"
+                Orientation="Horizontal"
+                Spacing="12">
+                <controls:AppButton x:ConnectionId='4'
+                    x:Name="CancelBtn"
+                    Label="Cancel"
+                    Variant="Secondary" />
+                <controls:AppButton x:ConnectionId='5'
+                    x:Name="SaveBtn"
+                    IconGlyph="&#xE74E;"
+                    Label="Save Product" />
+            </StackPanel>
+
+        </StackPanel>
+    </ScrollViewer>
+</Page>
+

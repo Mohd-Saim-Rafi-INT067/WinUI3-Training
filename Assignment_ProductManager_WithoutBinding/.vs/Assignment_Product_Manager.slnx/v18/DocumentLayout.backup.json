@@ -1,0 +1,569 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Saim\\source\\repos\\Assignment_ProductManager_WithoutBinding\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{86476C8C-3EB1-003C-2EC7-3F25FBA76BF8}|Assignment_Product_Manager.csproj|c:\\users\\saim\\source\\repos\\assignment_productmanager_withoutbinding\\viewmodels\\addeditproductviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86476C8C-3EB1-003C-2EC7-3F25FBA76BF8}|Assignment_Product_Manager.csproj|solutionrelative:viewmodels\\addeditproductviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86476C8C-3EB1-003C-2EC7-3F25FBA76BF8}|Assignment_Product_Manager.csproj|c:\\users\\saim\\source\\repos\\assignment_productmanager_withoutbinding\\dtos\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86476C8C-3EB1-003C-2EC7-3F25FBA76BF8}|Assignment_Product_Manager.csproj|solutionrelative:dtos\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86476C8C-3EB1-003C-2EC7-3F25FBA76BF8}|Assignment_Product_Manager.csproj|c:\\users\\saim\\source\\repos\\assignment_productmanager_withoutbinding\\core\\validators\\registerrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86476C8C-3EB1-003C-2EC7-3F25FBA76BF8}|Assignment_Product_Manager.csproj|solutionrelative:core\\validators\\registerrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86476C8C-3EB1-003C-2EC7-3F25FBA76BF8}|Assignment_Product_Manager.csproj|c:\\users\\saim\\source\\repos\\assignment_productmanager_withoutbinding\\services\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86476C8C-3EB1-003C-2EC7-3F25FBA76BF8}|Assignment_Product_Manager.csproj|solutionrelative:services\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86476C8C-3EB1-003C-2EC7-3F25FBA76BF8}|Assignment_Product_Manager.csproj|c:\\users\\saim\\source\\repos\\assignment_productmanager_withoutbinding\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86476C8C-3EB1-003C-2EC7-3F25FBA76BF8}|Assignment_Product_Manager.csproj|solutionrelative:services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86476C8C-3EB1-003C-2EC7-3F25FBA76BF8}|Assignment_Product_Manager.csproj|c:\\users\\saim\\source\\repos\\assignment_productmanager_withoutbinding\\dtos\\authresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86476C8C-3EB1-003C-2EC7-3F25FBA76BF8}|Assignment_Product_Manager.csproj|solutionrelative:dtos\\authresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86476C8C-3EB1-003C-2EC7-3F25FBA76BF8}|Assignment_Product_Manager.csproj|c:\\users\\saim\\source\\repos\\assignment_productmanager_withoutbinding\\core\\validators\\productinputvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86476C8C-3EB1-003C-2EC7-3F25FBA76BF8}|Assignment_Product_Manager.csproj|solutionrelative:core\\validators\\productinputvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86476C8C-3EB1-003C-2EC7-3F25FBA76BF8}|Assignment_Product_Manager.csproj|c:\\users\\saim\\source\\repos\\assignment_productmanager_withoutbinding\\controls\\statscard.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86476C8C-3EB1-003C-2EC7-3F25FBA76BF8}|Assignment_Product_Manager.csproj|solutionrelative:controls\\statscard.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86476C8C-3EB1-003C-2EC7-3F25FBA76BF8}|Assignment_Product_Manager.csproj|c:\\users\\saim\\source\\repos\\assignment_productmanager_withoutbinding\\controls\\statscard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{86476C8C-3EB1-003C-2EC7-3F25FBA76BF8}|Assignment_Product_Manager.csproj|solutionrelative:controls\\statscard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86476C8C-3EB1-003C-2EC7-3F25FBA76BF8}|Assignment_Product_Manager.csproj|c:\\users\\saim\\source\\repos\\assignment_productmanager_withoutbinding\\views\\dashboardview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{86476C8C-3EB1-003C-2EC7-3F25FBA76BF8}|Assignment_Product_Manager.csproj|solutionrelative:views\\dashboardview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86476C8C-3EB1-003C-2EC7-3F25FBA76BF8}|Assignment_Product_Manager.csproj|c:\\users\\saim\\source\\repos\\assignment_productmanager_withoutbinding\\views\\dashboardview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86476C8C-3EB1-003C-2EC7-3F25FBA76BF8}|Assignment_Product_Manager.csproj|solutionrelative:views\\dashboardview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86476C8C-3EB1-003C-2EC7-3F25FBA76BF8}|Assignment_Product_Manager.csproj|c:\\users\\saim\\source\\repos\\assignment_productmanager_withoutbinding\\viewmodels\\dashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86476C8C-3EB1-003C-2EC7-3F25FBA76BF8}|Assignment_Product_Manager.csproj|solutionrelative:viewmodels\\dashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86476C8C-3EB1-003C-2EC7-3F25FBA76BF8}|Assignment_Product_Manager.csproj|c:\\users\\saim\\source\\repos\\assignment_productmanager_withoutbinding\\views\\addeditproductview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86476C8C-3EB1-003C-2EC7-3F25FBA76BF8}|Assignment_Product_Manager.csproj|solutionrelative:views\\addeditproductview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86476C8C-3EB1-003C-2EC7-3F25FBA76BF8}|Assignment_Product_Manager.csproj|c:\\users\\saim\\source\\repos\\assignment_productmanager_withoutbinding\\views\\addeditproductview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{86476C8C-3EB1-003C-2EC7-3F25FBA76BF8}|Assignment_Product_Manager.csproj|solutionrelative:views\\addeditproductview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86476C8C-3EB1-003C-2EC7-3F25FBA76BF8}|Assignment_Product_Manager.csproj|c:\\users\\saim\\source\\repos\\assignment_productmanager_withoutbinding\\controls\\authbrandpanel.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86476C8C-3EB1-003C-2EC7-3F25FBA76BF8}|Assignment_Product_Manager.csproj|solutionrelative:controls\\authbrandpanel.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86476C8C-3EB1-003C-2EC7-3F25FBA76BF8}|Assignment_Product_Manager.csproj|c:\\users\\saim\\source\\repos\\assignment_productmanager_withoutbinding\\views\\signupview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86476C8C-3EB1-003C-2EC7-3F25FBA76BF8}|Assignment_Product_Manager.csproj|solutionrelative:views\\signupview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86476C8C-3EB1-003C-2EC7-3F25FBA76BF8}|Assignment_Product_Manager.csproj|c:\\users\\saim\\source\\repos\\assignment_productmanager_withoutbinding\\views\\signupview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{86476C8C-3EB1-003C-2EC7-3F25FBA76BF8}|Assignment_Product_Manager.csproj|solutionrelative:views\\signupview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86476C8C-3EB1-003C-2EC7-3F25FBA76BF8}|Assignment_Product_Manager.csproj|c:\\users\\saim\\source\\repos\\assignment_productmanager_withoutbinding\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86476C8C-3EB1-003C-2EC7-3F25FBA76BF8}|Assignment_Product_Manager.csproj|solutionrelative:viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86476C8C-3EB1-003C-2EC7-3F25FBA76BF8}|Assignment_Product_Manager.csproj|c:\\users\\saim\\source\\repos\\assignment_productmanager_withoutbinding\\views\\loginview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86476C8C-3EB1-003C-2EC7-3F25FBA76BF8}|Assignment_Product_Manager.csproj|solutionrelative:views\\loginview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86476C8C-3EB1-003C-2EC7-3F25FBA76BF8}|Assignment_Product_Manager.csproj|c:\\users\\saim\\source\\repos\\assignment_productmanager_withoutbinding\\views\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{86476C8C-3EB1-003C-2EC7-3F25FBA76BF8}|Assignment_Product_Manager.csproj|solutionrelative:views\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86476C8C-3EB1-003C-2EC7-3F25FBA76BF8}|Assignment_Product_Manager.csproj|c:\\users\\saim\\source\\repos\\assignment_productmanager_withoutbinding\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86476C8C-3EB1-003C-2EC7-3F25FBA76BF8}|Assignment_Product_Manager.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86476C8C-3EB1-003C-2EC7-3F25FBA76BF8}|Assignment_Product_Manager.csproj|c:\\users\\saim\\source\\repos\\assignment_productmanager_withoutbinding\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86476C8C-3EB1-003C-2EC7-3F25FBA76BF8}|Assignment_Product_Manager.csproj|solutionrelative:repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86476C8C-3EB1-003C-2EC7-3F25FBA76BF8}|Assignment_Product_Manager.csproj|c:\\users\\saim\\source\\repos\\assignment_productmanager_withoutbinding\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86476C8C-3EB1-003C-2EC7-3F25FBA76BF8}|Assignment_Product_Manager.csproj|solutionrelative:repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86476C8C-3EB1-003C-2EC7-3F25FBA76BF8}|Assignment_Product_Manager.csproj|c:\\users\\saim\\source\\repos\\assignment_productmanager_withoutbinding\\repositories\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86476C8C-3EB1-003C-2EC7-3F25FBA76BF8}|Assignment_Product_Manager.csproj|solutionrelative:repositories\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86476C8C-3EB1-003C-2EC7-3F25FBA76BF8}|Assignment_Product_Manager.csproj|c:\\users\\saim\\source\\repos\\assignment_productmanager_withoutbinding\\repositories\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86476C8C-3EB1-003C-2EC7-3F25FBA76BF8}|Assignment_Product_Manager.csproj|solutionrelative:repositories\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86476C8C-3EB1-003C-2EC7-3F25FBA76BF8}|Assignment_Product_Manager.csproj|c:\\users\\saim\\source\\repos\\assignment_productmanager_withoutbinding\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86476C8C-3EB1-003C-2EC7-3F25FBA76BF8}|Assignment_Product_Manager.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86476C8C-3EB1-003C-2EC7-3F25FBA76BF8}|Assignment_Product_Manager.csproj|c:\\users\\saim\\source\\repos\\assignment_productmanager_withoutbinding\\models\\discountrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86476C8C-3EB1-003C-2EC7-3F25FBA76BF8}|Assignment_Product_Manager.csproj|solutionrelative:models\\discountrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86476C8C-3EB1-003C-2EC7-3F25FBA76BF8}|Assignment_Product_Manager.csproj|c:\\users\\saim\\source\\repos\\assignment_productmanager_withoutbinding\\core\\helpers\\validationhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86476C8C-3EB1-003C-2EC7-3F25FBA76BF8}|Assignment_Product_Manager.csproj|solutionrelative:core\\helpers\\validationhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86476C8C-3EB1-003C-2EC7-3F25FBA76BF8}|Assignment_Product_Manager.csproj|c:\\users\\saim\\source\\repos\\assignment_productmanager_withoutbinding\\core\\helpers\\navigationhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86476C8C-3EB1-003C-2EC7-3F25FBA76BF8}|Assignment_Product_Manager.csproj|solutionrelative:core\\helpers\\navigationhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86476C8C-3EB1-003C-2EC7-3F25FBA76BF8}|Assignment_Product_Manager.csproj|c:\\users\\saim\\source\\repos\\assignment_productmanager_withoutbinding\\core\\database\\dbconnectionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86476C8C-3EB1-003C-2EC7-3F25FBA76BF8}|Assignment_Product_Manager.csproj|solutionrelative:core\\database\\dbconnectionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86476C8C-3EB1-003C-2EC7-3F25FBA76BF8}|Assignment_Product_Manager.csproj|c:\\users\\saim\\source\\repos\\assignment_productmanager_withoutbinding\\core\\converters\\nulltovisibilityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86476C8C-3EB1-003C-2EC7-3F25FBA76BF8}|Assignment_Product_Manager.csproj|solutionrelative:core\\converters\\nulltovisibilityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86476C8C-3EB1-003C-2EC7-3F25FBA76BF8}|Assignment_Product_Manager.csproj|c:\\users\\saim\\source\\repos\\assignment_productmanager_withoutbinding\\core\\converters\\booltovisibilityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86476C8C-3EB1-003C-2EC7-3F25FBA76BF8}|Assignment_Product_Manager.csproj|solutionrelative:core\\converters\\booltovisibilityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86476C8C-3EB1-003C-2EC7-3F25FBA76BF8}|Assignment_Product_Manager.csproj|c:\\users\\saim\\source\\repos\\assignment_productmanager_withoutbinding\\core\\constants\\appconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86476C8C-3EB1-003C-2EC7-3F25FBA76BF8}|Assignment_Product_Manager.csproj|solutionrelative:core\\constants\\appconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86476C8C-3EB1-003C-2EC7-3F25FBA76BF8}|Assignment_Product_Manager.csproj|c:\\users\\saim\\source\\repos\\assignment_productmanager_withoutbinding\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86476C8C-3EB1-003C-2EC7-3F25FBA76BF8}|Assignment_Product_Manager.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\Saim\\source\\repos\\Assignment_ProductManager_WithoutBinding\\Services\\Interfaces\\IAuthService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\Saim\\source\\repos\\Assignment_ProductManager_WithoutBinding\\Services\\Interfaces\\IAuthService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T11:34:41.09Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RegisterRequestValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Saim\\source\\repos\\Assignment_ProductManager_WithoutBinding\\Core\\Validators\\RegisterRequestValidator.cs",
+              "RelativeDocumentMoniker": "Core\\Validators\\RegisterRequestValidator.cs",
+              "ToolTip": "C:\\Users\\Saim\\source\\repos\\Assignment_ProductManager_WithoutBinding\\Core\\Validators\\RegisterRequestValidator.cs",
+              "RelativeToolTip": "Core\\Validators\\RegisterRequestValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T11:32:08.765Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AuthResultDto.cs",
+              "DocumentMoniker": "C:\\Users\\Saim\\source\\repos\\Assignment_ProductManager_WithoutBinding\\DTOs\\AuthResultDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\AuthResultDto.cs",
+              "ToolTip": "C:\\Users\\Saim\\source\\repos\\Assignment_ProductManager_WithoutBinding\\DTOs\\AuthResultDto.cs",
+              "RelativeToolTip": "DTOs\\AuthResultDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T11:02:56.453Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RegisterRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Saim\\source\\repos\\Assignment_ProductManager_WithoutBinding\\DTOs\\RegisterRequest.cs",
+              "RelativeDocumentMoniker": "DTOs\\RegisterRequest.cs",
+              "ToolTip": "C:\\Users\\Saim\\source\\repos\\Assignment_ProductManager_WithoutBinding\\DTOs\\RegisterRequest.cs",
+              "RelativeToolTip": "DTOs\\RegisterRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T11:01:40.606Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AddEditProductViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Saim\\source\\repos\\Assignment_ProductManager_WithoutBinding\\ViewModels\\AddEditProductViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\AddEditProductViewModel.cs",
+              "ToolTip": "C:\\Users\\Saim\\source\\repos\\Assignment_ProductManager_WithoutBinding\\ViewModels\\AddEditProductViewModel.cs",
+              "RelativeToolTip": "ViewModels\\AddEditProductViewModel.cs",
+              "ViewState": "AgIAAKgAAAAAAAAAAAA5wHwAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T05:24:25.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductInputValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Saim\\source\\repos\\Assignment_ProductManager_WithoutBinding\\Core\\Validators\\ProductInputValidator.cs",
+              "RelativeDocumentMoniker": "Core\\Validators\\ProductInputValidator.cs",
+              "ToolTip": "C:\\Users\\Saim\\source\\repos\\Assignment_ProductManager_WithoutBinding\\Core\\Validators\\ProductInputValidator.cs",
+              "RelativeToolTip": "Core\\Validators\\ProductInputValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T11:26:11.418Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\Saim\\source\\repos\\Assignment_ProductManager_WithoutBinding\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\Saim\\source\\repos\\Assignment_ProductManager_WithoutBinding\\Services\\AuthService.cs",
+              "RelativeToolTip": "Services\\AuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T10:27:53.001Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "SignUpView.xaml",
+              "DocumentMoniker": "C:\\Users\\Saim\\source\\repos\\Assignment_ProductManager_WithoutBinding\\Views\\SignUpView.xaml",
+              "RelativeDocumentMoniker": "Views\\SignUpView.xaml",
+              "ToolTip": "C:\\Users\\Saim\\source\\repos\\Assignment_ProductManager_WithoutBinding\\Views\\SignUpView.xaml",
+              "RelativeToolTip": "Views\\SignUpView.xaml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAADQAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-23T11:16:33.208Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DashboardView.xaml",
+              "DocumentMoniker": "C:\\Users\\Saim\\source\\repos\\Assignment_ProductManager_WithoutBinding\\Views\\DashboardView.xaml",
+              "RelativeDocumentMoniker": "Views\\DashboardView.xaml",
+              "ToolTip": "C:\\Users\\Saim\\source\\repos\\Assignment_ProductManager_WithoutBinding\\Views\\DashboardView.xaml",
+              "RelativeToolTip": "Views\\DashboardView.xaml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAADIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-22T05:43:33.38Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DashboardView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Saim\\source\\repos\\Assignment_ProductManager_WithoutBinding\\Views\\DashboardView.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\DashboardView.xaml.cs",
+              "ToolTip": "C:\\Users\\Saim\\source\\repos\\Assignment_ProductManager_WithoutBinding\\Views\\DashboardView.xaml.cs",
+              "RelativeToolTip": "Views\\DashboardView.xaml.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T07:41:33.398Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "StatsCard.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Saim\\source\\repos\\Assignment_ProductManager_WithoutBinding\\Controls\\StatsCard.xaml.cs",
+              "RelativeDocumentMoniker": "Controls\\StatsCard.xaml.cs",
+              "ToolTip": "C:\\Users\\Saim\\source\\repos\\Assignment_ProductManager_WithoutBinding\\Controls\\StatsCard.xaml.cs",
+              "RelativeToolTip": "Controls\\StatsCard.xaml.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAwwEgAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T09:54:12.339Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "StatsCard.xaml",
+              "DocumentMoniker": "C:\\Users\\Saim\\source\\repos\\Assignment_ProductManager_WithoutBinding\\Controls\\StatsCard.xaml",
+              "RelativeDocumentMoniker": "Controls\\StatsCard.xaml",
+              "ToolTip": "C:\\Users\\Saim\\source\\repos\\Assignment_ProductManager_WithoutBinding\\Controls\\StatsCard.xaml",
+              "RelativeToolTip": "Controls\\StatsCard.xaml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAwCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-24T09:53:53.8Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DashboardViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Saim\\source\\repos\\Assignment_ProductManager_WithoutBinding\\ViewModels\\DashboardViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\DashboardViewModel.cs",
+              "ToolTip": "C:\\Users\\Saim\\source\\repos\\Assignment_ProductManager_WithoutBinding\\ViewModels\\DashboardViewModel.cs",
+              "RelativeToolTip": "ViewModels\\DashboardViewModel.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAmwB0AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T10:06:32.767Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AddEditProductView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Saim\\source\\repos\\Assignment_ProductManager_WithoutBinding\\Views\\AddEditProductView.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\AddEditProductView.xaml.cs",
+              "ToolTip": "C:\\Users\\Saim\\source\\repos\\Assignment_ProductManager_WithoutBinding\\Views\\AddEditProductView.xaml.cs",
+              "RelativeToolTip": "Views\\AddEditProductView.xaml.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABYAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T05:11:19.821Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AddEditProductView.xaml",
+              "DocumentMoniker": "C:\\Users\\Saim\\source\\repos\\Assignment_ProductManager_WithoutBinding\\Views\\AddEditProductView.xaml",
+              "RelativeDocumentMoniker": "Views\\AddEditProductView.xaml",
+              "ToolTip": "C:\\Users\\Saim\\source\\repos\\Assignment_ProductManager_WithoutBinding\\Views\\AddEditProductView.xaml",
+              "RelativeToolTip": "Views\\AddEditProductView.xaml",
+              "ViewState": "AgIAAK8AAAAAAAAAAAAAAP4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-22T05:06:33.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "LoginView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Saim\\source\\repos\\Assignment_ProductManager_WithoutBinding\\Views\\LoginView.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\LoginView.xaml.cs",
+              "ToolTip": "C:\\Users\\Saim\\source\\repos\\Assignment_ProductManager_WithoutBinding\\Views\\LoginView.xaml.cs",
+              "RelativeToolTip": "Views\\LoginView.xaml.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAmwA8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T11:03:46.624Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AuthBrandPanel.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Saim\\source\\repos\\Assignment_ProductManager_WithoutBinding\\Controls\\AuthBrandPanel.xaml.cs",
+              "RelativeDocumentMoniker": "Controls\\AuthBrandPanel.xaml.cs",
+              "ToolTip": "C:\\Users\\Saim\\source\\repos\\Assignment_ProductManager_WithoutBinding\\Controls\\AuthBrandPanel.xaml.cs",
+              "RelativeToolTip": "Controls\\AuthBrandPanel.xaml.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAwwCcAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T11:16:08.952Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SignUpView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Saim\\source\\repos\\Assignment_ProductManager_WithoutBinding\\Views\\SignUpView.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\SignUpView.xaml.cs",
+              "ToolTip": "C:\\Users\\Saim\\source\\repos\\Assignment_ProductManager_WithoutBinding\\Views\\SignUpView.xaml.cs",
+              "RelativeToolTip": "Views\\SignUpView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T11:19:54.722Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Saim\\source\\repos\\Assignment_ProductManager_WithoutBinding\\ViewModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\Saim\\source\\repos\\Assignment_ProductManager_WithoutBinding\\ViewModels\\LoginViewModel.cs",
+              "RelativeToolTip": "ViewModels\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T11:20:24.622Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "LoginView.xaml",
+              "DocumentMoniker": "C:\\Users\\Saim\\source\\repos\\Assignment_ProductManager_WithoutBinding\\Views\\LoginView.xaml",
+              "RelativeDocumentMoniker": "Views\\LoginView.xaml",
+              "ToolTip": "C:\\Users\\Saim\\source\\repos\\Assignment_ProductManager_WithoutBinding\\Views\\LoginView.xaml",
+              "RelativeToolTip": "Views\\LoginView.xaml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-23T11:00:01.201Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Saim\\source\\repos\\Assignment_ProductManager_WithoutBinding\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\Saim\\source\\repos\\Assignment_ProductManager_WithoutBinding\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T10:26:39.665Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Saim\\source\\repos\\Assignment_ProductManager_WithoutBinding\\Repositories\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\Saim\\source\\repos\\Assignment_ProductManager_WithoutBinding\\Repositories\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "Repositories\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T10:26:34.95Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Saim\\source\\repos\\Assignment_ProductManager_WithoutBinding\\Repositories\\Interfaces\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interfaces\\IProductRepository.cs",
+              "ToolTip": "C:\\Users\\Saim\\source\\repos\\Assignment_ProductManager_WithoutBinding\\Repositories\\Interfaces\\IProductRepository.cs",
+              "RelativeToolTip": "Repositories\\Interfaces\\IProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T10:26:33.578Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ValidationHelper.cs",
+              "DocumentMoniker": "C:\\Users\\Saim\\source\\repos\\Assignment_ProductManager_WithoutBinding\\Core\\Helpers\\ValidationHelper.cs",
+              "RelativeDocumentMoniker": "Core\\Helpers\\ValidationHelper.cs",
+              "ToolTip": "C:\\Users\\Saim\\source\\repos\\Assignment_ProductManager_WithoutBinding\\Core\\Helpers\\ValidationHelper.cs",
+              "RelativeToolTip": "Core\\Helpers\\ValidationHelper.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T10:25:47.431Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Saim\\source\\repos\\Assignment_ProductManager_WithoutBinding\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Models\\Product.cs",
+              "ToolTip": "C:\\Users\\Saim\\source\\repos\\Assignment_ProductManager_WithoutBinding\\Models\\Product.cs",
+              "RelativeToolTip": "Models\\Product.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAA1wDIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T07:28:06.424Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "BoolToVisibilityConverter.cs",
+              "DocumentMoniker": "C:\\Users\\Saim\\source\\repos\\Assignment_ProductManager_WithoutBinding\\Core\\Converters\\BoolToVisibilityConverter.cs",
+              "RelativeDocumentMoniker": "Core\\Converters\\BoolToVisibilityConverter.cs",
+              "ToolTip": "C:\\Users\\Saim\\source\\repos\\Assignment_ProductManager_WithoutBinding\\Core\\Converters\\BoolToVisibilityConverter.cs",
+              "RelativeToolTip": "Core\\Converters\\BoolToVisibilityConverter.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T10:25:12.329Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Saim\\source\\repos\\Assignment_ProductManager_WithoutBinding\\Repositories\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\ProductRepository.cs",
+              "ToolTip": "C:\\Users\\Saim\\source\\repos\\Assignment_ProductManager_WithoutBinding\\Repositories\\ProductRepository.cs",
+              "RelativeToolTip": "Repositories\\ProductRepository.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T07:29:51.826Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "NullToVisibilityConverter.cs",
+              "DocumentMoniker": "C:\\Users\\Saim\\source\\repos\\Assignment_ProductManager_WithoutBinding\\Core\\Converters\\NullToVisibilityConverter.cs",
+              "RelativeDocumentMoniker": "Core\\Converters\\NullToVisibilityConverter.cs",
+              "ToolTip": "C:\\Users\\Saim\\source\\repos\\Assignment_ProductManager_WithoutBinding\\Core\\Converters\\NullToVisibilityConverter.cs",
+              "RelativeToolTip": "Core\\Converters\\NullToVisibilityConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T10:25:35.679Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "DiscountRule.cs",
+              "DocumentMoniker": "C:\\Users\\Saim\\source\\repos\\Assignment_ProductManager_WithoutBinding\\Models\\DiscountRule.cs",
+              "RelativeDocumentMoniker": "Models\\DiscountRule.cs",
+              "ToolTip": "C:\\Users\\Saim\\source\\repos\\Assignment_ProductManager_WithoutBinding\\Models\\DiscountRule.cs",
+              "RelativeToolTip": "Models\\DiscountRule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T10:24:00.639Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Saim\\source\\repos\\Assignment_ProductManager_WithoutBinding\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\Saim\\source\\repos\\Assignment_ProductManager_WithoutBinding\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T10:24:49.265Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "DbConnectionFactory.cs",
+              "DocumentMoniker": "C:\\Users\\Saim\\source\\repos\\Assignment_ProductManager_WithoutBinding\\Core\\Database\\DbConnectionFactory.cs",
+              "RelativeDocumentMoniker": "Core\\Database\\DbConnectionFactory.cs",
+              "ToolTip": "C:\\Users\\Saim\\source\\repos\\Assignment_ProductManager_WithoutBinding\\Core\\Database\\DbConnectionFactory.cs",
+              "RelativeToolTip": "Core\\Database\\DbConnectionFactory.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T10:25:39.044Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "NavigationHelper.cs",
+              "DocumentMoniker": "C:\\Users\\Saim\\source\\repos\\Assignment_ProductManager_WithoutBinding\\Core\\Helpers\\NavigationHelper.cs",
+              "RelativeDocumentMoniker": "Core\\Helpers\\NavigationHelper.cs",
+              "ToolTip": "C:\\Users\\Saim\\source\\repos\\Assignment_ProductManager_WithoutBinding\\Core\\Helpers\\NavigationHelper.cs",
+              "RelativeToolTip": "Core\\Helpers\\NavigationHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T10:25:45.044Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "AppConstants.cs",
+              "DocumentMoniker": "C:\\Users\\Saim\\source\\repos\\Assignment_ProductManager_WithoutBinding\\Core\\Constants\\AppConstants.cs",
+              "RelativeDocumentMoniker": "Core\\Constants\\AppConstants.cs",
+              "ToolTip": "C:\\Users\\Saim\\source\\repos\\Assignment_ProductManager_WithoutBinding\\Core\\Constants\\AppConstants.cs",
+              "RelativeToolTip": "Core\\Constants\\AppConstants.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T10:25:04.339Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Saim\\source\\repos\\Assignment_ProductManager_WithoutBinding\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "C:\\Users\\Saim\\source\\repos\\Assignment_ProductManager_WithoutBinding\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAuwHAAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T10:05:45.928Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

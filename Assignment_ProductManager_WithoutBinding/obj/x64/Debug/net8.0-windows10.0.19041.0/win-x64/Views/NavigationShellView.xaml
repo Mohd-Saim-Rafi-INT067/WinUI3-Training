@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Page
+    x:Class="Assignment_ProductManager_WithoutBinding.Views.NavigationShellView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="using:Assignment_ProductManager_WithoutBinding.Views"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Page.Resources>
+        <SolidColorBrush x:Key="NavigationViewDefaultPaneBackground" Color="#1E293B" />
+        <SolidColorBrush x:Key="NavigationViewTopPaneBackground" Color="#1E293B" />
+        <SolidColorBrush x:Key="NavigationViewExpandedPaneBackground" Color="#1E293B" />
+    </Page.Resources>
+
+    <Grid>
+        <NavigationView x:ConnectionId='2'
+            x:Name="NavView"
+            x:FieldModifier="public"
+            IsBackButtonVisible="Collapsed"
+            IsPaneToggleButtonVisible="True"
+            OpenPaneLength="240"
+            PaneDisplayMode="Left"
+                                                       >
+
+            <NavigationView.Resources>
+                <SolidColorBrush x:Key="NavigationViewItemForeground" Color="White" />
+                <SolidColorBrush x:Key="NavigationViewItemForegroundPressed" Color="AntiqueWhite" />
+            </NavigationView.Resources>
+
+            <!--  Sidebar header  -->
+            <NavigationView.PaneHeader>
+                <StackPanel
+                    Padding="16,16,16,8"
+                    Orientation="Horizontal"
+                    Spacing="10">
+                    <Border
+                        Width="36"
+                        Height="36"
+                        Background="{StaticResource BrandPrimaryBrush}"
+                        CornerRadius="{StaticResource RadiusMD}">
+                        <FontIcon
+                            FontSize="18"
+                            Foreground="White"
+                            Glyph="&#xE7BF;" />
+                    </Border>
+                    <StackPanel VerticalAlignment="Center">
+                        <TextBlock
+                            FontSize="14"
+                            FontWeight="Bold"
+                            Foreground="White"
+                            Text="Product Manager" />
+                    </StackPanel>
+                </StackPanel>
+            </NavigationView.PaneHeader>
+
+            <!--  Nav items  -->
+            <NavigationView.MenuItems>
+                <NavigationViewItem Content="Dashboard" Tag="dashboard">
+                    <NavigationViewItem.Icon>
+                        <FontIcon Glyph="&#xE80F;" />
+                    </NavigationViewItem.Icon>
+                </NavigationViewItem>
+                <NavigationViewItem Content="My Products" Tag="products">
+                    <NavigationViewItem.Icon>
+                        <FontIcon Glyph="&#xE7BF;" />
+                    </NavigationViewItem.Icon>
+                </NavigationViewItem>
+                <NavigationViewItem Content="Add Product" Tag="addproduct">
+                    <NavigationViewItem.Icon>
+                        <FontIcon Glyph="&#xE710;" />
+                    </NavigationViewItem.Icon>
+                </NavigationViewItem>
+            </NavigationView.MenuItems>
+
+            <!--  Footer: Logout  -->
+            <NavigationView.FooterMenuItems>
+                <NavigationViewItem Content="Logout" Tag="logout">
+                    <NavigationViewItem.Icon>
+                        <FontIcon Glyph="&#xF3B1;" />
+                    </NavigationViewItem.Icon>
+                </NavigationViewItem>
+            </NavigationView.FooterMenuItems>
+
+            <!--  Content frame  -->
+            <Frame x:ConnectionId='3' x:Name="ContentFrame" x:FieldModifier="public" />
+        </NavigationView>
+    </Grid>
+</Page>
+

@@ -1,0 +1,14 @@
+App.xbf
+Controls\AlertBanner.xbf
+Controls\AppButton.xbf
+Controls\AppPasswordBox.xbf
+Controls\AppTextBox.xbf
+Controls\AuthBrandPanel.xbf
+Controls\AuthDivider.xbf
+Controls\StatsCard.xbf
+MainWindow.xbf
+Views\AddEditProductView.xbf
+Views\DashboardView.xbf
+Views\LoginView.xbf
+Views\NavigationShellView.xbf
+Views\SignUpView.xbf

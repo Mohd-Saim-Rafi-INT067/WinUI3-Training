@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Page
+    x:Class="Assignment_ProductManager_WithoutBinding.Views.DashboardView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:controls="using:Assignment_ProductManager_WithoutBinding.Controls"
+    xmlns:converters="using:Assignment_ProductManager_WithoutBinding.Core.Converters"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="using:Assignment_ProductManager_WithoutBinding.Views"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:models="using:Assignment_ProductManager_WithoutBinding.Models"
+    mc:Ignorable="d">
+
+    <Grid Padding="32,24" RowSpacing="24">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <!--  Header  -->
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition Width="Auto" />
+            </Grid.ColumnDefinitions>
+            <StackPanel>
+                <TextBlock x:ConnectionId='13'
+                    x:Name="WelcomeTextBlock"
+                    FontSize="{StaticResource FontSize2XL}"
+                    FontWeight="Bold"
+                    Foreground="{StaticResource TextPrimaryBrush}" />
+                <TextBlock
+                    FontSize="{StaticResource FontSizeMD}"
+                    Foreground="{StaticResource TextSecondaryBrush}"
+                    Text="Here's your product overview" />
+            </StackPanel>
+            <controls:AppButton x:ConnectionId='12'
+                x:Name="AddProductBtn"
+                Grid.Column="1"
+                IconGlyph="&#xE710;"
+                Label="Add Product" />
+        </Grid>
+
+        <!--  Stats Row  -->
+        <Grid Grid.Row="1" ColumnSpacing="16">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+
+            <!--  Total Products  -->
+            <controls:StatsCard x:ConnectionId='9'
+                x:Name="TotalProductsCard"
+                Grid.Column="0"
+                IconBackground="{StaticResource BrandPrimaryBrush}"
+                IconGlyph="&#xE7BF;"
+                Label="Total Products" />
+
+            <!--  Inventory Value  -->
+            <controls:StatsCard x:ConnectionId='10'
+                x:Name="TotalValueCard"
+                Grid.Column="1"
+                IconBackground="{StaticResource BrandAccentBrush}"
+                IconGlyph="&#xE8A1;"
+                Label="Inventory Value"
+                ValuePrefix="₹" />
+
+            <!--  Low Stock Items  -->
+            <controls:StatsCard x:ConnectionId='11'
+                x:Name="LowStockCard"
+                Grid.Column="2"
+                IconBackground="{StaticResource BrandDangerBrush}"
+                IconGlyph="&#xE7BA;"
+                Label="Low Stock Items" />
+        </Grid>
+
+        <!--  error messages  -->
+        <StackPanel Grid.Row="2" Spacing="12">
+            <!--  Error / Success banners (#1)  -->
+            <controls:AlertBanner x:ConnectionId='5' x:Name="ErrorBanner" Type="Error" />
+            <controls:AlertBanner x:ConnectionId='6' x:Name="SuccessBanner" Type="Success" />
+
+            <!--  Search bar  -->
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+                <TextBox x:ConnectionId='7'
+                    x:Name="SearchBox"
+                    Height="40"
+                    Padding="12,10"
+                    VerticalAlignment="Center"
+                    VerticalContentAlignment="Center"
+                    BorderBrush="{StaticResource BorderBrush}"
+                    CornerRadius="{StaticResource RadiusMD}"
+                    FontSize="14"
+                    PlaceholderText="Search by product name, category or SKU..." />
+                <ProgressRing x:ConnectionId='8'
+                    x:Name="BusyRing"
+                    Grid.Column="1"
+                    Width="24"
+                    Height="24"
+                    Margin="12,0,0,0"
+                    IsActive="False"
+                    Visibility="Collapsed" />
+            </Grid>
+        </StackPanel>
+
+        <!--  Product Table  -->
+        <Border
+            Grid.Row="3"
+            Padding="0,0,0,8"
+            Background="{StaticResource CardBrush}"
+            BorderBrush="{StaticResource BorderBrush}"
+            BorderThickness="1"
+            CornerRadius="{StaticResource RadiusLG}">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+
+                <!--  Table header  -->
+                <Grid
+                    Grid.Row="0"
+                    Padding="16,12"
+                    Background="#F8FAFC">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="2*" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="64" />
+                        <ColumnDefinition Width="120" />
+                    </Grid.ColumnDefinitions>
+                    <TextBlock
+                        Grid.Column="0"
+                        FontSize="12"
+                        FontWeight="SemiBold"
+                        Foreground="{StaticResource TextSecondaryBrush}"
+                        Text="Product" />
+                    <TextBlock
+                        Grid.Column="1"
+                        FontSize="12"
+                        FontWeight="SemiBold"
+                        Foreground="{StaticResource TextSecondaryBrush}"
+                        Text="Category" />
+                    <TextBlock
+                        Grid.Column="2"
+                        FontSize="12"
+                        FontWeight="SemiBold"
+                        Foreground="{StaticResource TextSecondaryBrush}"
+                        Text="Price" />
+                    <TextBlock
+                        Grid.Column="3"
+                        FontSize="12"
+                        FontWeight="SemiBold"
+                        Foreground="{StaticResource TextSecondaryBrush}"
+                        Text="Discount" />
+                    <TextBlock
+                        Grid.Column="4"
+                        FontSize="12"
+                        FontWeight="SemiBold"
+                        Foreground="{StaticResource TextSecondaryBrush}"
+                        Text="Final Price" />
+                    <TextBlock
+                        Grid.Column="5"
+                        FontSize="12"
+                        FontWeight="SemiBold"
+                        Foreground="{StaticResource TextSecondaryBrush}"
+                        Text="Stock" />
+                    <TextBlock
+                        Grid.Column="6"
+                        FontSize="12"
+                        FontWeight="SemiBold"
+                        Foreground="{StaticResource TextSecondaryBrush}"
+                        Text="Image" />
+                    <TextBlock
+                        Grid.Column="7"
+                        FontSize="12"
+                        FontWeight="SemiBold"
+                        Foreground="{StaticResource TextSecondaryBrush}"
+                        Text="Actions" />
+                </Grid>
+
+                <!--  Rows  -->
+                <Grid Grid.Row="1">
+                    <!--  empty state message  -->
+                    <StackPanel x:ConnectionId='2'
+                        x:Name="EmptyStatePanel"
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Center"
+                        Spacing="12"
+                        Visibility="Collapsed">
+                        <FontIcon
+                            FontSize="48"
+                            Foreground="{StaticResource TextMutedBrush}"
+                            Glyph="&#xE7BF;" />
+                        <TextBlock
+                            HorizontalAlignment="Center"
+                            FontSize="{StaticResource FontSizeLG}"
+                            FontWeight="SemiBold"
+                            Foreground="{StaticResource TextSecondaryBrush}"
+                            Text="No products found" />
+                        <TextBlock
+                            HorizontalAlignment="Center"
+                            FontSize="{StaticResource FontSizeMD}"
+                            Foreground="{StaticResource TextMutedBrush}"
+                            Text="Add your first product using the Add Product Button above." />
+                    </StackPanel>
+
+
+                    <ScrollViewer VerticalScrollBarVisibility="Auto">
+                        <ItemsControl x:ConnectionId='4' x:Name="ProductItemsControl">
+                            <ItemsControl.ItemTemplate>
+                                <DataTemplate>
+                                    <!--  Empty shell — rows are added directly by BuildProductRows()  -->
+                                </DataTemplate>
+                            </ItemsControl.ItemTemplate>
+                        </ItemsControl>
+                    </ScrollViewer>
+
+                    <!--  Actual rows panel — populated from code-behind  -->
+                    <ScrollViewer VerticalScrollBarVisibility="Auto">
+                        <StackPanel x:ConnectionId='3' x:Name="ProductRowsPanel" />
+                    </ScrollViewer>
+                </Grid>
+            </Grid>
+        </Border>
+
+    </Grid>
+</Page>
+
