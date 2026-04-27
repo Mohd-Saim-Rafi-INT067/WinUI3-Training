@@ -33,6 +33,7 @@ public sealed partial class AlertBanner : UserControl
         banner.MessageText.Text = msg ?? string.Empty;
         banner.Visibility = string.IsNullOrEmpty(msg) ? Visibility.Collapsed : Visibility.Visible;
     }
+
     public static readonly DependencyProperty TypeProperty =
         DependencyProperty.Register(nameof(Type), typeof(AlertType),
             typeof(AlertBanner), new PropertyMetadata(AlertType.Error, OnTypeChanged));

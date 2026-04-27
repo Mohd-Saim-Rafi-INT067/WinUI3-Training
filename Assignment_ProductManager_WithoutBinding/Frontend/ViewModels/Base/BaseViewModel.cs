@@ -7,9 +7,7 @@ using System.Threading.Tasks;
 
 namespace Assignment_ProductManager_WithoutBinding.ViewModels.Base
 {
-    // Inherits ObservableObject so PropertyChanged is still raised —
-    // the code-behind subscribes to it to update UI manually (no bindings)
-
+   
     public partial class BaseViewModel : ObservableObject
     {
         

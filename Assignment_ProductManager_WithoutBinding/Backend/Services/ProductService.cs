@@ -31,7 +31,7 @@ namespace Assignment_ProductManager_WithoutBinding.Services
             {
                 var repo = scope.ServiceProvider.GetRequiredService<IProductRepository>();
                 return await repo.GetProductsByUserAsync(CurrentUserId);
-            } // scope.Dispose()
+            } 
         }
 
         public async Task<Product?> GetProductByIdAsync(int productId)
@@ -40,7 +40,7 @@ namespace Assignment_ProductManager_WithoutBinding.Services
             {
                 var repo = scope.ServiceProvider.GetRequiredService<IProductRepository>();
                 return await repo.GetProductByIdAsync(productId);
-            } // scope.Dispose()
+            } 
         }
 
         public async Task<ServiceResultDto> AddProductAsync(Product product)
@@ -53,7 +53,7 @@ namespace Assignment_ProductManager_WithoutBinding.Services
                 return ok
                     ? ServiceResultDto.Ok("Product added successfully.")
                     : ServiceResultDto.Fail("Failed to add product.");
-            } // scope.Dispose()
+            } 
         }
 
         public async Task<ServiceResultDto> UpdateProductAsync(Product product)
@@ -66,7 +66,7 @@ namespace Assignment_ProductManager_WithoutBinding.Services
                 return ok
                     ? ServiceResultDto.Ok("Product updated successfully.")
                     : ServiceResultDto.Fail("Failed to update product.");
-            } // scope.Dispose()
+            } 
         }
 
         public async Task<ServiceResultDto> DeleteProductAsync(int productId)
@@ -78,7 +78,7 @@ namespace Assignment_ProductManager_WithoutBinding.Services
                 return ok
                     ? ServiceResultDto.Ok("Product deleted.")
                     : ServiceResultDto.Fail("Failed to delete product.");
-            } // scope.Dispose()
+            } 
         }
     }
 }

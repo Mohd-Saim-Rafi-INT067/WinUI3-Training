@@ -40,7 +40,7 @@ namespace Assignment_ProductManager_WithoutBinding.Services
 
                 CurrentUser = user;
                 return AuthResultDto.Ok("Login successful.", user);
-            } // scope.Dispose() called here — releases the scoped IUserRepository
+            } 
         }
 
         public async Task<AuthResultDto> RegisterAsync(RegisterRequest request)
@@ -73,7 +73,7 @@ namespace Assignment_ProductManager_WithoutBinding.Services
                 return ok
                     ? AuthResultDto.Ok("Account created successfully! Please log in.", user)
                     : AuthResultDto.Fail("Registration failed. Please try again.");
-            } // scope.Dispose() called here on every return path
+            } 
         }
 
         public void Logout() => CurrentUser = null;

@@ -14,7 +14,6 @@ namespace Assignment_ProductManager_WithoutBinding.ViewModels
     {
         private readonly IAuthService _authService;
 
-        // Plain auto-properties — written to by code-behind events, never pushed back to the view.
         public string FullName = string.Empty;
         public string Username = string.Empty;
         public string Email = string.Empty;

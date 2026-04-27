@@ -11,8 +11,6 @@ namespace Assignment_ProductManager_WithoutBinding.ViewModels
     {
         private readonly IAuthService _authService;
 
-        // Plain auto-properties — no PropertyChanged needed here because
-        // these are written to by the code-behind (input to VM), never read back by the view.
         public string Username = string.Empty;
         public string Password = string.Empty;
 

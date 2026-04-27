@@ -99,8 +99,6 @@ namespace Assignment_ProductManager_WithoutBinding.Repositories
             cmd.Parameters.AddWithValue("p_ImageData",
         (object?)p.ImageData ?? DBNull.Value);
         }
-        //if the left side is not null use it
-
 
         private static Product MapProduct(MySqlDataReader r) => new()
         {

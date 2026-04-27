@@ -1,1 +1,1 @@
-C:\Users\Saim\source\repos\Assignment_ProductManager_WithoutBinding\Assignment_Product_Manager.csproj;x64
+C:\Users\Saim\source\repos\WinUI3-Training\Assignment_ProductManager_WithoutBinding\Assignment_ProductManager_WithoutBinding.csproj;x64

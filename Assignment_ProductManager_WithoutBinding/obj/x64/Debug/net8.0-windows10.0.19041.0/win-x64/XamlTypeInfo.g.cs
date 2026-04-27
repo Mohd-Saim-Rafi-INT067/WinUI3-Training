@@ -14,18 +14,18 @@ namespace Assignment_ProductManager_WithoutBinding
 {
     public partial class App : global::Microsoft.UI.Xaml.Markup.IXamlMetadataProvider
     {
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.UI.Xaml.Markup.Compiler"," 3.0.0.2602")]
-        private global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlMetaDataProvider __appProvider;
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.UI.Xaml.Markup.Compiler"," 3.0.0.2604")]
+        private global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlMetaDataProvider __appProvider;
 
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.UI.Xaml.Markup.Compiler"," 3.0.0.2602")]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.UI.Xaml.Markup.Compiler"," 3.0.0.2604")]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        private global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlMetaDataProvider _AppProvider
+        private global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlMetaDataProvider _AppProvider
         {
             get
             {
                 if (__appProvider == null)
                 {
-                    __appProvider = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlMetaDataProvider();
+                    __appProvider = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlMetaDataProvider();
                 }
                 return __appProvider;
             }
@@ -34,7 +34,7 @@ namespace Assignment_ProductManager_WithoutBinding
         /// <summary>
         /// GetXamlType(Type)
         /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.UI.Xaml.Markup.Compiler"," 3.0.0.2602")]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.UI.Xaml.Markup.Compiler"," 3.0.0.2604")]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         public global::Microsoft.UI.Xaml.Markup.IXamlType GetXamlType(global::System.Type type)
         {
@@ -44,7 +44,7 @@ namespace Assignment_ProductManager_WithoutBinding
         /// <summary>
         /// GetXamlType(String)
         /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.UI.Xaml.Markup.Compiler"," 3.0.0.2602")]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.UI.Xaml.Markup.Compiler"," 3.0.0.2604")]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         public global::Microsoft.UI.Xaml.Markup.IXamlType GetXamlType(string fullName)
         {
@@ -54,7 +54,7 @@ namespace Assignment_ProductManager_WithoutBinding
         /// <summary>
         /// GetXmlnsDefinitions()
         /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.UI.Xaml.Markup.Compiler"," 3.0.0.2602")]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.UI.Xaml.Markup.Compiler"," 3.0.0.2604")]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         public global::Microsoft.UI.Xaml.Markup.XmlnsDefinition[] GetXmlnsDefinitions()
         {
@@ -63,24 +63,24 @@ namespace Assignment_ProductManager_WithoutBinding
     }
 }
 
-namespace Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo
+namespace Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo
 {
     /// <summary>
     /// Main class for providing metadata for the app or library
     /// </summary>
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.UI.Xaml.Markup.Compiler"," 3.0.0.2602")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.UI.Xaml.Markup.Compiler"," 3.0.0.2604")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     public sealed partial class XamlMetaDataProvider : global::Microsoft.UI.Xaml.Markup.IXamlMetadataProvider
     {
-        private global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlTypeInfoProvider _provider = null;
+        private global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlTypeInfoProvider _provider = null;
 
-        private global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlTypeInfoProvider Provider
+        private global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlTypeInfoProvider Provider
         {
             get
             {
                 if (_provider == null)
                 {
-                    _provider = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlTypeInfoProvider();
+                    _provider = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlTypeInfoProvider();
                 }
                 return _provider;
             }
@@ -112,7 +112,7 @@ namespace Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo
         }
     }
 
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.UI.Xaml.Markup.Compiler"," 3.0.0.2602")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.UI.Xaml.Markup.Compiler"," 3.0.0.2604")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     internal partial class XamlTypeInfoProvider
     {
@@ -130,7 +130,7 @@ namespace Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo
                 {
                     xamlType = CreateXamlType(typeIndex);
                 }
-                var userXamlType = xamlType as global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType;
+                var userXamlType = xamlType as global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType;
                 if(xamlType == null || (userXamlType != null && userXamlType.IsReturnTypeStub && !userXamlType.IsLocalType))
                 {
                     global::Microsoft.UI.Xaml.Markup.IXamlType libXamlType = CheckOtherMetadataProvidersForType(type);
@@ -169,7 +169,7 @@ namespace Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo
                 {
                     xamlType = CreateXamlType(typeIndex);
                 }
-                var userXamlType = xamlType as global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType;
+                var userXamlType = xamlType as global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType;
                 if(xamlType == null || (userXamlType != null && userXamlType.IsReturnTypeStub && !userXamlType.IsLocalType))
                 {
                     global::Microsoft.UI.Xaml.Markup.IXamlType libXamlType = CheckOtherMetadataProvidersForName(typeName);
@@ -256,40 +256,40 @@ namespace Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo
             _typeNameTable[26] = "Assignment_ProductManager_WithoutBinding.Controls.AuthDivider";
             _typeNameTable[27] = "Assignment_ProductManager_WithoutBinding.Controls.StatsCard";
             _typeNameTable[28] = "Microsoft.UI.Xaml.Media.Brush";
-            _typeNameTable[29] = "Assignment_ProductManager_WithoutBinding.MainWindow";
-            _typeNameTable[30] = "Microsoft.UI.Xaml.Window";
-            _typeNameTable[31] = "Assignment_ProductManager_WithoutBinding.Views.AddEditProductView";
-            _typeNameTable[32] = "Microsoft.UI.Xaml.Controls.Page";
-            _typeNameTable[33] = "Assignment_ProductManager_WithoutBinding.ViewModels.AddEditProductViewModel";
-            _typeNameTable[34] = "Assignment_ProductManager_WithoutBinding.ViewModels.Base.BaseViewModel";
-            _typeNameTable[35] = "CommunityToolkit.Mvvm.ComponentModel.ObservableObject";
-            _typeNameTable[36] = "Assignment_ProductManager_WithoutBinding.Views.DashboardView";
-            _typeNameTable[37] = "Assignment_ProductManager_WithoutBinding.ViewModels.DashboardViewModel";
-            _typeNameTable[38] = "Assignment_ProductManager_WithoutBinding.Views.LoginView";
-            _typeNameTable[39] = "Assignment_ProductManager_WithoutBinding.ViewModels.LoginViewModel";
-            _typeNameTable[40] = "Microsoft.UI.Xaml.Controls.NavigationView";
-            _typeNameTable[41] = "Microsoft.UI.Xaml.Controls.ContentControl";
-            _typeNameTable[42] = "Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible";
-            _typeNameTable[43] = "Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode";
-            _typeNameTable[44] = "Microsoft.UI.Xaml.UIElement";
-            _typeNameTable[45] = "System.Collections.Generic.IList`1<Object>";
-            _typeNameTable[46] = "Microsoft.UI.Xaml.Controls.AutoSuggestBox";
-            _typeNameTable[47] = "Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode";
-            _typeNameTable[48] = "Microsoft.UI.Xaml.DataTemplate";
-            _typeNameTable[49] = "Microsoft.UI.Xaml.Style";
-            _typeNameTable[50] = "Microsoft.UI.Xaml.Controls.StyleSelector";
-            _typeNameTable[51] = "Microsoft.UI.Xaml.Controls.DataTemplateSelector";
-            _typeNameTable[52] = "Microsoft.UI.Xaml.Controls.NavigationViewOverflowLabelMode";
-            _typeNameTable[53] = "Microsoft.UI.Xaml.Controls.NavigationViewSelectionFollowsFocus";
-            _typeNameTable[54] = "Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled";
-            _typeNameTable[55] = "Microsoft.UI.Xaml.Controls.NavigationViewTemplateSettings";
-            _typeNameTable[56] = "Microsoft.UI.Xaml.Controls.NavigationViewItem";
-            _typeNameTable[57] = "Microsoft.UI.Xaml.Controls.NavigationViewItemBase";
-            _typeNameTable[58] = "Microsoft.UI.Xaml.Controls.IconElement";
-            _typeNameTable[59] = "Microsoft.UI.Xaml.Controls.InfoBadge";
-            _typeNameTable[60] = "Assignment_ProductManager_WithoutBinding.Views.NavigationShellView";
-            _typeNameTable[61] = "Assignment_ProductManager_WithoutBinding.Views.SignUpView";
-            _typeNameTable[62] = "Assignment_ProductManager_WithoutBinding.ViewModels.SignUpViewModel";
+            _typeNameTable[29] = "Assignment_ProductManager_WithoutBinding.Views.AddEditProductView";
+            _typeNameTable[30] = "Microsoft.UI.Xaml.Controls.Page";
+            _typeNameTable[31] = "Assignment_ProductManager_WithoutBinding.ViewModels.AddEditProductViewModel";
+            _typeNameTable[32] = "Assignment_ProductManager_WithoutBinding.ViewModels.Base.BaseViewModel";
+            _typeNameTable[33] = "CommunityToolkit.Mvvm.ComponentModel.ObservableObject";
+            _typeNameTable[34] = "Assignment_ProductManager_WithoutBinding.Views.DashboardView";
+            _typeNameTable[35] = "Assignment_ProductManager_WithoutBinding.ViewModels.DashboardViewModel";
+            _typeNameTable[36] = "Assignment_ProductManager_WithoutBinding.Views.LoginView";
+            _typeNameTable[37] = "Assignment_ProductManager_WithoutBinding.ViewModels.LoginViewModel";
+            _typeNameTable[38] = "Microsoft.UI.Xaml.Controls.NavigationView";
+            _typeNameTable[39] = "Microsoft.UI.Xaml.Controls.ContentControl";
+            _typeNameTable[40] = "Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible";
+            _typeNameTable[41] = "Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode";
+            _typeNameTable[42] = "Microsoft.UI.Xaml.UIElement";
+            _typeNameTable[43] = "System.Collections.Generic.IList`1<Object>";
+            _typeNameTable[44] = "Microsoft.UI.Xaml.Controls.AutoSuggestBox";
+            _typeNameTable[45] = "Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode";
+            _typeNameTable[46] = "Microsoft.UI.Xaml.DataTemplate";
+            _typeNameTable[47] = "Microsoft.UI.Xaml.Style";
+            _typeNameTable[48] = "Microsoft.UI.Xaml.Controls.StyleSelector";
+            _typeNameTable[49] = "Microsoft.UI.Xaml.Controls.DataTemplateSelector";
+            _typeNameTable[50] = "Microsoft.UI.Xaml.Controls.NavigationViewOverflowLabelMode";
+            _typeNameTable[51] = "Microsoft.UI.Xaml.Controls.NavigationViewSelectionFollowsFocus";
+            _typeNameTable[52] = "Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled";
+            _typeNameTable[53] = "Microsoft.UI.Xaml.Controls.NavigationViewTemplateSettings";
+            _typeNameTable[54] = "Microsoft.UI.Xaml.Controls.NavigationViewItem";
+            _typeNameTable[55] = "Microsoft.UI.Xaml.Controls.NavigationViewItemBase";
+            _typeNameTable[56] = "Microsoft.UI.Xaml.Controls.IconElement";
+            _typeNameTable[57] = "Microsoft.UI.Xaml.Controls.InfoBadge";
+            _typeNameTable[58] = "Assignment_ProductManager_WithoutBinding.Views.NavigationShellView";
+            _typeNameTable[59] = "Assignment_ProductManager_WithoutBinding.Views.SignUpView";
+            _typeNameTable[60] = "Assignment_ProductManager_WithoutBinding.ViewModels.SignUpViewModel";
+            _typeNameTable[61] = "Assignment_ProductManager_WithoutBinding.MainWindow";
+            _typeNameTable[62] = "Microsoft.UI.Xaml.Window";
             _typeNameTable[63] = "Microsoft.UI.Xaml.Controls.TreeViewNode";
             _typeNameTable[64] = "System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>";
             _typeNameTable[65] = "Int32";
@@ -324,40 +324,40 @@ namespace Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo
             _typeTable[26] = typeof(global::Assignment_ProductManager_WithoutBinding.Controls.AuthDivider);
             _typeTable[27] = typeof(global::Assignment_ProductManager_WithoutBinding.Controls.StatsCard);
             _typeTable[28] = typeof(global::Microsoft.UI.Xaml.Media.Brush);
-            _typeTable[29] = typeof(global::Assignment_ProductManager_WithoutBinding.MainWindow);
-            _typeTable[30] = typeof(global::Microsoft.UI.Xaml.Window);
-            _typeTable[31] = typeof(global::Assignment_ProductManager_WithoutBinding.Views.AddEditProductView);
-            _typeTable[32] = typeof(global::Microsoft.UI.Xaml.Controls.Page);
-            _typeTable[33] = typeof(global::Assignment_ProductManager_WithoutBinding.ViewModels.AddEditProductViewModel);
-            _typeTable[34] = typeof(global::Assignment_ProductManager_WithoutBinding.ViewModels.Base.BaseViewModel);
-            _typeTable[35] = typeof(global::CommunityToolkit.Mvvm.ComponentModel.ObservableObject);
-            _typeTable[36] = typeof(global::Assignment_ProductManager_WithoutBinding.Views.DashboardView);
-            _typeTable[37] = typeof(global::Assignment_ProductManager_WithoutBinding.ViewModels.DashboardViewModel);
-            _typeTable[38] = typeof(global::Assignment_ProductManager_WithoutBinding.Views.LoginView);
-            _typeTable[39] = typeof(global::Assignment_ProductManager_WithoutBinding.ViewModels.LoginViewModel);
-            _typeTable[40] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationView);
-            _typeTable[41] = typeof(global::Microsoft.UI.Xaml.Controls.ContentControl);
-            _typeTable[42] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible);
-            _typeTable[43] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode);
-            _typeTable[44] = typeof(global::Microsoft.UI.Xaml.UIElement);
-            _typeTable[45] = typeof(global::System.Collections.Generic.IList<global::System.Object>);
-            _typeTable[46] = typeof(global::Microsoft.UI.Xaml.Controls.AutoSuggestBox);
-            _typeTable[47] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode);
-            _typeTable[48] = typeof(global::Microsoft.UI.Xaml.DataTemplate);
-            _typeTable[49] = typeof(global::Microsoft.UI.Xaml.Style);
-            _typeTable[50] = typeof(global::Microsoft.UI.Xaml.Controls.StyleSelector);
-            _typeTable[51] = typeof(global::Microsoft.UI.Xaml.Controls.DataTemplateSelector);
-            _typeTable[52] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewOverflowLabelMode);
-            _typeTable[53] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewSelectionFollowsFocus);
-            _typeTable[54] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled);
-            _typeTable[55] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewTemplateSettings);
-            _typeTable[56] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewItem);
-            _typeTable[57] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewItemBase);
-            _typeTable[58] = typeof(global::Microsoft.UI.Xaml.Controls.IconElement);
-            _typeTable[59] = typeof(global::Microsoft.UI.Xaml.Controls.InfoBadge);
-            _typeTable[60] = typeof(global::Assignment_ProductManager_WithoutBinding.Views.NavigationShellView);
-            _typeTable[61] = typeof(global::Assignment_ProductManager_WithoutBinding.Views.SignUpView);
-            _typeTable[62] = typeof(global::Assignment_ProductManager_WithoutBinding.ViewModels.SignUpViewModel);
+            _typeTable[29] = typeof(global::Assignment_ProductManager_WithoutBinding.Views.AddEditProductView);
+            _typeTable[30] = typeof(global::Microsoft.UI.Xaml.Controls.Page);
+            _typeTable[31] = typeof(global::Assignment_ProductManager_WithoutBinding.ViewModels.AddEditProductViewModel);
+            _typeTable[32] = typeof(global::Assignment_ProductManager_WithoutBinding.ViewModels.Base.BaseViewModel);
+            _typeTable[33] = typeof(global::CommunityToolkit.Mvvm.ComponentModel.ObservableObject);
+            _typeTable[34] = typeof(global::Assignment_ProductManager_WithoutBinding.Views.DashboardView);
+            _typeTable[35] = typeof(global::Assignment_ProductManager_WithoutBinding.ViewModels.DashboardViewModel);
+            _typeTable[36] = typeof(global::Assignment_ProductManager_WithoutBinding.Views.LoginView);
+            _typeTable[37] = typeof(global::Assignment_ProductManager_WithoutBinding.ViewModels.LoginViewModel);
+            _typeTable[38] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationView);
+            _typeTable[39] = typeof(global::Microsoft.UI.Xaml.Controls.ContentControl);
+            _typeTable[40] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible);
+            _typeTable[41] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode);
+            _typeTable[42] = typeof(global::Microsoft.UI.Xaml.UIElement);
+            _typeTable[43] = typeof(global::System.Collections.Generic.IList<global::System.Object>);
+            _typeTable[44] = typeof(global::Microsoft.UI.Xaml.Controls.AutoSuggestBox);
+            _typeTable[45] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode);
+            _typeTable[46] = typeof(global::Microsoft.UI.Xaml.DataTemplate);
+            _typeTable[47] = typeof(global::Microsoft.UI.Xaml.Style);
+            _typeTable[48] = typeof(global::Microsoft.UI.Xaml.Controls.StyleSelector);
+            _typeTable[49] = typeof(global::Microsoft.UI.Xaml.Controls.DataTemplateSelector);
+            _typeTable[50] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewOverflowLabelMode);
+            _typeTable[51] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewSelectionFollowsFocus);
+            _typeTable[52] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled);
+            _typeTable[53] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewTemplateSettings);
+            _typeTable[54] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewItem);
+            _typeTable[55] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewItemBase);
+            _typeTable[56] = typeof(global::Microsoft.UI.Xaml.Controls.IconElement);
+            _typeTable[57] = typeof(global::Microsoft.UI.Xaml.Controls.InfoBadge);
+            _typeTable[58] = typeof(global::Assignment_ProductManager_WithoutBinding.Views.NavigationShellView);
+            _typeTable[59] = typeof(global::Assignment_ProductManager_WithoutBinding.Views.SignUpView);
+            _typeTable[60] = typeof(global::Assignment_ProductManager_WithoutBinding.ViewModels.SignUpViewModel);
+            _typeTable[61] = typeof(global::Assignment_ProductManager_WithoutBinding.MainWindow);
+            _typeTable[62] = typeof(global::Microsoft.UI.Xaml.Window);
             _typeTable[63] = typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode);
             _typeTable[64] = typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.TreeViewNode>);
             _typeTable[65] = typeof(global::System.Int32);
@@ -406,17 +406,17 @@ namespace Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo
         private object Activate_25_AuthBrandPanel() { return new global::Assignment_ProductManager_WithoutBinding.Controls.AuthBrandPanel(); }
         private object Activate_26_AuthDivider() { return new global::Assignment_ProductManager_WithoutBinding.Controls.AuthDivider(); }
         private object Activate_27_StatsCard() { return new global::Assignment_ProductManager_WithoutBinding.Controls.StatsCard(); }
-        private object Activate_29_MainWindow() { return new global::Assignment_ProductManager_WithoutBinding.MainWindow(); }
-        private object Activate_31_AddEditProductView() { return new global::Assignment_ProductManager_WithoutBinding.Views.AddEditProductView(); }
-        private object Activate_34_BaseViewModel() { return new global::Assignment_ProductManager_WithoutBinding.ViewModels.Base.BaseViewModel(); }
-        private object Activate_36_DashboardView() { return new global::Assignment_ProductManager_WithoutBinding.Views.DashboardView(); }
-        private object Activate_38_LoginView() { return new global::Assignment_ProductManager_WithoutBinding.Views.LoginView(); }
-        private object Activate_40_NavigationView() { return new global::Microsoft.UI.Xaml.Controls.NavigationView(); }
-        private object Activate_55_NavigationViewTemplateSettings() { return new global::Microsoft.UI.Xaml.Controls.NavigationViewTemplateSettings(); }
-        private object Activate_56_NavigationViewItem() { return new global::Microsoft.UI.Xaml.Controls.NavigationViewItem(); }
-        private object Activate_59_InfoBadge() { return new global::Microsoft.UI.Xaml.Controls.InfoBadge(); }
-        private object Activate_60_NavigationShellView() { return new global::Assignment_ProductManager_WithoutBinding.Views.NavigationShellView(); }
-        private object Activate_61_SignUpView() { return new global::Assignment_ProductManager_WithoutBinding.Views.SignUpView(); }
+        private object Activate_29_AddEditProductView() { return new global::Assignment_ProductManager_WithoutBinding.Views.AddEditProductView(); }
+        private object Activate_32_BaseViewModel() { return new global::Assignment_ProductManager_WithoutBinding.ViewModels.Base.BaseViewModel(); }
+        private object Activate_34_DashboardView() { return new global::Assignment_ProductManager_WithoutBinding.Views.DashboardView(); }
+        private object Activate_36_LoginView() { return new global::Assignment_ProductManager_WithoutBinding.Views.LoginView(); }
+        private object Activate_38_NavigationView() { return new global::Microsoft.UI.Xaml.Controls.NavigationView(); }
+        private object Activate_53_NavigationViewTemplateSettings() { return new global::Microsoft.UI.Xaml.Controls.NavigationViewTemplateSettings(); }
+        private object Activate_54_NavigationViewItem() { return new global::Microsoft.UI.Xaml.Controls.NavigationViewItem(); }
+        private object Activate_57_InfoBadge() { return new global::Microsoft.UI.Xaml.Controls.InfoBadge(); }
+        private object Activate_58_NavigationShellView() { return new global::Assignment_ProductManager_WithoutBinding.Views.NavigationShellView(); }
+        private object Activate_59_SignUpView() { return new global::Assignment_ProductManager_WithoutBinding.Views.SignUpView(); }
+        private object Activate_61_MainWindow() { return new global::Assignment_ProductManager_WithoutBinding.MainWindow(); }
         private object Activate_63_TreeViewNode() { return new global::Microsoft.UI.Xaml.Controls.TreeViewNode(); }
         private void StaticInitializer_0_XamlControlsResources() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.XamlControlsResources).TypeHandle);
         private void StaticInitializer_4_BoolToVisibilityConverter() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Assignment_ProductManager_WithoutBinding.Core.Converters.BoolToVisibilityConverter).TypeHandle);
@@ -438,30 +438,30 @@ namespace Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo
         private void StaticInitializer_25_AuthBrandPanel() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Assignment_ProductManager_WithoutBinding.Controls.AuthBrandPanel).TypeHandle);
         private void StaticInitializer_26_AuthDivider() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Assignment_ProductManager_WithoutBinding.Controls.AuthDivider).TypeHandle);
         private void StaticInitializer_27_StatsCard() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Assignment_ProductManager_WithoutBinding.Controls.StatsCard).TypeHandle);
-        private void StaticInitializer_29_MainWindow() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Assignment_ProductManager_WithoutBinding.MainWindow).TypeHandle);
-        private void StaticInitializer_31_AddEditProductView() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Assignment_ProductManager_WithoutBinding.Views.AddEditProductView).TypeHandle);
-        private void StaticInitializer_33_AddEditProductViewModel() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Assignment_ProductManager_WithoutBinding.ViewModels.AddEditProductViewModel).TypeHandle);
-        private void StaticInitializer_34_BaseViewModel() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Assignment_ProductManager_WithoutBinding.ViewModels.Base.BaseViewModel).TypeHandle);
-        private void StaticInitializer_35_ObservableObject() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::CommunityToolkit.Mvvm.ComponentModel.ObservableObject).TypeHandle);
-        private void StaticInitializer_36_DashboardView() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Assignment_ProductManager_WithoutBinding.Views.DashboardView).TypeHandle);
-        private void StaticInitializer_37_DashboardViewModel() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Assignment_ProductManager_WithoutBinding.ViewModels.DashboardViewModel).TypeHandle);
-        private void StaticInitializer_38_LoginView() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Assignment_ProductManager_WithoutBinding.Views.LoginView).TypeHandle);
-        private void StaticInitializer_39_LoginViewModel() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Assignment_ProductManager_WithoutBinding.ViewModels.LoginViewModel).TypeHandle);
-        private void StaticInitializer_40_NavigationView() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.NavigationView).TypeHandle);
-        private void StaticInitializer_42_NavigationViewBackButtonVisible() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible).TypeHandle);
-        private void StaticInitializer_43_NavigationViewPaneDisplayMode() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode).TypeHandle);
-        private void StaticInitializer_45_IList() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.Collections.Generic.IList<global::System.Object>).TypeHandle);
-        private void StaticInitializer_47_NavigationViewDisplayMode() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode).TypeHandle);
-        private void StaticInitializer_52_NavigationViewOverflowLabelMode() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewOverflowLabelMode).TypeHandle);
-        private void StaticInitializer_53_NavigationViewSelectionFollowsFocus() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewSelectionFollowsFocus).TypeHandle);
-        private void StaticInitializer_54_NavigationViewShoulderNavigationEnabled() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled).TypeHandle);
-        private void StaticInitializer_55_NavigationViewTemplateSettings() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewTemplateSettings).TypeHandle);
-        private void StaticInitializer_56_NavigationViewItem() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewItem).TypeHandle);
-        private void StaticInitializer_57_NavigationViewItemBase() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewItemBase).TypeHandle);
-        private void StaticInitializer_59_InfoBadge() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.InfoBadge).TypeHandle);
-        private void StaticInitializer_60_NavigationShellView() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Assignment_ProductManager_WithoutBinding.Views.NavigationShellView).TypeHandle);
-        private void StaticInitializer_61_SignUpView() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Assignment_ProductManager_WithoutBinding.Views.SignUpView).TypeHandle);
-        private void StaticInitializer_62_SignUpViewModel() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Assignment_ProductManager_WithoutBinding.ViewModels.SignUpViewModel).TypeHandle);
+        private void StaticInitializer_29_AddEditProductView() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Assignment_ProductManager_WithoutBinding.Views.AddEditProductView).TypeHandle);
+        private void StaticInitializer_31_AddEditProductViewModel() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Assignment_ProductManager_WithoutBinding.ViewModels.AddEditProductViewModel).TypeHandle);
+        private void StaticInitializer_32_BaseViewModel() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Assignment_ProductManager_WithoutBinding.ViewModels.Base.BaseViewModel).TypeHandle);
+        private void StaticInitializer_33_ObservableObject() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::CommunityToolkit.Mvvm.ComponentModel.ObservableObject).TypeHandle);
+        private void StaticInitializer_34_DashboardView() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Assignment_ProductManager_WithoutBinding.Views.DashboardView).TypeHandle);
+        private void StaticInitializer_35_DashboardViewModel() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Assignment_ProductManager_WithoutBinding.ViewModels.DashboardViewModel).TypeHandle);
+        private void StaticInitializer_36_LoginView() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Assignment_ProductManager_WithoutBinding.Views.LoginView).TypeHandle);
+        private void StaticInitializer_37_LoginViewModel() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Assignment_ProductManager_WithoutBinding.ViewModels.LoginViewModel).TypeHandle);
+        private void StaticInitializer_38_NavigationView() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.NavigationView).TypeHandle);
+        private void StaticInitializer_40_NavigationViewBackButtonVisible() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible).TypeHandle);
+        private void StaticInitializer_41_NavigationViewPaneDisplayMode() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode).TypeHandle);
+        private void StaticInitializer_43_IList() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.Collections.Generic.IList<global::System.Object>).TypeHandle);
+        private void StaticInitializer_45_NavigationViewDisplayMode() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode).TypeHandle);
+        private void StaticInitializer_50_NavigationViewOverflowLabelMode() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewOverflowLabelMode).TypeHandle);
+        private void StaticInitializer_51_NavigationViewSelectionFollowsFocus() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewSelectionFollowsFocus).TypeHandle);
+        private void StaticInitializer_52_NavigationViewShoulderNavigationEnabled() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled).TypeHandle);
+        private void StaticInitializer_53_NavigationViewTemplateSettings() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewTemplateSettings).TypeHandle);
+        private void StaticInitializer_54_NavigationViewItem() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewItem).TypeHandle);
+        private void StaticInitializer_55_NavigationViewItemBase() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewItemBase).TypeHandle);
+        private void StaticInitializer_57_InfoBadge() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.InfoBadge).TypeHandle);
+        private void StaticInitializer_58_NavigationShellView() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Assignment_ProductManager_WithoutBinding.Views.NavigationShellView).TypeHandle);
+        private void StaticInitializer_59_SignUpView() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Assignment_ProductManager_WithoutBinding.Views.SignUpView).TypeHandle);
+        private void StaticInitializer_60_SignUpViewModel() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Assignment_ProductManager_WithoutBinding.ViewModels.SignUpViewModel).TypeHandle);
+        private void StaticInitializer_61_MainWindow() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Assignment_ProductManager_WithoutBinding.MainWindow).TypeHandle);
         private void StaticInitializer_63_TreeViewNode() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode).TypeHandle);
         private void StaticInitializer_64_IList() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.TreeViewNode>).TypeHandle);
         private void MapAdd_0_XamlControlsResources(object instance, object key, object item)
@@ -471,7 +471,7 @@ namespace Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo
             var newItem = (global::System.Object)item;
             collection.Add(newKey, newItem);
         }
-        private void VectorAdd_45_IList(object instance, object item)
+        private void VectorAdd_43_IList(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::System.Object>)instance;
             var newItem = (global::System.Object)item;
@@ -486,8 +486,8 @@ namespace Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo
 
         private global::Microsoft.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
-            global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlSystemBaseType xamlType = null;
-            global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType userType;
+            global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlSystemBaseType xamlType = null;
+            global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType userType;
             string typeName = _typeNameTable[typeIndex];
             global::System.Type type = _typeTable[typeIndex];
 
@@ -495,7 +495,7 @@ namespace Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo
             {
 
             case 0:   //  Microsoft.UI.Xaml.Controls.XamlControlsResources
-                userType = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.ResourceDictionary"));
+                userType = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.ResourceDictionary"));
                 userType.Activator = Activate_0_XamlControlsResources;
                 userType.StaticInitializer = StaticInitializer_0_XamlControlsResources;
                 userType.DictionaryAdd = MapAdd_0_XamlControlsResources;
@@ -504,19 +504,19 @@ namespace Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo
                 break;
 
             case 1:   //  Microsoft.UI.Xaml.ResourceDictionary
-                xamlType = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                xamlType = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
             case 2:   //  Object
-                xamlType = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                xamlType = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
             case 3:   //  Boolean
-                xamlType = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                xamlType = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
             case 4:   //  Assignment_ProductManager_WithoutBinding.Core.Converters.BoolToVisibilityConverter
-                userType = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 userType.Activator = Activate_4_BoolToVisibilityConverter;
                 userType.StaticInitializer = StaticInitializer_4_BoolToVisibilityConverter;
                 userType.SetIsLocalType();
@@ -524,7 +524,7 @@ namespace Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo
                 break;
 
             case 5:   //  Assignment_ProductManager_WithoutBinding.Core.Converters.NullToVisibilityConverter
-                userType = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 userType.Activator = Activate_5_NullToVisibilityConverter;
                 userType.StaticInitializer = StaticInitializer_5_NullToVisibilityConverter;
                 userType.SetIsLocalType();
@@ -532,7 +532,7 @@ namespace Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo
                 break;
 
             case 6:   //  Windows.UI.Color
-                userType = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.ValueType"));
+                userType = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.ValueType"));
                 userType.StaticInitializer = StaticInitializer_6_Color;
                 userType.AddMemberName("A");
                 userType.AddMemberName("R");
@@ -542,20 +542,20 @@ namespace Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo
                 break;
 
             case 7:   //  System.ValueType
-                userType = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 userType.StaticInitializer = StaticInitializer_7_ValueType;
                 xamlType = userType;
                 break;
 
             case 8:   //  Byte
-                userType = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.ValueType"));
+                userType = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.ValueType"));
                 userType.StaticInitializer = StaticInitializer_8_Byte;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
             case 9:   //  Microsoft.UI.Xaml.CornerRadius
-                userType = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.ValueType"));
+                userType = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.ValueType"));
                 userType.StaticInitializer = StaticInitializer_9_CornerRadius;
                 userType.AddMemberName("TopLeft");
                 userType.AddMemberName("TopRight");
@@ -565,11 +565,11 @@ namespace Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo
                 break;
 
             case 10:   //  Double
-                xamlType = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                xamlType = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
             case 11:   //  Assignment_ProductManager_WithoutBinding.Controls.AlertBanner
-                userType = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.UserControl"));
+                userType = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.UserControl"));
                 userType.Activator = Activate_11_AlertBanner;
                 userType.StaticInitializer = StaticInitializer_11_AlertBanner;
                 userType.AddMemberName("Message");
@@ -579,15 +579,15 @@ namespace Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo
                 break;
 
             case 12:   //  Microsoft.UI.Xaml.Controls.UserControl
-                xamlType = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                xamlType = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
             case 13:   //  String
-                xamlType = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                xamlType = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
             case 14:   //  Assignment_ProductManager_WithoutBinding.Controls.AlertType
-                userType = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
+                userType = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.StaticInitializer = StaticInitializer_14_AlertType;
                 userType.AddEnumValue("Error", global::Assignment_ProductManager_WithoutBinding.Controls.AlertType.Error);
                 userType.AddEnumValue("Success", global::Assignment_ProductManager_WithoutBinding.Controls.AlertType.Success);
@@ -597,13 +597,13 @@ namespace Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo
                 break;
 
             case 15:   //  System.Enum
-                userType = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.ValueType"));
+                userType = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.ValueType"));
                 userType.StaticInitializer = StaticInitializer_15_Enum;
                 xamlType = userType;
                 break;
 
             case 16:   //  Microsoft.UI.Xaml.Controls.ProgressRing
-                userType = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Control"));
+                userType = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Control"));
                 userType.Activator = Activate_16_ProgressRing;
                 userType.StaticInitializer = StaticInitializer_16_ProgressRing;
                 userType.AddMemberName("IsActive");
@@ -616,22 +616,22 @@ namespace Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo
                 break;
 
             case 17:   //  Microsoft.UI.Xaml.Controls.Control
-                xamlType = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                xamlType = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
             case 18:   //  Microsoft.UI.Xaml.Controls.ProgressRingTemplateSettings
-                userType = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.DependencyObject"));
+                userType = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.DependencyObject"));
                 userType.StaticInitializer = StaticInitializer_18_ProgressRingTemplateSettings;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
             case 19:   //  Microsoft.UI.Xaml.DependencyObject
-                xamlType = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                xamlType = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
             case 20:   //  Assignment_ProductManager_WithoutBinding.Controls.AppButton
-                userType = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.UserControl"));
+                userType = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.UserControl"));
                 userType.Activator = Activate_20_AppButton;
                 userType.StaticInitializer = StaticInitializer_20_AppButton;
                 userType.AddMemberName("Label");
@@ -645,7 +645,7 @@ namespace Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo
                 break;
 
             case 21:   //  Assignment_ProductManager_WithoutBinding.Controls.ButtonVariant
-                userType = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
+                userType = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.StaticInitializer = StaticInitializer_21_ButtonVariant;
                 userType.AddEnumValue("Primary", global::Assignment_ProductManager_WithoutBinding.Controls.ButtonVariant.Primary);
                 userType.AddEnumValue("Secondary", global::Assignment_ProductManager_WithoutBinding.Controls.ButtonVariant.Secondary);
@@ -656,14 +656,14 @@ namespace Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo
                 break;
 
             case 22:   //  System.Windows.Input.ICommand
-                userType = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType(this, typeName, type, null);
+                userType = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType(this, typeName, type, null);
                 userType.StaticInitializer = StaticInitializer_22_ICommand;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
             case 23:   //  Assignment_ProductManager_WithoutBinding.Controls.AppPasswordBox
-                userType = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.UserControl"));
+                userType = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.UserControl"));
                 userType.Activator = Activate_23_AppPasswordBox;
                 userType.StaticInitializer = StaticInitializer_23_AppPasswordBox;
                 userType.AddMemberName("Label");
@@ -675,7 +675,7 @@ namespace Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo
                 break;
 
             case 24:   //  Assignment_ProductManager_WithoutBinding.Controls.AppTextBox
-                userType = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.UserControl"));
+                userType = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.UserControl"));
                 userType.Activator = Activate_24_AppTextBox;
                 userType.StaticInitializer = StaticInitializer_24_AppTextBox;
                 userType.AddMemberName("Label");
@@ -688,7 +688,7 @@ namespace Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo
                 break;
 
             case 25:   //  Assignment_ProductManager_WithoutBinding.Controls.AuthBrandPanel
-                userType = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.UserControl"));
+                userType = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.UserControl"));
                 userType.Activator = Activate_25_AuthBrandPanel;
                 userType.StaticInitializer = StaticInitializer_25_AuthBrandPanel;
                 userType.AddMemberName("IconGlyph");
@@ -699,7 +699,7 @@ namespace Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo
                 break;
 
             case 26:   //  Assignment_ProductManager_WithoutBinding.Controls.AuthDivider
-                userType = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.UserControl"));
+                userType = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.UserControl"));
                 userType.Activator = Activate_26_AuthDivider;
                 userType.StaticInitializer = StaticInitializer_26_AuthDivider;
                 userType.AddMemberName("Text");
@@ -708,7 +708,7 @@ namespace Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo
                 break;
 
             case 27:   //  Assignment_ProductManager_WithoutBinding.Controls.StatsCard
-                userType = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.UserControl"));
+                userType = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.UserControl"));
                 userType.Activator = Activate_27_StatsCard;
                 userType.StaticInitializer = StaticInitializer_27_StatsCard;
                 userType.AddMemberName("Label");
@@ -721,94 +721,82 @@ namespace Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo
                 break;
 
             case 28:   //  Microsoft.UI.Xaml.Media.Brush
-                xamlType = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                xamlType = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 29:   //  Assignment_ProductManager_WithoutBinding.MainWindow
-                userType = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Window"));
-                userType.Activator = Activate_29_MainWindow;
-                userType.StaticInitializer = StaticInitializer_29_MainWindow;
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 30:   //  Microsoft.UI.Xaml.Window
-                xamlType = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 31:   //  Assignment_ProductManager_WithoutBinding.Views.AddEditProductView
-                userType = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_31_AddEditProductView;
-                userType.StaticInitializer = StaticInitializer_31_AddEditProductView;
+            case 29:   //  Assignment_ProductManager_WithoutBinding.Views.AddEditProductView
+                userType = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_29_AddEditProductView;
+                userType.StaticInitializer = StaticInitializer_29_AddEditProductView;
                 userType.AddMemberName("ViewModel");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 32:   //  Microsoft.UI.Xaml.Controls.Page
-                xamlType = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+            case 30:   //  Microsoft.UI.Xaml.Controls.Page
+                xamlType = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 33:   //  Assignment_ProductManager_WithoutBinding.ViewModels.AddEditProductViewModel
-                userType = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Assignment_ProductManager_WithoutBinding.ViewModels.Base.BaseViewModel"));
-                userType.StaticInitializer = StaticInitializer_33_AddEditProductViewModel;
+            case 31:   //  Assignment_ProductManager_WithoutBinding.ViewModels.AddEditProductViewModel
+                userType = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Assignment_ProductManager_WithoutBinding.ViewModels.Base.BaseViewModel"));
+                userType.StaticInitializer = StaticInitializer_31_AddEditProductViewModel;
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 34:   //  Assignment_ProductManager_WithoutBinding.ViewModels.Base.BaseViewModel
-                userType = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("CommunityToolkit.Mvvm.ComponentModel.ObservableObject"));
-                userType.Activator = Activate_34_BaseViewModel;
-                userType.StaticInitializer = StaticInitializer_34_BaseViewModel;
+            case 32:   //  Assignment_ProductManager_WithoutBinding.ViewModels.Base.BaseViewModel
+                userType = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("CommunityToolkit.Mvvm.ComponentModel.ObservableObject"));
+                userType.Activator = Activate_32_BaseViewModel;
+                userType.StaticInitializer = StaticInitializer_32_BaseViewModel;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 35:   //  CommunityToolkit.Mvvm.ComponentModel.ObservableObject
-                userType = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.StaticInitializer = StaticInitializer_35_ObservableObject;
+            case 33:   //  CommunityToolkit.Mvvm.ComponentModel.ObservableObject
+                userType = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.StaticInitializer = StaticInitializer_33_ObservableObject;
                 xamlType = userType;
                 break;
 
-            case 36:   //  Assignment_ProductManager_WithoutBinding.Views.DashboardView
-                userType = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_36_DashboardView;
-                userType.StaticInitializer = StaticInitializer_36_DashboardView;
+            case 34:   //  Assignment_ProductManager_WithoutBinding.Views.DashboardView
+                userType = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_34_DashboardView;
+                userType.StaticInitializer = StaticInitializer_34_DashboardView;
                 userType.AddMemberName("ViewModel");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 37:   //  Assignment_ProductManager_WithoutBinding.ViewModels.DashboardViewModel
-                userType = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Assignment_ProductManager_WithoutBinding.ViewModels.Base.BaseViewModel"));
-                userType.StaticInitializer = StaticInitializer_37_DashboardViewModel;
+            case 35:   //  Assignment_ProductManager_WithoutBinding.ViewModels.DashboardViewModel
+                userType = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Assignment_ProductManager_WithoutBinding.ViewModels.Base.BaseViewModel"));
+                userType.StaticInitializer = StaticInitializer_35_DashboardViewModel;
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 38:   //  Assignment_ProductManager_WithoutBinding.Views.LoginView
-                userType = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_38_LoginView;
-                userType.StaticInitializer = StaticInitializer_38_LoginView;
+            case 36:   //  Assignment_ProductManager_WithoutBinding.Views.LoginView
+                userType = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_36_LoginView;
+                userType.StaticInitializer = StaticInitializer_36_LoginView;
                 userType.AddMemberName("ViewModel");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 39:   //  Assignment_ProductManager_WithoutBinding.ViewModels.LoginViewModel
-                userType = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Assignment_ProductManager_WithoutBinding.ViewModels.Base.BaseViewModel"));
-                userType.StaticInitializer = StaticInitializer_39_LoginViewModel;
+            case 37:   //  Assignment_ProductManager_WithoutBinding.ViewModels.LoginViewModel
+                userType = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Assignment_ProductManager_WithoutBinding.ViewModels.Base.BaseViewModel"));
+                userType.StaticInitializer = StaticInitializer_37_LoginViewModel;
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 40:   //  Microsoft.UI.Xaml.Controls.NavigationView
-                userType = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ContentControl"));
-                userType.Activator = Activate_40_NavigationView;
-                userType.StaticInitializer = StaticInitializer_40_NavigationView;
+            case 38:   //  Microsoft.UI.Xaml.Controls.NavigationView
+                userType = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ContentControl"));
+                userType.Activator = Activate_38_NavigationView;
+                userType.StaticInitializer = StaticInitializer_38_NavigationView;
                 userType.AddMemberName("IsBackButtonVisible");
                 userType.AddMemberName("IsPaneToggleButtonVisible");
                 userType.AddMemberName("OpenPaneLength");
@@ -849,22 +837,22 @@ namespace Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 41:   //  Microsoft.UI.Xaml.Controls.ContentControl
-                xamlType = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+            case 39:   //  Microsoft.UI.Xaml.Controls.ContentControl
+                xamlType = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 42:   //  Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible
-                userType = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
-                userType.StaticInitializer = StaticInitializer_42_NavigationViewBackButtonVisible;
+            case 40:   //  Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible
+                userType = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
+                userType.StaticInitializer = StaticInitializer_40_NavigationViewBackButtonVisible;
                 userType.AddEnumValue("Collapsed", global::Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible.Collapsed);
                 userType.AddEnumValue("Visible", global::Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible.Visible);
                 userType.AddEnumValue("Auto", global::Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible.Auto);
                 xamlType = userType;
                 break;
 
-            case 43:   //  Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode
-                userType = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
-                userType.StaticInitializer = StaticInitializer_43_NavigationViewPaneDisplayMode;
+            case 41:   //  Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode
+                userType = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
+                userType.StaticInitializer = StaticInitializer_41_NavigationViewPaneDisplayMode;
                 userType.AddEnumValue("Auto", global::Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode.Auto);
                 userType.AddEnumValue("Left", global::Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode.Left);
                 userType.AddEnumValue("Top", global::Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode.Top);
@@ -873,83 +861,83 @@ namespace Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 44:   //  Microsoft.UI.Xaml.UIElement
-                xamlType = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+            case 42:   //  Microsoft.UI.Xaml.UIElement
+                xamlType = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 45:   //  System.Collections.Generic.IList`1<Object>
-                userType = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType(this, typeName, type, null);
-                userType.StaticInitializer = StaticInitializer_45_IList;
-                userType.CollectionAdd = VectorAdd_45_IList;
+            case 43:   //  System.Collections.Generic.IList`1<Object>
+                userType = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType(this, typeName, type, null);
+                userType.StaticInitializer = StaticInitializer_43_IList;
+                userType.CollectionAdd = VectorAdd_43_IList;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 46:   //  Microsoft.UI.Xaml.Controls.AutoSuggestBox
-                xamlType = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+            case 44:   //  Microsoft.UI.Xaml.Controls.AutoSuggestBox
+                xamlType = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 47:   //  Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode
-                userType = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
-                userType.StaticInitializer = StaticInitializer_47_NavigationViewDisplayMode;
+            case 45:   //  Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode
+                userType = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
+                userType.StaticInitializer = StaticInitializer_45_NavigationViewDisplayMode;
                 userType.AddEnumValue("Minimal", global::Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode.Minimal);
                 userType.AddEnumValue("Compact", global::Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode.Compact);
                 userType.AddEnumValue("Expanded", global::Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode.Expanded);
                 xamlType = userType;
                 break;
 
-            case 48:   //  Microsoft.UI.Xaml.DataTemplate
-                xamlType = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+            case 46:   //  Microsoft.UI.Xaml.DataTemplate
+                xamlType = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 49:   //  Microsoft.UI.Xaml.Style
-                xamlType = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+            case 47:   //  Microsoft.UI.Xaml.Style
+                xamlType = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 50:   //  Microsoft.UI.Xaml.Controls.StyleSelector
-                xamlType = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+            case 48:   //  Microsoft.UI.Xaml.Controls.StyleSelector
+                xamlType = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 51:   //  Microsoft.UI.Xaml.Controls.DataTemplateSelector
-                xamlType = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+            case 49:   //  Microsoft.UI.Xaml.Controls.DataTemplateSelector
+                xamlType = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 52:   //  Microsoft.UI.Xaml.Controls.NavigationViewOverflowLabelMode
-                userType = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
-                userType.StaticInitializer = StaticInitializer_52_NavigationViewOverflowLabelMode;
+            case 50:   //  Microsoft.UI.Xaml.Controls.NavigationViewOverflowLabelMode
+                userType = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
+                userType.StaticInitializer = StaticInitializer_50_NavigationViewOverflowLabelMode;
                 userType.AddEnumValue("MoreLabel", global::Microsoft.UI.Xaml.Controls.NavigationViewOverflowLabelMode.MoreLabel);
                 userType.AddEnumValue("NoLabel", global::Microsoft.UI.Xaml.Controls.NavigationViewOverflowLabelMode.NoLabel);
                 xamlType = userType;
                 break;
 
-            case 53:   //  Microsoft.UI.Xaml.Controls.NavigationViewSelectionFollowsFocus
-                userType = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
-                userType.StaticInitializer = StaticInitializer_53_NavigationViewSelectionFollowsFocus;
+            case 51:   //  Microsoft.UI.Xaml.Controls.NavigationViewSelectionFollowsFocus
+                userType = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
+                userType.StaticInitializer = StaticInitializer_51_NavigationViewSelectionFollowsFocus;
                 userType.AddEnumValue("Disabled", global::Microsoft.UI.Xaml.Controls.NavigationViewSelectionFollowsFocus.Disabled);
                 userType.AddEnumValue("Enabled", global::Microsoft.UI.Xaml.Controls.NavigationViewSelectionFollowsFocus.Enabled);
                 xamlType = userType;
                 break;
 
-            case 54:   //  Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled
-                userType = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
-                userType.StaticInitializer = StaticInitializer_54_NavigationViewShoulderNavigationEnabled;
+            case 52:   //  Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled
+                userType = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
+                userType.StaticInitializer = StaticInitializer_52_NavigationViewShoulderNavigationEnabled;
                 userType.AddEnumValue("WhenSelectionFollowsFocus", global::Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled.WhenSelectionFollowsFocus);
                 userType.AddEnumValue("Always", global::Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled.Always);
                 userType.AddEnumValue("Never", global::Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled.Never);
                 xamlType = userType;
                 break;
 
-            case 55:   //  Microsoft.UI.Xaml.Controls.NavigationViewTemplateSettings
-                userType = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.DependencyObject"));
-                userType.StaticInitializer = StaticInitializer_55_NavigationViewTemplateSettings;
+            case 53:   //  Microsoft.UI.Xaml.Controls.NavigationViewTemplateSettings
+                userType = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.DependencyObject"));
+                userType.StaticInitializer = StaticInitializer_53_NavigationViewTemplateSettings;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 56:   //  Microsoft.UI.Xaml.Controls.NavigationViewItem
-                userType = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationViewItemBase"));
-                userType.Activator = Activate_56_NavigationViewItem;
-                userType.StaticInitializer = StaticInitializer_56_NavigationViewItem;
+            case 54:   //  Microsoft.UI.Xaml.Controls.NavigationViewItem
+                userType = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationViewItemBase"));
+                userType.Activator = Activate_54_NavigationViewItem;
+                userType.StaticInitializer = StaticInitializer_54_NavigationViewItem;
                 userType.AddMemberName("Icon");
                 userType.AddMemberName("CompactPaneLength");
                 userType.AddMemberName("HasUnrealizedChildren");
@@ -962,51 +950,63 @@ namespace Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 57:   //  Microsoft.UI.Xaml.Controls.NavigationViewItemBase
-                userType = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ContentControl"));
-                userType.StaticInitializer = StaticInitializer_57_NavigationViewItemBase;
+            case 55:   //  Microsoft.UI.Xaml.Controls.NavigationViewItemBase
+                userType = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ContentControl"));
+                userType.StaticInitializer = StaticInitializer_55_NavigationViewItemBase;
                 userType.AddMemberName("IsSelected");
                 xamlType = userType;
                 break;
 
-            case 58:   //  Microsoft.UI.Xaml.Controls.IconElement
-                xamlType = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+            case 56:   //  Microsoft.UI.Xaml.Controls.IconElement
+                xamlType = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 59:   //  Microsoft.UI.Xaml.Controls.InfoBadge
-                userType = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Control"));
-                userType.StaticInitializer = StaticInitializer_59_InfoBadge;
+            case 57:   //  Microsoft.UI.Xaml.Controls.InfoBadge
+                userType = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Control"));
+                userType.StaticInitializer = StaticInitializer_57_InfoBadge;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 60:   //  Assignment_ProductManager_WithoutBinding.Views.NavigationShellView
-                userType = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_60_NavigationShellView;
-                userType.StaticInitializer = StaticInitializer_60_NavigationShellView;
+            case 58:   //  Assignment_ProductManager_WithoutBinding.Views.NavigationShellView
+                userType = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_58_NavigationShellView;
+                userType.StaticInitializer = StaticInitializer_58_NavigationShellView;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 61:   //  Assignment_ProductManager_WithoutBinding.Views.SignUpView
-                userType = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_61_SignUpView;
-                userType.StaticInitializer = StaticInitializer_61_SignUpView;
+            case 59:   //  Assignment_ProductManager_WithoutBinding.Views.SignUpView
+                userType = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_59_SignUpView;
+                userType.StaticInitializer = StaticInitializer_59_SignUpView;
                 userType.AddMemberName("ViewModel");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 62:   //  Assignment_ProductManager_WithoutBinding.ViewModels.SignUpViewModel
-                userType = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Assignment_ProductManager_WithoutBinding.ViewModels.Base.BaseViewModel"));
-                userType.StaticInitializer = StaticInitializer_62_SignUpViewModel;
+            case 60:   //  Assignment_ProductManager_WithoutBinding.ViewModels.SignUpViewModel
+                userType = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Assignment_ProductManager_WithoutBinding.ViewModels.Base.BaseViewModel"));
+                userType.StaticInitializer = StaticInitializer_60_SignUpViewModel;
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
+            case 61:   //  Assignment_ProductManager_WithoutBinding.MainWindow
+                userType = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Window"));
+                userType.Activator = Activate_61_MainWindow;
+                userType.StaticInitializer = StaticInitializer_61_MainWindow;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 62:   //  Microsoft.UI.Xaml.Window
+                xamlType = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
             case 63:   //  Microsoft.UI.Xaml.Controls.TreeViewNode
-                userType = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.DependencyObject"));
+                userType = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.DependencyObject"));
                 userType.Activator = Activate_63_TreeViewNode;
                 userType.StaticInitializer = StaticInitializer_63_TreeViewNode;
                 userType.AddMemberName("Children");
@@ -1021,7 +1021,7 @@ namespace Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo
                 break;
 
             case 64:   //  System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>
-                userType = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType(this, typeName, type, null);
+                userType = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType(this, typeName, type, null);
                 userType.StaticInitializer = StaticInitializer_64_IList;
                 userType.CollectionAdd = VectorAdd_64_IList;
                 userType.SetIsReturnTypeStub();
@@ -1029,7 +1029,7 @@ namespace Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo
                 break;
 
             case 65:   //  Int32
-                xamlType = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                xamlType = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
             }
             return xamlType;
@@ -2003,685 +2003,685 @@ namespace Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo
 
         private global::Microsoft.UI.Xaml.Markup.IXamlMember CreateXamlMember(string longMemberName)
         {
-            global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlMember xamlMember = null;
-            global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType userType;
+            global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlMember xamlMember = null;
+            global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType userType;
 
             switch (longMemberName)
             {
             case "Microsoft.UI.Xaml.Controls.XamlControlsResources.UseCompactResources":
-                userType = (global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.XamlControlsResources");
-                xamlMember = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlMember(this, "UseCompactResources", "Boolean");
+                userType = (global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.XamlControlsResources");
+                xamlMember = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlMember(this, "UseCompactResources", "Boolean");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_0_XamlControlsResources_UseCompactResources;
                 xamlMember.Setter = set_0_XamlControlsResources_UseCompactResources;
                 break;
             case "Windows.UI.Color.A":
-                userType = (global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Windows.UI.Color");
-                xamlMember = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlMember(this, "A", "Byte");
+                userType = (global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Windows.UI.Color");
+                xamlMember = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlMember(this, "A", "Byte");
                 xamlMember.Getter = get_1_Color_A;
                 xamlMember.Setter = set_1_Color_A;
                 break;
             case "Windows.UI.Color.R":
-                userType = (global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Windows.UI.Color");
-                xamlMember = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlMember(this, "R", "Byte");
+                userType = (global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Windows.UI.Color");
+                xamlMember = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlMember(this, "R", "Byte");
                 xamlMember.Getter = get_2_Color_R;
                 xamlMember.Setter = set_2_Color_R;
                 break;
             case "Windows.UI.Color.G":
-                userType = (global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Windows.UI.Color");
-                xamlMember = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlMember(this, "G", "Byte");
+                userType = (global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Windows.UI.Color");
+                xamlMember = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlMember(this, "G", "Byte");
                 xamlMember.Getter = get_3_Color_G;
                 xamlMember.Setter = set_3_Color_G;
                 break;
             case "Windows.UI.Color.B":
-                userType = (global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Windows.UI.Color");
-                xamlMember = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlMember(this, "B", "Byte");
+                userType = (global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Windows.UI.Color");
+                xamlMember = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlMember(this, "B", "Byte");
                 xamlMember.Getter = get_4_Color_B;
                 xamlMember.Setter = set_4_Color_B;
                 break;
             case "Microsoft.UI.Xaml.CornerRadius.TopLeft":
-                userType = (global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.CornerRadius");
-                xamlMember = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlMember(this, "TopLeft", "Double");
+                userType = (global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.CornerRadius");
+                xamlMember = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlMember(this, "TopLeft", "Double");
                 xamlMember.Getter = get_5_CornerRadius_TopLeft;
                 xamlMember.Setter = set_5_CornerRadius_TopLeft;
                 break;
             case "Microsoft.UI.Xaml.CornerRadius.TopRight":
-                userType = (global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.CornerRadius");
-                xamlMember = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlMember(this, "TopRight", "Double");
+                userType = (global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.CornerRadius");
+                xamlMember = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlMember(this, "TopRight", "Double");
                 xamlMember.Getter = get_6_CornerRadius_TopRight;
                 xamlMember.Setter = set_6_CornerRadius_TopRight;
                 break;
             case "Microsoft.UI.Xaml.CornerRadius.BottomRight":
-                userType = (global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.CornerRadius");
-                xamlMember = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlMember(this, "BottomRight", "Double");
+                userType = (global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.CornerRadius");
+                xamlMember = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlMember(this, "BottomRight", "Double");
                 xamlMember.Getter = get_7_CornerRadius_BottomRight;
                 xamlMember.Setter = set_7_CornerRadius_BottomRight;
                 break;
             case "Microsoft.UI.Xaml.CornerRadius.BottomLeft":
-                userType = (global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.CornerRadius");
-                xamlMember = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlMember(this, "BottomLeft", "Double");
+                userType = (global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.CornerRadius");
+                xamlMember = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlMember(this, "BottomLeft", "Double");
                 xamlMember.Getter = get_8_CornerRadius_BottomLeft;
                 xamlMember.Setter = set_8_CornerRadius_BottomLeft;
                 break;
             case "Assignment_ProductManager_WithoutBinding.Controls.AlertBanner.Message":
-                userType = (global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Assignment_ProductManager_WithoutBinding.Controls.AlertBanner");
-                xamlMember = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlMember(this, "Message", "String");
+                userType = (global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Assignment_ProductManager_WithoutBinding.Controls.AlertBanner");
+                xamlMember = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlMember(this, "Message", "String");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_9_AlertBanner_Message;
                 xamlMember.Setter = set_9_AlertBanner_Message;
                 break;
             case "Assignment_ProductManager_WithoutBinding.Controls.AlertBanner.Type":
-                userType = (global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Assignment_ProductManager_WithoutBinding.Controls.AlertBanner");
-                xamlMember = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlMember(this, "Type", "Assignment_ProductManager_WithoutBinding.Controls.AlertType");
+                userType = (global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Assignment_ProductManager_WithoutBinding.Controls.AlertBanner");
+                xamlMember = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlMember(this, "Type", "Assignment_ProductManager_WithoutBinding.Controls.AlertType");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_10_AlertBanner_Type;
                 xamlMember.Setter = set_10_AlertBanner_Type;
                 break;
             case "Microsoft.UI.Xaml.Controls.ProgressRing.IsActive":
-                userType = (global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ProgressRing");
-                xamlMember = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlMember(this, "IsActive", "Boolean");
+                userType = (global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ProgressRing");
+                xamlMember = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlMember(this, "IsActive", "Boolean");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_11_ProgressRing_IsActive;
                 xamlMember.Setter = set_11_ProgressRing_IsActive;
                 break;
             case "Microsoft.UI.Xaml.Controls.ProgressRing.IsIndeterminate":
-                userType = (global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ProgressRing");
-                xamlMember = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlMember(this, "IsIndeterminate", "Boolean");
+                userType = (global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ProgressRing");
+                xamlMember = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlMember(this, "IsIndeterminate", "Boolean");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_12_ProgressRing_IsIndeterminate;
                 xamlMember.Setter = set_12_ProgressRing_IsIndeterminate;
                 break;
             case "Microsoft.UI.Xaml.Controls.ProgressRing.Maximum":
-                userType = (global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ProgressRing");
-                xamlMember = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlMember(this, "Maximum", "Double");
+                userType = (global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ProgressRing");
+                xamlMember = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlMember(this, "Maximum", "Double");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_13_ProgressRing_Maximum;
                 xamlMember.Setter = set_13_ProgressRing_Maximum;
                 break;
             case "Microsoft.UI.Xaml.Controls.ProgressRing.Minimum":
-                userType = (global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ProgressRing");
-                xamlMember = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlMember(this, "Minimum", "Double");
+                userType = (global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ProgressRing");
+                xamlMember = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlMember(this, "Minimum", "Double");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_14_ProgressRing_Minimum;
                 xamlMember.Setter = set_14_ProgressRing_Minimum;
                 break;
             case "Microsoft.UI.Xaml.Controls.ProgressRing.TemplateSettings":
-                userType = (global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ProgressRing");
-                xamlMember = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlMember(this, "TemplateSettings", "Microsoft.UI.Xaml.Controls.ProgressRingTemplateSettings");
+                userType = (global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ProgressRing");
+                xamlMember = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlMember(this, "TemplateSettings", "Microsoft.UI.Xaml.Controls.ProgressRingTemplateSettings");
                 xamlMember.Getter = get_15_ProgressRing_TemplateSettings;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.ProgressRing.Value":
-                userType = (global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ProgressRing");
-                xamlMember = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlMember(this, "Value", "Double");
+                userType = (global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ProgressRing");
+                xamlMember = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlMember(this, "Value", "Double");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_16_ProgressRing_Value;
                 xamlMember.Setter = set_16_ProgressRing_Value;
                 break;
             case "Assignment_ProductManager_WithoutBinding.Controls.AppButton.Label":
-                userType = (global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Assignment_ProductManager_WithoutBinding.Controls.AppButton");
-                xamlMember = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlMember(this, "Label", "String");
+                userType = (global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Assignment_ProductManager_WithoutBinding.Controls.AppButton");
+                xamlMember = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlMember(this, "Label", "String");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_17_AppButton_Label;
                 xamlMember.Setter = set_17_AppButton_Label;
                 break;
             case "Assignment_ProductManager_WithoutBinding.Controls.AppButton.IconGlyph":
-                userType = (global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Assignment_ProductManager_WithoutBinding.Controls.AppButton");
-                xamlMember = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlMember(this, "IconGlyph", "String");
+                userType = (global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Assignment_ProductManager_WithoutBinding.Controls.AppButton");
+                xamlMember = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlMember(this, "IconGlyph", "String");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_18_AppButton_IconGlyph;
                 xamlMember.Setter = set_18_AppButton_IconGlyph;
                 break;
             case "Assignment_ProductManager_WithoutBinding.Controls.AppButton.IsLoading":
-                userType = (global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Assignment_ProductManager_WithoutBinding.Controls.AppButton");
-                xamlMember = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlMember(this, "IsLoading", "Boolean");
+                userType = (global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Assignment_ProductManager_WithoutBinding.Controls.AppButton");
+                xamlMember = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlMember(this, "IsLoading", "Boolean");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_19_AppButton_IsLoading;
                 xamlMember.Setter = set_19_AppButton_IsLoading;
                 break;
             case "Assignment_ProductManager_WithoutBinding.Controls.AppButton.Variant":
-                userType = (global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Assignment_ProductManager_WithoutBinding.Controls.AppButton");
-                xamlMember = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlMember(this, "Variant", "Assignment_ProductManager_WithoutBinding.Controls.ButtonVariant");
+                userType = (global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Assignment_ProductManager_WithoutBinding.Controls.AppButton");
+                xamlMember = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlMember(this, "Variant", "Assignment_ProductManager_WithoutBinding.Controls.ButtonVariant");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_20_AppButton_Variant;
                 xamlMember.Setter = set_20_AppButton_Variant;
                 break;
             case "Assignment_ProductManager_WithoutBinding.Controls.AppButton.Command":
-                userType = (global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Assignment_ProductManager_WithoutBinding.Controls.AppButton");
-                xamlMember = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlMember(this, "Command", "System.Windows.Input.ICommand");
+                userType = (global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Assignment_ProductManager_WithoutBinding.Controls.AppButton");
+                xamlMember = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlMember(this, "Command", "System.Windows.Input.ICommand");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_21_AppButton_Command;
                 xamlMember.Setter = set_21_AppButton_Command;
                 break;
             case "Assignment_ProductManager_WithoutBinding.Controls.AppButton.CommandParameter":
-                userType = (global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Assignment_ProductManager_WithoutBinding.Controls.AppButton");
-                xamlMember = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlMember(this, "CommandParameter", "Object");
+                userType = (global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Assignment_ProductManager_WithoutBinding.Controls.AppButton");
+                xamlMember = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlMember(this, "CommandParameter", "Object");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_22_AppButton_CommandParameter;
                 xamlMember.Setter = set_22_AppButton_CommandParameter;
                 break;
             case "Assignment_ProductManager_WithoutBinding.Controls.AppPasswordBox.Label":
-                userType = (global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Assignment_ProductManager_WithoutBinding.Controls.AppPasswordBox");
-                xamlMember = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlMember(this, "Label", "String");
+                userType = (global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Assignment_ProductManager_WithoutBinding.Controls.AppPasswordBox");
+                xamlMember = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlMember(this, "Label", "String");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_23_AppPasswordBox_Label;
                 xamlMember.Setter = set_23_AppPasswordBox_Label;
                 break;
             case "Assignment_ProductManager_WithoutBinding.Controls.AppPasswordBox.Password":
-                userType = (global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Assignment_ProductManager_WithoutBinding.Controls.AppPasswordBox");
-                xamlMember = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlMember(this, "Password", "String");
+                userType = (global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Assignment_ProductManager_WithoutBinding.Controls.AppPasswordBox");
+                xamlMember = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlMember(this, "Password", "String");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_24_AppPasswordBox_Password;
                 xamlMember.Setter = set_24_AppPasswordBox_Password;
                 break;
             case "Assignment_ProductManager_WithoutBinding.Controls.AppPasswordBox.Placeholder":
-                userType = (global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Assignment_ProductManager_WithoutBinding.Controls.AppPasswordBox");
-                xamlMember = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlMember(this, "Placeholder", "String");
+                userType = (global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Assignment_ProductManager_WithoutBinding.Controls.AppPasswordBox");
+                xamlMember = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlMember(this, "Placeholder", "String");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_25_AppPasswordBox_Placeholder;
                 xamlMember.Setter = set_25_AppPasswordBox_Placeholder;
                 break;
             case "Assignment_ProductManager_WithoutBinding.Controls.AppPasswordBox.ErrorMessage":
-                userType = (global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Assignment_ProductManager_WithoutBinding.Controls.AppPasswordBox");
-                xamlMember = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlMember(this, "ErrorMessage", "String");
+                userType = (global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Assignment_ProductManager_WithoutBinding.Controls.AppPasswordBox");
+                xamlMember = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlMember(this, "ErrorMessage", "String");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_26_AppPasswordBox_ErrorMessage;
                 xamlMember.Setter = set_26_AppPasswordBox_ErrorMessage;
                 break;
             case "Assignment_ProductManager_WithoutBinding.Controls.AppTextBox.Label":
-                userType = (global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Assignment_ProductManager_WithoutBinding.Controls.AppTextBox");
-                xamlMember = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlMember(this, "Label", "String");
+                userType = (global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Assignment_ProductManager_WithoutBinding.Controls.AppTextBox");
+                xamlMember = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlMember(this, "Label", "String");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_27_AppTextBox_Label;
                 xamlMember.Setter = set_27_AppTextBox_Label;
                 break;
             case "Assignment_ProductManager_WithoutBinding.Controls.AppTextBox.Text":
-                userType = (global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Assignment_ProductManager_WithoutBinding.Controls.AppTextBox");
-                xamlMember = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlMember(this, "Text", "String");
+                userType = (global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Assignment_ProductManager_WithoutBinding.Controls.AppTextBox");
+                xamlMember = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlMember(this, "Text", "String");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_28_AppTextBox_Text;
                 xamlMember.Setter = set_28_AppTextBox_Text;
                 break;
             case "Assignment_ProductManager_WithoutBinding.Controls.AppTextBox.Placeholder":
-                userType = (global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Assignment_ProductManager_WithoutBinding.Controls.AppTextBox");
-                xamlMember = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlMember(this, "Placeholder", "String");
+                userType = (global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Assignment_ProductManager_WithoutBinding.Controls.AppTextBox");
+                xamlMember = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlMember(this, "Placeholder", "String");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_29_AppTextBox_Placeholder;
                 xamlMember.Setter = set_29_AppTextBox_Placeholder;
                 break;
             case "Assignment_ProductManager_WithoutBinding.Controls.AppTextBox.ErrorMessage":
-                userType = (global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Assignment_ProductManager_WithoutBinding.Controls.AppTextBox");
-                xamlMember = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlMember(this, "ErrorMessage", "String");
+                userType = (global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Assignment_ProductManager_WithoutBinding.Controls.AppTextBox");
+                xamlMember = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlMember(this, "ErrorMessage", "String");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_30_AppTextBox_ErrorMessage;
                 xamlMember.Setter = set_30_AppTextBox_ErrorMessage;
                 break;
             case "Assignment_ProductManager_WithoutBinding.Controls.AppTextBox.IsMultiline":
-                userType = (global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Assignment_ProductManager_WithoutBinding.Controls.AppTextBox");
-                xamlMember = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlMember(this, "IsMultiline", "Boolean");
+                userType = (global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Assignment_ProductManager_WithoutBinding.Controls.AppTextBox");
+                xamlMember = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlMember(this, "IsMultiline", "Boolean");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_31_AppTextBox_IsMultiline;
                 xamlMember.Setter = set_31_AppTextBox_IsMultiline;
                 break;
             case "Assignment_ProductManager_WithoutBinding.Controls.AuthBrandPanel.IconGlyph":
-                userType = (global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Assignment_ProductManager_WithoutBinding.Controls.AuthBrandPanel");
-                xamlMember = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlMember(this, "IconGlyph", "String");
+                userType = (global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Assignment_ProductManager_WithoutBinding.Controls.AuthBrandPanel");
+                xamlMember = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlMember(this, "IconGlyph", "String");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_32_AuthBrandPanel_IconGlyph;
                 xamlMember.Setter = set_32_AuthBrandPanel_IconGlyph;
                 break;
             case "Assignment_ProductManager_WithoutBinding.Controls.AuthBrandPanel.Headline":
-                userType = (global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Assignment_ProductManager_WithoutBinding.Controls.AuthBrandPanel");
-                xamlMember = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlMember(this, "Headline", "String");
+                userType = (global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Assignment_ProductManager_WithoutBinding.Controls.AuthBrandPanel");
+                xamlMember = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlMember(this, "Headline", "String");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_33_AuthBrandPanel_Headline;
                 xamlMember.Setter = set_33_AuthBrandPanel_Headline;
                 break;
             case "Assignment_ProductManager_WithoutBinding.Controls.AuthBrandPanel.Subtext":
-                userType = (global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Assignment_ProductManager_WithoutBinding.Controls.AuthBrandPanel");
-                xamlMember = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlMember(this, "Subtext", "String");
+                userType = (global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Assignment_ProductManager_WithoutBinding.Controls.AuthBrandPanel");
+                xamlMember = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlMember(this, "Subtext", "String");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_34_AuthBrandPanel_Subtext;
                 xamlMember.Setter = set_34_AuthBrandPanel_Subtext;
                 break;
             case "Assignment_ProductManager_WithoutBinding.Controls.AuthDivider.Text":
-                userType = (global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Assignment_ProductManager_WithoutBinding.Controls.AuthDivider");
-                xamlMember = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlMember(this, "Text", "String");
+                userType = (global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Assignment_ProductManager_WithoutBinding.Controls.AuthDivider");
+                xamlMember = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlMember(this, "Text", "String");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_35_AuthDivider_Text;
                 xamlMember.Setter = set_35_AuthDivider_Text;
                 break;
             case "Assignment_ProductManager_WithoutBinding.Controls.StatsCard.Label":
-                userType = (global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Assignment_ProductManager_WithoutBinding.Controls.StatsCard");
-                xamlMember = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlMember(this, "Label", "String");
+                userType = (global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Assignment_ProductManager_WithoutBinding.Controls.StatsCard");
+                xamlMember = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlMember(this, "Label", "String");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_36_StatsCard_Label;
                 xamlMember.Setter = set_36_StatsCard_Label;
                 break;
             case "Assignment_ProductManager_WithoutBinding.Controls.StatsCard.Value":
-                userType = (global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Assignment_ProductManager_WithoutBinding.Controls.StatsCard");
-                xamlMember = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlMember(this, "Value", "String");
+                userType = (global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Assignment_ProductManager_WithoutBinding.Controls.StatsCard");
+                xamlMember = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlMember(this, "Value", "String");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_37_StatsCard_Value;
                 xamlMember.Setter = set_37_StatsCard_Value;
                 break;
             case "Assignment_ProductManager_WithoutBinding.Controls.StatsCard.IconGlyph":
-                userType = (global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Assignment_ProductManager_WithoutBinding.Controls.StatsCard");
-                xamlMember = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlMember(this, "IconGlyph", "String");
+                userType = (global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Assignment_ProductManager_WithoutBinding.Controls.StatsCard");
+                xamlMember = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlMember(this, "IconGlyph", "String");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_38_StatsCard_IconGlyph;
                 xamlMember.Setter = set_38_StatsCard_IconGlyph;
                 break;
             case "Assignment_ProductManager_WithoutBinding.Controls.StatsCard.IconBackground":
-                userType = (global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Assignment_ProductManager_WithoutBinding.Controls.StatsCard");
-                xamlMember = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlMember(this, "IconBackground", "Microsoft.UI.Xaml.Media.Brush");
+                userType = (global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Assignment_ProductManager_WithoutBinding.Controls.StatsCard");
+                xamlMember = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlMember(this, "IconBackground", "Microsoft.UI.Xaml.Media.Brush");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_39_StatsCard_IconBackground;
                 xamlMember.Setter = set_39_StatsCard_IconBackground;
                 break;
             case "Assignment_ProductManager_WithoutBinding.Controls.StatsCard.ValuePrefix":
-                userType = (global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Assignment_ProductManager_WithoutBinding.Controls.StatsCard");
-                xamlMember = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlMember(this, "ValuePrefix", "String");
+                userType = (global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Assignment_ProductManager_WithoutBinding.Controls.StatsCard");
+                xamlMember = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlMember(this, "ValuePrefix", "String");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_40_StatsCard_ValuePrefix;
                 xamlMember.Setter = set_40_StatsCard_ValuePrefix;
                 break;
             case "Assignment_ProductManager_WithoutBinding.Views.AddEditProductView.ViewModel":
-                userType = (global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Assignment_ProductManager_WithoutBinding.Views.AddEditProductView");
-                xamlMember = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlMember(this, "ViewModel", "Assignment_ProductManager_WithoutBinding.ViewModels.AddEditProductViewModel");
+                userType = (global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Assignment_ProductManager_WithoutBinding.Views.AddEditProductView");
+                xamlMember = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlMember(this, "ViewModel", "Assignment_ProductManager_WithoutBinding.ViewModels.AddEditProductViewModel");
                 xamlMember.Getter = get_41_AddEditProductView_ViewModel;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Assignment_ProductManager_WithoutBinding.Views.DashboardView.ViewModel":
-                userType = (global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Assignment_ProductManager_WithoutBinding.Views.DashboardView");
-                xamlMember = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlMember(this, "ViewModel", "Assignment_ProductManager_WithoutBinding.ViewModels.DashboardViewModel");
+                userType = (global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Assignment_ProductManager_WithoutBinding.Views.DashboardView");
+                xamlMember = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlMember(this, "ViewModel", "Assignment_ProductManager_WithoutBinding.ViewModels.DashboardViewModel");
                 xamlMember.Getter = get_42_DashboardView_ViewModel;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Assignment_ProductManager_WithoutBinding.Views.LoginView.ViewModel":
-                userType = (global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Assignment_ProductManager_WithoutBinding.Views.LoginView");
-                xamlMember = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlMember(this, "ViewModel", "Assignment_ProductManager_WithoutBinding.ViewModels.LoginViewModel");
+                userType = (global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Assignment_ProductManager_WithoutBinding.Views.LoginView");
+                xamlMember = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlMember(this, "ViewModel", "Assignment_ProductManager_WithoutBinding.ViewModels.LoginViewModel");
                 xamlMember.Getter = get_43_LoginView_ViewModel;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.IsBackButtonVisible":
-                userType = (global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlMember(this, "IsBackButtonVisible", "Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible");
+                userType = (global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
+                xamlMember = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlMember(this, "IsBackButtonVisible", "Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_44_NavigationView_IsBackButtonVisible;
                 xamlMember.Setter = set_44_NavigationView_IsBackButtonVisible;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.IsPaneToggleButtonVisible":
-                userType = (global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlMember(this, "IsPaneToggleButtonVisible", "Boolean");
+                userType = (global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
+                xamlMember = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlMember(this, "IsPaneToggleButtonVisible", "Boolean");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_45_NavigationView_IsPaneToggleButtonVisible;
                 xamlMember.Setter = set_45_NavigationView_IsPaneToggleButtonVisible;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.OpenPaneLength":
-                userType = (global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlMember(this, "OpenPaneLength", "Double");
+                userType = (global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
+                xamlMember = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlMember(this, "OpenPaneLength", "Double");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_46_NavigationView_OpenPaneLength;
                 xamlMember.Setter = set_46_NavigationView_OpenPaneLength;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.PaneDisplayMode":
-                userType = (global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlMember(this, "PaneDisplayMode", "Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode");
+                userType = (global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
+                xamlMember = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlMember(this, "PaneDisplayMode", "Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_47_NavigationView_PaneDisplayMode;
                 xamlMember.Setter = set_47_NavigationView_PaneDisplayMode;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.PaneHeader":
-                userType = (global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlMember(this, "PaneHeader", "Microsoft.UI.Xaml.UIElement");
+                userType = (global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
+                xamlMember = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlMember(this, "PaneHeader", "Microsoft.UI.Xaml.UIElement");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_48_NavigationView_PaneHeader;
                 xamlMember.Setter = set_48_NavigationView_PaneHeader;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.MenuItems":
-                userType = (global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlMember(this, "MenuItems", "System.Collections.Generic.IList`1<Object>");
+                userType = (global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
+                xamlMember = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlMember(this, "MenuItems", "System.Collections.Generic.IList`1<Object>");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_49_NavigationView_MenuItems;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.FooterMenuItems":
-                userType = (global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlMember(this, "FooterMenuItems", "System.Collections.Generic.IList`1<Object>");
+                userType = (global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
+                xamlMember = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlMember(this, "FooterMenuItems", "System.Collections.Generic.IList`1<Object>");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_50_NavigationView_FooterMenuItems;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.AlwaysShowHeader":
-                userType = (global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlMember(this, "AlwaysShowHeader", "Boolean");
+                userType = (global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
+                xamlMember = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlMember(this, "AlwaysShowHeader", "Boolean");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_51_NavigationView_AlwaysShowHeader;
                 xamlMember.Setter = set_51_NavigationView_AlwaysShowHeader;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.AutoSuggestBox":
-                userType = (global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlMember(this, "AutoSuggestBox", "Microsoft.UI.Xaml.Controls.AutoSuggestBox");
+                userType = (global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
+                xamlMember = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlMember(this, "AutoSuggestBox", "Microsoft.UI.Xaml.Controls.AutoSuggestBox");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_52_NavigationView_AutoSuggestBox;
                 xamlMember.Setter = set_52_NavigationView_AutoSuggestBox;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.CompactModeThresholdWidth":
-                userType = (global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlMember(this, "CompactModeThresholdWidth", "Double");
+                userType = (global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
+                xamlMember = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlMember(this, "CompactModeThresholdWidth", "Double");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_53_NavigationView_CompactModeThresholdWidth;
                 xamlMember.Setter = set_53_NavigationView_CompactModeThresholdWidth;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.CompactPaneLength":
-                userType = (global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlMember(this, "CompactPaneLength", "Double");
+                userType = (global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
+                xamlMember = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlMember(this, "CompactPaneLength", "Double");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_54_NavigationView_CompactPaneLength;
                 xamlMember.Setter = set_54_NavigationView_CompactPaneLength;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.ContentOverlay":
-                userType = (global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlMember(this, "ContentOverlay", "Microsoft.UI.Xaml.UIElement");
+                userType = (global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
+                xamlMember = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlMember(this, "ContentOverlay", "Microsoft.UI.Xaml.UIElement");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_55_NavigationView_ContentOverlay;
                 xamlMember.Setter = set_55_NavigationView_ContentOverlay;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.DisplayMode":
-                userType = (global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlMember(this, "DisplayMode", "Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode");
+                userType = (global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
+                xamlMember = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlMember(this, "DisplayMode", "Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_56_NavigationView_DisplayMode;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.ExpandedModeThresholdWidth":
-                userType = (global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlMember(this, "ExpandedModeThresholdWidth", "Double");
+                userType = (global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
+                xamlMember = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlMember(this, "ExpandedModeThresholdWidth", "Double");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_57_NavigationView_ExpandedModeThresholdWidth;
                 xamlMember.Setter = set_57_NavigationView_ExpandedModeThresholdWidth;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.FooterMenuItemsSource":
-                userType = (global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlMember(this, "FooterMenuItemsSource", "Object");
+                userType = (global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
+                xamlMember = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlMember(this, "FooterMenuItemsSource", "Object");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_58_NavigationView_FooterMenuItemsSource;
                 xamlMember.Setter = set_58_NavigationView_FooterMenuItemsSource;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.Header":
-                userType = (global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlMember(this, "Header", "Object");
+                userType = (global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
+                xamlMember = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlMember(this, "Header", "Object");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_59_NavigationView_Header;
                 xamlMember.Setter = set_59_NavigationView_Header;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.HeaderTemplate":
-                userType = (global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlMember(this, "HeaderTemplate", "Microsoft.UI.Xaml.DataTemplate");
+                userType = (global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
+                xamlMember = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlMember(this, "HeaderTemplate", "Microsoft.UI.Xaml.DataTemplate");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_60_NavigationView_HeaderTemplate;
                 xamlMember.Setter = set_60_NavigationView_HeaderTemplate;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.IsBackEnabled":
-                userType = (global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlMember(this, "IsBackEnabled", "Boolean");
+                userType = (global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
+                xamlMember = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlMember(this, "IsBackEnabled", "Boolean");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_61_NavigationView_IsBackEnabled;
                 xamlMember.Setter = set_61_NavigationView_IsBackEnabled;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.IsPaneOpen":
-                userType = (global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlMember(this, "IsPaneOpen", "Boolean");
+                userType = (global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
+                xamlMember = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlMember(this, "IsPaneOpen", "Boolean");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_62_NavigationView_IsPaneOpen;
                 xamlMember.Setter = set_62_NavigationView_IsPaneOpen;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.IsPaneVisible":
-                userType = (global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlMember(this, "IsPaneVisible", "Boolean");
+                userType = (global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
+                xamlMember = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlMember(this, "IsPaneVisible", "Boolean");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_63_NavigationView_IsPaneVisible;
                 xamlMember.Setter = set_63_NavigationView_IsPaneVisible;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.IsSettingsVisible":
-                userType = (global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlMember(this, "IsSettingsVisible", "Boolean");
+                userType = (global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
+                xamlMember = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlMember(this, "IsSettingsVisible", "Boolean");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_64_NavigationView_IsSettingsVisible;
                 xamlMember.Setter = set_64_NavigationView_IsSettingsVisible;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.IsTitleBarAutoPaddingEnabled":
-                userType = (global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlMember(this, "IsTitleBarAutoPaddingEnabled", "Boolean");
+                userType = (global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
+                xamlMember = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlMember(this, "IsTitleBarAutoPaddingEnabled", "Boolean");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_65_NavigationView_IsTitleBarAutoPaddingEnabled;
                 xamlMember.Setter = set_65_NavigationView_IsTitleBarAutoPaddingEnabled;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.MenuItemContainerStyle":
-                userType = (global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlMember(this, "MenuItemContainerStyle", "Microsoft.UI.Xaml.Style");
+                userType = (global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
+                xamlMember = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlMember(this, "MenuItemContainerStyle", "Microsoft.UI.Xaml.Style");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_66_NavigationView_MenuItemContainerStyle;
                 xamlMember.Setter = set_66_NavigationView_MenuItemContainerStyle;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.MenuItemContainerStyleSelector":
-                userType = (global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlMember(this, "MenuItemContainerStyleSelector", "Microsoft.UI.Xaml.Controls.StyleSelector");
+                userType = (global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
+                xamlMember = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlMember(this, "MenuItemContainerStyleSelector", "Microsoft.UI.Xaml.Controls.StyleSelector");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_67_NavigationView_MenuItemContainerStyleSelector;
                 xamlMember.Setter = set_67_NavigationView_MenuItemContainerStyleSelector;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.MenuItemTemplate":
-                userType = (global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlMember(this, "MenuItemTemplate", "Microsoft.UI.Xaml.DataTemplate");
+                userType = (global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
+                xamlMember = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlMember(this, "MenuItemTemplate", "Microsoft.UI.Xaml.DataTemplate");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_68_NavigationView_MenuItemTemplate;
                 xamlMember.Setter = set_68_NavigationView_MenuItemTemplate;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.MenuItemTemplateSelector":
-                userType = (global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlMember(this, "MenuItemTemplateSelector", "Microsoft.UI.Xaml.Controls.DataTemplateSelector");
+                userType = (global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
+                xamlMember = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlMember(this, "MenuItemTemplateSelector", "Microsoft.UI.Xaml.Controls.DataTemplateSelector");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_69_NavigationView_MenuItemTemplateSelector;
                 xamlMember.Setter = set_69_NavigationView_MenuItemTemplateSelector;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.MenuItemsSource":
-                userType = (global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlMember(this, "MenuItemsSource", "Object");
+                userType = (global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
+                xamlMember = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlMember(this, "MenuItemsSource", "Object");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_70_NavigationView_MenuItemsSource;
                 xamlMember.Setter = set_70_NavigationView_MenuItemsSource;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.OverflowLabelMode":
-                userType = (global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlMember(this, "OverflowLabelMode", "Microsoft.UI.Xaml.Controls.NavigationViewOverflowLabelMode");
+                userType = (global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
+                xamlMember = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlMember(this, "OverflowLabelMode", "Microsoft.UI.Xaml.Controls.NavigationViewOverflowLabelMode");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_71_NavigationView_OverflowLabelMode;
                 xamlMember.Setter = set_71_NavigationView_OverflowLabelMode;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.PaneCustomContent":
-                userType = (global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlMember(this, "PaneCustomContent", "Microsoft.UI.Xaml.UIElement");
+                userType = (global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
+                xamlMember = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlMember(this, "PaneCustomContent", "Microsoft.UI.Xaml.UIElement");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_72_NavigationView_PaneCustomContent;
                 xamlMember.Setter = set_72_NavigationView_PaneCustomContent;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.PaneFooter":
-                userType = (global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlMember(this, "PaneFooter", "Microsoft.UI.Xaml.UIElement");
+                userType = (global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
+                xamlMember = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlMember(this, "PaneFooter", "Microsoft.UI.Xaml.UIElement");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_73_NavigationView_PaneFooter;
                 xamlMember.Setter = set_73_NavigationView_PaneFooter;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.PaneTitle":
-                userType = (global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlMember(this, "PaneTitle", "String");
+                userType = (global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
+                xamlMember = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlMember(this, "PaneTitle", "String");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_74_NavigationView_PaneTitle;
                 xamlMember.Setter = set_74_NavigationView_PaneTitle;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.PaneToggleButtonStyle":
-                userType = (global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlMember(this, "PaneToggleButtonStyle", "Microsoft.UI.Xaml.Style");
+                userType = (global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
+                xamlMember = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlMember(this, "PaneToggleButtonStyle", "Microsoft.UI.Xaml.Style");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_75_NavigationView_PaneToggleButtonStyle;
                 xamlMember.Setter = set_75_NavigationView_PaneToggleButtonStyle;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.SelectedItem":
-                userType = (global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlMember(this, "SelectedItem", "Object");
+                userType = (global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
+                xamlMember = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlMember(this, "SelectedItem", "Object");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_76_NavigationView_SelectedItem;
                 xamlMember.Setter = set_76_NavigationView_SelectedItem;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.SelectionFollowsFocus":
-                userType = (global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlMember(this, "SelectionFollowsFocus", "Microsoft.UI.Xaml.Controls.NavigationViewSelectionFollowsFocus");
+                userType = (global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
+                xamlMember = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlMember(this, "SelectionFollowsFocus", "Microsoft.UI.Xaml.Controls.NavigationViewSelectionFollowsFocus");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_77_NavigationView_SelectionFollowsFocus;
                 xamlMember.Setter = set_77_NavigationView_SelectionFollowsFocus;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.SettingsItem":
-                userType = (global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlMember(this, "SettingsItem", "Object");
+                userType = (global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
+                xamlMember = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlMember(this, "SettingsItem", "Object");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_78_NavigationView_SettingsItem;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.ShoulderNavigationEnabled":
-                userType = (global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlMember(this, "ShoulderNavigationEnabled", "Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled");
+                userType = (global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
+                xamlMember = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlMember(this, "ShoulderNavigationEnabled", "Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_79_NavigationView_ShoulderNavigationEnabled;
                 xamlMember.Setter = set_79_NavigationView_ShoulderNavigationEnabled;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.TemplateSettings":
-                userType = (global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlMember(this, "TemplateSettings", "Microsoft.UI.Xaml.Controls.NavigationViewTemplateSettings");
+                userType = (global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
+                xamlMember = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlMember(this, "TemplateSettings", "Microsoft.UI.Xaml.Controls.NavigationViewTemplateSettings");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_80_NavigationView_TemplateSettings;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationViewItem.Icon":
-                userType = (global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationViewItem");
-                xamlMember = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlMember(this, "Icon", "Microsoft.UI.Xaml.Controls.IconElement");
+                userType = (global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationViewItem");
+                xamlMember = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlMember(this, "Icon", "Microsoft.UI.Xaml.Controls.IconElement");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_81_NavigationViewItem_Icon;
                 xamlMember.Setter = set_81_NavigationViewItem_Icon;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationViewItem.CompactPaneLength":
-                userType = (global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationViewItem");
-                xamlMember = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlMember(this, "CompactPaneLength", "Double");
+                userType = (global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationViewItem");
+                xamlMember = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlMember(this, "CompactPaneLength", "Double");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_82_NavigationViewItem_CompactPaneLength;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationViewItem.HasUnrealizedChildren":
-                userType = (global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationViewItem");
-                xamlMember = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlMember(this, "HasUnrealizedChildren", "Boolean");
+                userType = (global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationViewItem");
+                xamlMember = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlMember(this, "HasUnrealizedChildren", "Boolean");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_83_NavigationViewItem_HasUnrealizedChildren;
                 xamlMember.Setter = set_83_NavigationViewItem_HasUnrealizedChildren;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationViewItem.InfoBadge":
-                userType = (global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationViewItem");
-                xamlMember = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlMember(this, "InfoBadge", "Microsoft.UI.Xaml.Controls.InfoBadge");
+                userType = (global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationViewItem");
+                xamlMember = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlMember(this, "InfoBadge", "Microsoft.UI.Xaml.Controls.InfoBadge");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_84_NavigationViewItem_InfoBadge;
                 xamlMember.Setter = set_84_NavigationViewItem_InfoBadge;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationViewItem.IsChildSelected":
-                userType = (global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationViewItem");
-                xamlMember = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlMember(this, "IsChildSelected", "Boolean");
+                userType = (global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationViewItem");
+                xamlMember = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlMember(this, "IsChildSelected", "Boolean");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_85_NavigationViewItem_IsChildSelected;
                 xamlMember.Setter = set_85_NavigationViewItem_IsChildSelected;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationViewItem.IsExpanded":
-                userType = (global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationViewItem");
-                xamlMember = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlMember(this, "IsExpanded", "Boolean");
+                userType = (global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationViewItem");
+                xamlMember = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlMember(this, "IsExpanded", "Boolean");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_86_NavigationViewItem_IsExpanded;
                 xamlMember.Setter = set_86_NavigationViewItem_IsExpanded;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationViewItem.MenuItems":
-                userType = (global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationViewItem");
-                xamlMember = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlMember(this, "MenuItems", "System.Collections.Generic.IList`1<Object>");
+                userType = (global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationViewItem");
+                xamlMember = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlMember(this, "MenuItems", "System.Collections.Generic.IList`1<Object>");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_87_NavigationViewItem_MenuItems;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationViewItem.MenuItemsSource":
-                userType = (global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationViewItem");
-                xamlMember = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlMember(this, "MenuItemsSource", "Object");
+                userType = (global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationViewItem");
+                xamlMember = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlMember(this, "MenuItemsSource", "Object");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_88_NavigationViewItem_MenuItemsSource;
                 xamlMember.Setter = set_88_NavigationViewItem_MenuItemsSource;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationViewItem.SelectsOnInvoked":
-                userType = (global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationViewItem");
-                xamlMember = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlMember(this, "SelectsOnInvoked", "Boolean");
+                userType = (global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationViewItem");
+                xamlMember = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlMember(this, "SelectsOnInvoked", "Boolean");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_89_NavigationViewItem_SelectsOnInvoked;
                 xamlMember.Setter = set_89_NavigationViewItem_SelectsOnInvoked;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationViewItemBase.IsSelected":
-                userType = (global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationViewItemBase");
-                xamlMember = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlMember(this, "IsSelected", "Boolean");
+                userType = (global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationViewItemBase");
+                xamlMember = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlMember(this, "IsSelected", "Boolean");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_90_NavigationViewItemBase_IsSelected;
                 xamlMember.Setter = set_90_NavigationViewItemBase_IsSelected;
                 break;
             case "Assignment_ProductManager_WithoutBinding.Views.SignUpView.ViewModel":
-                userType = (global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Assignment_ProductManager_WithoutBinding.Views.SignUpView");
-                xamlMember = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlMember(this, "ViewModel", "Assignment_ProductManager_WithoutBinding.ViewModels.SignUpViewModel");
+                userType = (global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Assignment_ProductManager_WithoutBinding.Views.SignUpView");
+                xamlMember = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlMember(this, "ViewModel", "Assignment_ProductManager_WithoutBinding.ViewModels.SignUpViewModel");
                 xamlMember.Getter = get_91_SignUpView_ViewModel;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.Children":
-                userType = (global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
-                xamlMember = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlMember(this, "Children", "System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>");
+                userType = (global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
+                xamlMember = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlMember(this, "Children", "System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>");
                 xamlMember.Getter = get_92_TreeViewNode_Children;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.Content":
-                userType = (global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
-                xamlMember = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlMember(this, "Content", "Object");
+                userType = (global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
+                xamlMember = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlMember(this, "Content", "Object");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_93_TreeViewNode_Content;
                 xamlMember.Setter = set_93_TreeViewNode_Content;
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.Depth":
-                userType = (global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
-                xamlMember = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlMember(this, "Depth", "Int32");
+                userType = (global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
+                xamlMember = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlMember(this, "Depth", "Int32");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_94_TreeViewNode_Depth;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.HasChildren":
-                userType = (global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
-                xamlMember = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlMember(this, "HasChildren", "Boolean");
+                userType = (global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
+                xamlMember = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlMember(this, "HasChildren", "Boolean");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_95_TreeViewNode_HasChildren;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.HasUnrealizedChildren":
-                userType = (global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
-                xamlMember = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlMember(this, "HasUnrealizedChildren", "Boolean");
+                userType = (global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
+                xamlMember = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlMember(this, "HasUnrealizedChildren", "Boolean");
                 xamlMember.Getter = get_96_TreeViewNode_HasUnrealizedChildren;
                 xamlMember.Setter = set_96_TreeViewNode_HasUnrealizedChildren;
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.IsExpanded":
-                userType = (global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
-                xamlMember = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlMember(this, "IsExpanded", "Boolean");
+                userType = (global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
+                xamlMember = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlMember(this, "IsExpanded", "Boolean");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_97_TreeViewNode_IsExpanded;
                 xamlMember.Setter = set_97_TreeViewNode_IsExpanded;
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.Parent":
-                userType = (global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
-                xamlMember = new global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlMember(this, "Parent", "Microsoft.UI.Xaml.Controls.TreeViewNode");
+                userType = (global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
+                xamlMember = new global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlMember(this, "Parent", "Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember.Getter = get_98_TreeViewNode_Parent;
                 xamlMember.SetIsReadOnly();
                 break;
@@ -2690,7 +2690,7 @@ namespace Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo
         }
     }
 
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.UI.Xaml.Markup.Compiler"," 3.0.0.2602")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.UI.Xaml.Markup.Compiler"," 3.0.0.2604")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     internal partial class XamlSystemBaseType : global::Microsoft.UI.Xaml.Markup.IXamlType
     {
@@ -2742,12 +2742,12 @@ namespace Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo
     internal delegate object CreateFromStringMethod(string args);
     internal delegate object BoxInstanceMethod(object instance);
 
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.UI.Xaml.Markup.Compiler"," 3.0.0.2602")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.UI.Xaml.Markup.Compiler"," 3.0.0.2604")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-    internal partial class XamlUserType : global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlSystemBaseType
+    internal partial class XamlUserType : global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlSystemBaseType
         , global::Microsoft.UI.Xaml.Markup.IXamlType
     {
-        global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlTypeInfoProvider _provider;
+        global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlTypeInfoProvider _provider;
         global::Microsoft.UI.Xaml.Markup.IXamlType _baseType;
         global::Microsoft.UI.Xaml.Markup.IXamlType _boxedType;
         bool _isArray;
@@ -2762,7 +2762,7 @@ namespace Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo
         global::System.Collections.Generic.Dictionary<string, string> _memberNames;
         global::System.Collections.Generic.Dictionary<string, object> _enumValues;
 
-        public XamlUserType(global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlTypeInfoProvider provider, string fullName, 
+        public XamlUserType(global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlTypeInfoProvider provider, string fullName, 
             global::System.Type fullType, global::Microsoft.UI.Xaml.Markup.IXamlType baseType)
             :base(fullName, fullType)
         {
@@ -2975,11 +2975,11 @@ namespace Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo
     internal delegate object Getter(object instance);
     internal delegate void Setter(object instance, object value);
 
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.UI.Xaml.Markup.Compiler"," 3.0.0.2602")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.UI.Xaml.Markup.Compiler"," 3.0.0.2604")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     internal partial class XamlMember : global::Microsoft.UI.Xaml.Markup.IXamlMember
     {
-        global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlTypeInfoProvider _provider;
+        global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlTypeInfoProvider _provider;
         string _name;
         bool _isAttachable;
         bool _isDependencyProperty;
@@ -2988,7 +2988,7 @@ namespace Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo
         string _typeName;
         string _targetTypeName;
 
-        public XamlMember(global::Assignment_Product_Manager.Assignment_Product_Manager_XamlTypeInfo.XamlTypeInfoProvider provider, string name, string typeName)
+        public XamlMember(global::Assignment_ProductManager_WithoutBinding.Assignment_ProductManager_WithoutBinding_XamlTypeInfo.XamlTypeInfoProvider provider, string name, string typeName)
         {
             _name = name;
             _typeName = typeName;

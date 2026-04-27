@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Assignment_ProductManager_WithoutBinding")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bfcc4512b616a0f17f8a4bd45220d85a504e9ddc")]
 [assembly: System.Reflection.AssemblyProductAttribute("Assignment_ProductManager_WithoutBinding")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Assignment_ProductManager_WithoutBinding")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
