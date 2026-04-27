@@ -1,0 +1,14 @@
+App.xbf
+Frontend\Controls\AlertBanner.xbf
+Frontend\Controls\AppButton.xbf
+Frontend\Controls\AppPasswordBox.xbf
+Frontend\Controls\AppTextBox.xbf
+Frontend\Controls\AuthBrandPanel.xbf
+Frontend\Controls\AuthDivider.xbf
+Frontend\Controls\StatsCard.xbf
+Frontend\Views\AddEditProductView.xbf
+Frontend\Views\DashboardView.xbf
+Frontend\Views\LoginView.xbf
+Frontend\Views\NavigationShellView.xbf
+Frontend\Views\SignUpView.xbf
+MainWindow.xbf
